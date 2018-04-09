@@ -1,0 +1,1151 @@
+
+% Default to the notebook output style
+
+    
+
+
+% Inherit from the specified cell style.
+
+
+
+
+    
+\documentclass[11pt]{article}
+
+    
+    
+    \usepackage[T1]{fontenc}
+    % Nicer default font (+ math font) than Computer Modern for most use cases
+    \usepackage{mathpazo}
+
+    % Basic figure setup, for now with no caption control since it's done
+    % automatically by Pandoc (which extracts ![](path) syntax from Markdown).
+    \usepackage{graphicx}
+    % We will generate all images so they have a width \maxwidth. This means
+    % that they will get their normal width if they fit onto the page, but
+    % are scaled down if they would overflow the margins.
+    \makeatletter
+    \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+    \else\Gin@nat@width\fi}
+    \makeatother
+    \let\Oldincludegraphics\includegraphics
+    % Set max figure width to be 80% of text width, for now hardcoded.
+    \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=.8\maxwidth]{#1}}
+    % Ensure that by default, figures have no caption (until we provide a
+    % proper Figure object with a Caption API and a way to capture that
+    % in the conversion process - todo).
+    \usepackage{caption}
+    \DeclareCaptionLabelFormat{nolabel}{}
+    \captionsetup{labelformat=nolabel}
+
+    \usepackage{adjustbox} % Used to constrain images to a maximum size 
+    \usepackage{xcolor} % Allow colors to be defined
+    \usepackage{enumerate} % Needed for markdown enumerations to work
+    \usepackage{geometry} % Used to adjust the document margins
+    \usepackage{amsmath} % Equations
+    \usepackage{amssymb} % Equations
+    \usepackage{textcomp} % defines textquotesingle
+    % Hack from http://tex.stackexchange.com/a/47451/13684:
+    \AtBeginDocument{%
+        \def\PYZsq{\textquotesingle}% Upright quotes in Pygmentized code
+    }
+    \usepackage{upquote} % Upright quotes for verbatim code
+    \usepackage{eurosym} % defines \euro
+    \usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+    \usepackage[utf8x]{inputenc} % Allow utf-8 characters in the tex document
+    \usepackage{fancyvrb} % verbatim replacement that allows latex
+    \usepackage{grffile} % extends the file name processing of package graphics 
+                         % to support a larger range 
+    % The hyperref package gives us a pdf with properly built
+    % internal navigation ('pdf bookmarks' for the table of contents,
+    % internal cross-reference links, web links for URLs, etc.)
+    \usepackage{hyperref}
+    \usepackage{longtable} % longtable support required by pandoc >1.10
+    \usepackage{booktabs}  % table support for pandoc > 1.12.2
+    \usepackage[inline]{enumitem} % IRkernel/repr support (it uses the enumerate* environment)
+    \usepackage[normalem]{ulem} % ulem is needed to support strikethroughs (\sout)
+                                % normalem makes italics be italics, not underlines
+    
+
+    
+    
+    % Colors for the hyperref package
+    \definecolor{urlcolor}{rgb}{0,.145,.698}
+    \definecolor{linkcolor}{rgb}{.71,0.21,0.01}
+    \definecolor{citecolor}{rgb}{.12,.54,.11}
+
+    % ANSI colors
+    \definecolor{ansi-black}{HTML}{3E424D}
+    \definecolor{ansi-black-intense}{HTML}{282C36}
+    \definecolor{ansi-red}{HTML}{E75C58}
+    \definecolor{ansi-red-intense}{HTML}{B22B31}
+    \definecolor{ansi-green}{HTML}{00A250}
+    \definecolor{ansi-green-intense}{HTML}{007427}
+    \definecolor{ansi-yellow}{HTML}{DDB62B}
+    \definecolor{ansi-yellow-intense}{HTML}{B27D12}
+    \definecolor{ansi-blue}{HTML}{208FFB}
+    \definecolor{ansi-blue-intense}{HTML}{0065CA}
+    \definecolor{ansi-magenta}{HTML}{D160C4}
+    \definecolor{ansi-magenta-intense}{HTML}{A03196}
+    \definecolor{ansi-cyan}{HTML}{60C6C8}
+    \definecolor{ansi-cyan-intense}{HTML}{258F8F}
+    \definecolor{ansi-white}{HTML}{C5C1B4}
+    \definecolor{ansi-white-intense}{HTML}{A1A6B2}
+
+    % commands and environments needed by pandoc snippets
+    % extracted from the output of `pandoc -s`
+    \providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+    % Add ',fontsize=\small' for more characters per line
+    \newenvironment{Shaded}{}{}
+    \newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+    \newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+    \newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+    \newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+    \newcommand{\RegionMarkerTok}[1]{{#1}}
+    \newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\NormalTok}[1]{{#1}}
+    
+    % Additional commands for more recent versions of Pandoc
+    \newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+    \newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+    \newcommand{\ImportTok}[1]{{#1}}
+    \newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+    \newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+    \newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+    \newcommand{\BuiltInTok}[1]{{#1}}
+    \newcommand{\ExtensionTok}[1]{{#1}}
+    \newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+    \newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+    \newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    
+    
+    % Define a nice break command that doesn't care if a line doesn't already
+    % exist.
+    \def\br{\hspace*{\fill} \\* }
+    % Math Jax compatability definitions
+    \def\gt{>}
+    \def\lt{<}
+    % Document parameters
+    \title{sliderule\_dsi\_inferential\_statistics\_exercise\_1}
+    
+    
+    
+
+    % Pygments definitions
+    
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\expandafter\def\csname PY@tok@w\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PY@tok@c\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\expandafter\def\csname PY@tok@k\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\expandafter\def\csname PY@tok@o\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ow\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@ne\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\expandafter\def\csname PY@tok@nv\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@no\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ni\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\expandafter\def\csname PY@tok@na\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\expandafter\def\csname PY@tok@nt\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@s\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sd\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@si\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@se\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sr\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@ss\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sx\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@m\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@gh\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gu\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gr\endcsname{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ge\endcsname{\let\PY@it=\textit}
+\expandafter\def\csname PY@tok@gs\endcsname{\let\PY@bf=\textbf}
+\expandafter\def\csname PY@tok@gp\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@go\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PY@tok@gt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PY@tok@err\endcsname{\def\PY@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PY@tok@kc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kd\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kr\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@bp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@fm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@vc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vg\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sa\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@dl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s2\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s1\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@mb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@il\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mo\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ch\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cm\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cpf\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@c1\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cs\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    % Exact colors from NB
+    \definecolor{incolor}{rgb}{0.0, 0.0, 0.5}
+    \definecolor{outcolor}{rgb}{0.545, 0.0, 0.0}
+
+
+
+    
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy 
+    % Setup hyperref package
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=urlcolor,
+      linkcolor=linkcolor,
+      citecolor=citecolor,
+      }
+    % Slightly bigger margins than the latex defaults
+    
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    
+    
+
+    \begin{document}
+    
+    
+    \maketitle
+    
+    
+
+    
+    \section{What is the True Normal Human Body
+Temperature?}\label{what-is-the-true-normal-human-body-temperature}
+
+    \paragraph{Background}\label{background}
+
+The mean normal body temperature was held to be 37\(^{\circ}\)C or
+98.6\(^{\circ}\)F for more than 120 years since it was first
+conceptualized and reported by Carl Wunderlich in a famous 1868 book.
+But, is this value statistically correct?
+
+    Exercises
+
+In this exercise, you will analyze a dataset of human body temperatures
+and employ the concepts of hypothesis testing, confidence intervals, and
+statistical significance.
+
+Answer the following questions in this notebook below and submit to your
+Github account.
+
+Is the distribution of body temperatures normal?
+
+\begin{verbatim}
+<li> Although this is not a requirement for the Central Limit Theorem to hold (read the introduction on Wikipedia's page about the CLT carefully: https://en.wikipedia.org/wiki/Central_limit_theorem), it gives us some peace of mind that the population may also be normally distributed if we assume that this sample is representative of the population.
+<li> Think about the way you're going to check for the normality of the distribution. Graphical methods are usually used first, but there are also other ways: https://en.wikipedia.org/wiki/Normality_test
+</ul>
+\end{verbatim}
+
+Is the sample size large? Are the observations independent?
+
+\begin{verbatim}
+<li> Remember that this is a condition for the Central Limit Theorem, and hence the statistical tests we are using, to apply.
+</ul>
+\end{verbatim}
+
+Is the true population mean really 98.6 degrees F?
+
+\begin{verbatim}
+<li> First, try a bootstrap hypothesis test.
+<li> Now, let's try frequentist statistical testing. Would you use a one-sample or two-sample test? Why?
+<li> In this situation, is it appropriate to use the $t$ or $z$ statistic? 
+<li> Now try using the other test. How is the result be different? Why?
+</ul>
+\end{verbatim}
+
+Draw a small sample of size 10 from the data and repeat both frequentist
+tests.
+
+\begin{verbatim}
+<li> Which one is the correct one to use? 
+<li> What do you notice? What does this tell you about the difference in application of the $t$ and $z$ statistic?
+</ul>
+\end{verbatim}
+
+At what temperature should we consider someone's temperature to be
+"abnormal"?
+
+\begin{verbatim}
+<li> As in the previous example, try calculating everything using the boostrap approach, as well as the frequentist approach.
+<li> Start by computing the margin of error and confidence interval. When calculating the confidence interval, keep in mind that you should use the appropriate formula for one draw, and not N draws.
+</ul>
+\end{verbatim}
+
+Is there a significant difference between males and females in normal
+temperature?
+
+\begin{verbatim}
+<li> What testing approach did you use and why?
+<li> Write a story with your conclusion in the context of the original problem.
+</ul>
+\end{verbatim}
+
+You can include written notes in notebook cells using Markdown: - In the
+control panel at the top, choose Cell \textgreater{} Cell Type
+\textgreater{} Markdown - Markdown syntax:
+http://nestacms.com/docs/creating-content/markdown-cheat-sheet
+
+\paragraph{Resources}\label{resources}
+
+\begin{itemize}
+\tightlist
+\item
+  Information and data sources:
+  http://www.amstat.org/publications/jse/datasets/normtemp.txt,
+  http://www.amstat.org/publications/jse/jse\_data\_archive.htm
+\item
+  Markdown syntax:
+  http://nestacms.com/docs/creating-content/markdown-cheat-sheet
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+    \subsection{Summary of Findings}\label{summary-of-findings}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+The mean normal body temperature was held to be 98.6°F for more than 120
+years since it was first conceptualized and reported by Carl Wunderlich
+in a famous 1868 book. After examining a data set of 130 samples (65
+males and 65 females), we'll see that the mean normal body temperature
+is actually 98.25°F. We'll also see that the mean body temperature of
+females is significantly higher than males'.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}1}]:} \PY{c+c1}{\PYZsh{} IMPORTS}
+        \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
+        \PY{k+kn}{import} \PY{n+nn}{pandas} \PY{k}{as} \PY{n+nn}{pd}
+        \PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{pyplot} \PY{k}{as} \PY{n+nn}{plt}
+        \PY{k+kn}{import} \PY{n+nn}{seaborn} \PY{k}{as} \PY{n+nn}{sns}
+        \PY{k+kn}{import} \PY{n+nn}{scipy}\PY{n+nn}{.}\PY{n+nn}{stats} \PY{k}{as} \PY{n+nn}{stats}
+        \PY{k+kn}{import} \PY{n+nn}{statsmodels}\PY{n+nn}{.}\PY{n+nn}{stats} \PY{k}{as} \PY{n+nn}{smd}
+        \PY{k+kn}{import} \PY{n+nn}{pylab}
+        
+        \PY{c+c1}{\PYZsh{} matplotlib setup}
+        \PY{o}{\PYZpc{}}\PY{k}{matplotlib} inline
+        
+        \PY{c+c1}{\PYZsh{} turn edges on in plt}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{rcParams}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{patch.force\PYZus{}edgecolor}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{k+kc}{True}
+        
+        \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{seed}\PY{p}{(}\PY{l+m+mi}{42}\PY{p}{)}
+        
+        \PY{n}{df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{data/human\PYZus{}body\PYZus{}temperature.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{df}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}1}]:}    temperature gender  heart\_rate
+        0         99.3      F        68.0
+        1         98.4      F        81.0
+        2         97.8      M        73.0
+        3         99.2      F        66.0
+        4         98.0      F        73.0
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}2}]:} \PY{c+c1}{\PYZsh{} FUNCTIONS USED}
+        
+        \PY{k}{def} \PY{n+nf}{ecdf}\PY{p}{(}\PY{n}{data}\PY{p}{)}\PY{p}{:}
+            \PY{l+s+sd}{\PYZdq{}\PYZdq{}\PYZdq{}Compute ECDF for a one\PYZhy{}dimensional array of measurements.\PYZdq{}\PYZdq{}\PYZdq{}}
+        
+            \PY{c+c1}{\PYZsh{} Number of data points: n}
+            \PY{n}{n} \PY{o}{=} \PY{n+nb}{len}\PY{p}{(}\PY{n}{data}\PY{p}{)}
+        
+            \PY{c+c1}{\PYZsh{} x: sort the data}
+            \PY{n}{x} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sort}\PY{p}{(}\PY{n}{data}\PY{p}{)}
+        
+            \PY{c+c1}{\PYZsh{} y: range for y\PYZhy{}axis}
+            \PY{n}{y} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{arange}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{n}{n}\PY{o}{+}\PY{l+m+mi}{1}\PY{p}{)} \PY{o}{/} \PY{n}{n}
+        
+            \PY{k}{return} \PY{n}{x}\PY{p}{,} \PY{n}{y}
+\end{Verbatim}
+
+
+    \subsubsection{Question \#1}\label{question-1}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+Is the distribution of body temperatures normal?\\
+
+\begin{verbatim}
+<li>Although this is not a requirement for the Central Limit Theorem to hold (read the introduction on Wikipedia's page about the CLT carefully: https://en.wikipedia.org/wiki/Central_limit_theorem), it gives us some peace of mind that the population may also be normally distributed if we assume that this sample is representative of the population.</br>
+<li>Think about the way you're going to check for the normality of the distribution. Graphical methods are usually used first, but there are also other ways: https://en.wikipedia.org/wiki/Normality_test  
+\end{verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}3}]:} \PY{c+c1}{\PYZsh{} Plot a histogram to see whether the distribution is normal}
+        \PY{n}{temp} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{temperature}
+        
+        \PY{n}{sns}\PY{o}{.}\PY{n}{set}\PY{p}{(}\PY{n}{rc}\PY{o}{=}\PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{figure.figsize}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{(}\PY{l+m+mi}{12}\PY{p}{,} \PY{l+m+mi}{8}\PY{p}{)}\PY{p}{\PYZcb{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{style}\PY{o}{.}\PY{n}{use}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{fivethirtyeight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{} Number of bins is the square root of number of data points: n\PYZus{}bins}
+        \PY{n}{n\PYZus{}bins} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sqrt}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{temp}\PY{p}{)}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{} Convert number of bins to integer: n\PYZus{}bins}
+        \PY{n}{n\PYZus{}bins} \PY{o}{=} \PY{n+nb}{int}\PY{p}{(}\PY{n}{n\PYZus{}bins}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{} plot hist}
+        \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{hist}\PY{p}{(}\PY{n}{temp}\PY{p}{,} \PY{n}{density}\PY{o}{=}\PY{k+kc}{True}\PY{p}{,} \PY{n}{bins}\PY{o}{=}\PY{n}{n\PYZus{}bins}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{} overlay PDF of the Standard Normal Distribution}
+        \PY{n}{x} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{linspace}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{min}\PY{p}{(}\PY{n}{temp}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{l+m+mi}{1}\PY{p}{,} \PY{n}{np}\PY{o}{.}\PY{n}{max}\PY{p}{(}\PY{n}{temp}\PY{p}{)} \PY{o}{+} \PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{100}\PY{p}{,} \PY{n}{endpoint}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+        \PY{n}{pdf} \PY{o}{=} \PY{p}{[}\PY{n}{stats}\PY{o}{.}\PY{n}{norm}\PY{o}{.}\PY{n}{pdf}\PY{p}{(}\PY{n}{\PYZus{}}\PY{p}{,} \PY{n}{loc}\PY{o}{=}\PY{n}{np}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{n}{temp}\PY{p}{)}\PY{p}{,} \PY{n}{scale}\PY{o}{=}\PY{n}{np}\PY{o}{.}\PY{n}{std}\PY{p}{(}\PY{n}{temp}\PY{p}{)}\PY{p}{)} \PY{k}{for} \PY{n}{\PYZus{}} \PY{o+ow}{in} \PY{n}{x}\PY{p}{]}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{n}{pdf}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{k\PYZhy{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        
+        
+        \PY{c+c1}{\PYZsh{} labels}
+        \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{text}\PY{p}{(}\PY{l+m+mf}{95.5}\PY{p}{,} \PY{l+m+mf}{0.5}\PY{p}{,} \PY{l+s+sa}{r}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZdl{}}\PY{l+s+s1}{\PYZbs{}}\PY{l+s+s1}{mu= }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{,}\PY{l+s+s1}{\PYZbs{}}\PY{l+s+s1}{ }\PY{l+s+s1}{\PYZbs{}}\PY{l+s+s1}{sigma=}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{\PYZdl{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n+nb}{round}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{n}{temp}\PY{p}{)}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}\PY{p}{,} \PY{n+nb}{round}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{std}\PY{p}{(}\PY{n}{temp}\PY{p}{)}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+        \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Temperature (F)}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Frequency}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Fig. 1.1: Human Body Temperatures}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        
+        \PY{n}{margins} \PY{o}{=} \PY{l+m+mf}{0.02}
+        \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{legend}\PY{p}{(}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Std Normal Dist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Samples}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{ylim}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.01}\PY{p}{,} \PY{l+m+mf}{0.65}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}\PY{p}{;}
+\end{Verbatim}
+
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_7_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}4}]:} \PY{n}{sns}\PY{o}{.}\PY{n}{set}\PY{p}{(}\PY{n}{rc}\PY{o}{=}\PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{figure.figsize}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{(}\PY{l+m+mi}{12}\PY{p}{,} \PY{l+m+mi}{8}\PY{p}{)}\PY{p}{\PYZcb{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{style}\PY{o}{.}\PY{n}{use}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{fivethirtyeight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        
+        \PY{n}{stats}\PY{o}{.}\PY{n}{probplot}\PY{p}{(}\PY{n}{temp}\PY{p}{,} \PY{n}{dist}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{norm}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{plot}\PY{o}{=}\PY{n}{pylab}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Fig. 1.2: Probability Plot of Human Body Temperatures}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
+\end{Verbatim}
+
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_8_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}5}]:} \PY{n}{sns}\PY{o}{.}\PY{n}{set}\PY{p}{(}\PY{n}{rc}\PY{o}{=}\PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{figure.figsize}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{(}\PY{l+m+mi}{12}\PY{p}{,} \PY{l+m+mi}{8}\PY{p}{)}\PY{p}{\PYZcb{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{style}\PY{o}{.}\PY{n}{use}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{fivethirtyeight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{} Plot the CDFs}
+        \PY{n}{x}\PY{p}{,} \PY{n}{y} \PY{o}{=} \PY{n}{ecdf}\PY{p}{(}\PY{n}{temp}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{} draw 100,000 random samples from a normal distribution}
+        \PY{n}{nm\PYZus{}temp} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{normal}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{n}{temp}\PY{p}{)}\PY{p}{,} \PY{n}{np}\PY{o}{.}\PY{n}{std}\PY{p}{(}\PY{n}{temp}\PY{p}{)}\PY{p}{,} \PY{l+m+mi}{100000}\PY{p}{)}
+        \PY{n}{nm\PYZus{}x}\PY{p}{,} \PY{n}{nm\PYZus{}y} \PY{o}{=} \PY{n}{ecdf}\PY{p}{(}\PY{n}{nm\PYZus{}temp}\PY{p}{)}
+        
+        \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{marker}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{linestyle}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{none}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{nm\PYZus{}x}\PY{p}{,} \PY{n}{nm\PYZus{}y}\PY{p}{)}
+        
+        \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Temperature (F)}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{CDF}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Fig. 1.3: Cumulative Distribution Function \PYZhy{} Human Body Temperatures}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{margins} \PY{o}{=} \PY{l+m+mf}{0.02}
+        
+        \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}\PY{p}{;}
+\end{Verbatim}
+
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_9_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    Analysis:
+
+The histogram (Fig. 1.1) shows that the sample's distribution is
+unimodal and essentially symmetrical about the mean. The QQ plot
+(Fig.1.2) and the CDF (Fig. 1.3), also show that the frequency
+distribution of the data is very close to normal, although the QQ plot
+and the CDF both show some variation and a couple of outliers on both
+tails.
+
+    \subsubsection{Question \#2}\label{question-2}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+Is the sample size large? Are the observations independent? - Remember
+that this is a condition for the Central Limit Theorem, and hence the
+statistical tests we are using, to apply.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}6}]:} \PY{n}{df}\PY{o}{.}\PY{n}{info}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 130 entries, 0 to 129
+Data columns (total 3 columns):
+temperature    130 non-null float64
+gender         130 non-null object
+heart\_rate     130 non-null float64
+dtypes: float64(2), object(1)
+memory usage: 3.1+ KB
+
+    \end{Verbatim}
+
+    Analysis:
+
+The sample size is not large as a fraction of all human beings, but it
+is large enough for the Central Limit Theorem to apply.
+
+The central limit theorem states that the sampling distribution of the
+sample mean approximates the normal distribution, regardless of the
+distribution of the population from which the samples are drawn if the
+sample size is sufficiently large. This fact enables us to make
+statistical inferences based on the properties of the normal
+distribution, even if the sample is drawn from a population that is not
+normally distributed.
+
+The definition of the central limit theorem reads that the sample size
+must be 'sufficiently large', but fails to define 'sufficiently large'.
+A commonly-accepted rule of thumb is that a sample size of 30
+constitutes 'sufficiently large'. However, if the population from which
+the samples are drawn is unimodal and symmetric about the mean, a sample
+size of less than 30 may be sufficient. Conversely, if the population is
+multi-modal or skewed, a sample size of more than 30 would be required.
+
+The 130 observations is a tiny fraction of the population of all humans,
+but, as shown in the analysis of Question \#1, the data is unimodal and
+essentially symmetric about the mean, so, a sample size of 130 is more
+than sufficient to satisfy the 'sufficiently large' requirement of the
+central limit theorem.
+
+For the observations to be independent it would mean that knowing the
+outcome of one sample would provide no information about another sample.
+In this case, knowing one person's body temperature gives no information
+about any other measured body temperature. Gender or heart rate may have
+an affect on body temperature. The effects of gender on mean body
+temperature are explored below.
+
+    \subsubsection{Question \#3}\label{question-3}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+Is the true population mean really 98.6 degrees F?
+
+\begin{verbatim}
+<li> First, try a bootstrap hypothesis test.
+<li> Now, let's try frequentist statistical testing. Would you use a one-sample or two-sample test? Why?
+<li> In this situation, is it appropriate to use the $t$ or $z$ statistic? 
+<li> Now try using the other test. How is the result be different? Why?
+\end{verbatim}
+
+    Hypotheses:
+
+\(H_0:\  \bar x =\) 98.6°\\
+\(H_a:\  \bar x \neq\) 98.6°
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}7}]:} \PY{n}{df}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}7}]:}        temperature  heart\_rate
+        count   130.000000  130.000000
+        mean     98.249231   73.761538
+        std       0.733183    7.062077
+        min      96.300000   57.000000
+        25\%      97.800000   69.000000
+        50\%      98.300000   74.000000
+        75\%      98.700000   79.000000
+        max     100.800000   89.000000
+\end{Verbatim}
+            
+    \paragraph{3.1 bootstrap hypothesis test - 100,000
+samples}\label{bootstrap-hypothesis-test---100000-samples}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}8}]:} \PY{c+c1}{\PYZsh{} bootstrap hypothesis test with 100,000 samples}
+        \PY{n}{bs\PYZus{}replicates} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{empty}\PY{p}{(}\PY{l+m+mi}{100000}\PY{p}{)}
+        
+        \PY{n}{size} \PY{o}{=} \PY{n+nb}{len}\PY{p}{(}\PY{n}{bs\PYZus{}replicates}\PY{p}{)}
+        
+        \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{size}\PY{p}{)}\PY{p}{:}
+            \PY{n}{bs\PYZus{}sample} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{choice}\PY{p}{(}\PY{n}{temp}\PY{p}{,} \PY{n+nb}{len}\PY{p}{(}\PY{n}{temp}\PY{p}{)}\PY{p}{)}
+            \PY{n}{bs\PYZus{}replicates}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{n}{bs\PYZus{}sample}\PY{p}{)}
+            
+        \PY{n}{p} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{bs\PYZus{}replicates} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{l+m+mf}{98.6}\PY{p}{)} \PY{o}{/} \PY{n}{size}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p\PYZhy{}value: }\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{p}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{mean: }\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{np}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{n}{bs\PYZus{}replicates}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+p-value:  0.0
+mean:  98.24910042307691
+
+    \end{Verbatim}
+
+    Analysis:
+
+After 100,000 samples, the p-value is 0.0, indicating that the null
+hypothesis should be rejected. The mean body temperature of the sample
+set is 98.25°.
+
+    \paragraph{3.2 frequentist statistical
+testing}\label{frequentist-statistical-testing}
+
+Now, let's try frequentist statistical testing. Would you use a
+one-sample or two-sample test? Why?
+
+    Analysis:
+
+When comparing the mean of a single sample to a population with an
+hypothesised mean, a one-sample \(t\)-test is appropriate.
+
+    \paragraph{\texorpdfstring{3.3 / 3.4 \(t\)- or \(Z\)-
+statistic?}{3.3 / 3.4 t- or Z- statistic?}}\label{t--or-z--statistic}
+
+    In this situation, is it appropriate to use the \(t\)- or
+\(Z\)-statistic?
+
+    Analysis:
+
+\[Z-statistic = Z = \frac{\bar x - \mu}{\frac{\sigma}{\sqrt n}}\]
+
+\[t-statistic = t = \frac{\bar x - \mu}{\frac{s}{\sqrt n}}\]
+
+The formula for the \(Z\)-statistic requires the population standard
+deviation, which is unknown. The \(t\)-statistic requires only the
+sample standard deviation, which can be derived. Without knowing the
+population standard deviation, the only choice is to use the
+\(t\)-statistic.
+
+A two-tailed test is required, since the alternative hypothesis is that
+there is a statistically-significant difference between the sample mean
+and the hypothetical population mean of 98.6°, rather than testing
+whether the actual mean temperature is greater than or less than the
+hypothesized 98.6°.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}9}]:} \PY{n}{t\PYZus{}stat} \PY{o}{=} \PY{n}{stats}\PY{o}{.}\PY{n}{ttest\PYZus{}1samp}\PY{p}{(}\PY{n}{temp}\PY{p}{,} \PY{l+m+mf}{98.6}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{t\PYZhy{}score: }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{p\PYZhy{}value: }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n+nb}{round}\PY{p}{(}\PY{n}{t\PYZus{}stat}\PY{o}{.}\PY{n}{statistic}\PY{p}{,} \PY{l+m+mi}{5}\PY{p}{)}\PY{p}{,} \PY{n+nb}{round}\PY{p}{(}\PY{n}{t\PYZus{}stat}\PY{o}{.}\PY{n}{pvalue}\PY{p}{,} \PY{l+m+mi}{5}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+t-score: -5.45482
+p-value: 0.0
+
+    \end{Verbatim}
+
+    \subsubsection{Question \#4}\label{question-4}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+Draw a small sample of size 10 from the data and repeat both frequentist
+tests.
+
+\begin{verbatim}
+<li> Which one is the correct one to use? 
+<li> What do you notice? What does this tell you about the difference in application of the $t$ and $z$ statistic?
+</ul>
+\end{verbatim}
+
+    \paragraph{\texorpdfstring{\(t\)-test}{t-test}}\label{t-test}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}10}]:} \PY{n}{sample\PYZus{}temp} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{choice}\PY{p}{(}\PY{n}{a} \PY{o}{=} \PY{n}{temp}\PY{p}{,} \PY{n}{size}\PY{o}{=}\PY{l+m+mi}{10}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}11}]:} \PY{n}{r} \PY{o}{=} \PY{n}{stats}\PY{o}{.}\PY{n}{ttest\PYZus{}1samp}\PY{p}{(}\PY{n}{sample\PYZus{}temp}\PY{p}{,} \PY{l+m+mf}{98.6}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{t\PYZhy{}score: }\PY{l+s+si}{\PYZob{}:0.4\PYZcb{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{p\PYZhy{}value: }\PY{l+s+si}{\PYZob{}:0.4\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{r}\PY{o}{.}\PY{n}{statistic}\PY{p}{,} \PY{n}{r}\PY{o}{.}\PY{n}{pvalue}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+t-score: -1.546
+p-value: 0.1565
+
+    \end{Verbatim}
+
+    Analysis:
+
+Again, since the population standard deviation is unknown, the
+\(t\)-test is the only option available. The p-value is greater than
+0.05, so the null hypothesis cannot be rejected on the basis of this
+test.
+
+    \subsubsection{Question \#5}\label{question-5}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+At what temperature should we consider someone's temperature to be
+"abnormal"?
+
+\begin{verbatim}
+<li> As in the previous example, try calculating everything using the boostrap approach, as well as the frequentist approach.
+<li> Start by computing the margin of error and confidence interval. When calculating the confidence interval, keep in mind that you should use the appropriate formula for one draw, and not N draws.
+\end{verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}12}]:} \PY{c+c1}{\PYZsh{} get the sample mean and standard deviation for use with bootstrap and frequentist approaches below}
+         \PY{n}{x\PYZus{}bar} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{n}{temp}\PY{p}{)}
+         \PY{n}{s} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{std}\PY{p}{(}\PY{n}{temp}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sample mean: }\PY{l+s+si}{\PYZob{}:0.4\PYZcb{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{Sample Standard Deviation: }\PY{l+s+si}{\PYZob{}:0.4\PYZcb{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{x\PYZus{}bar}\PY{p}{,} \PY{n}{s}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Sample mean: 98.25
+Sample Standard Deviation: 0.7304
+
+
+    \end{Verbatim}
+
+    \paragraph{Bootstrap}\label{bootstrap}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}13}]:} \PY{c+c1}{\PYZsh{} bootstrap with 10,000 samples}
+         \PY{n}{size} \PY{o}{=} \PY{l+m+mi}{10000}
+         \PY{n}{bs\PYZus{}ci\PYZus{}low} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{empty}\PY{p}{(}\PY{n}{size}\PY{p}{)}
+         \PY{n}{bs\PYZus{}ci\PYZus{}high} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{empty}\PY{p}{(}\PY{n}{size}\PY{p}{)}
+         
+         
+         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{size}\PY{p}{)}\PY{p}{:}
+             \PY{n}{bs\PYZus{}sample} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{choice}\PY{p}{(}\PY{n}{temp}\PY{p}{,} \PY{n+nb}{len}\PY{p}{(}\PY{n}{temp}\PY{p}{)}\PY{p}{)}
+             \PY{n}{bs\PYZus{}replicate} \PY{o}{=} \PY{n}{stats}\PY{o}{.}\PY{n}{norm}\PY{o}{.}\PY{n}{interval}\PY{p}{(}\PY{l+m+mf}{0.95}\PY{p}{,} \PY{n}{loc}\PY{o}{=}\PY{n}{x\PYZus{}bar}\PY{p}{,} \PY{n}{scale}\PY{o}{=}\PY{n}{s}\PY{p}{)}
+             \PY{n}{bs\PYZus{}ci\PYZus{}low}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{n}{bs\PYZus{}replicate}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}
+             \PY{n}{bs\PYZus{}ci\PYZus{}high}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{n}{bs\PYZus{}replicate}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}
+             
+         \PY{n}{ci\PYZus{}low\PYZus{}b} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{bs\PYZus{}ci\PYZus{}low}\PY{p}{)} \PY{o}{/} \PY{n}{size}
+         \PY{n}{ci\PYZus{}high\PYZus{}b} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{bs\PYZus{}ci\PYZus{}high}\PY{p}{)} \PY{o}{/} \PY{n}{size}
+         
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{95}\PY{l+s+si}{\PYZpc{} c}\PY{l+s+s1}{onfidence interval}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+si}{\PYZob{}:0.5\PYZcb{}}\PY{l+s+s1}{ \PYZhy{} }\PY{l+s+si}{\PYZob{}:0.5\PYZcb{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{ci\PYZus{}low\PYZus{}b}\PY{p}{,} \PY{n}{ci\PYZus{}high\PYZus{}b}\PY{p}{)}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{margin of error}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+si}{\PYZob{}:0.5\PYZcb{}}\PY{l+s+s1}{ \PYZhy{} }\PY{l+s+si}{\PYZob{}:0.5\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{p}{(}\PY{n}{ci\PYZus{}low\PYZus{}b} \PY{o}{\PYZhy{}} \PY{n}{x\PYZus{}bar}\PY{p}{)}\PY{p}{,} \PY{p}{(}\PY{n}{ci\PYZus{}high\PYZus{}b} \PY{o}{\PYZhy{}} \PY{n}{x\PYZus{}bar}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+95\% confidence interval
+96.818 - 99.681
+
+
+margin of error
+-1.4315 - 1.4315
+
+    \end{Verbatim}
+
+    \paragraph{Frequentist Approach}\label{frequentist-approach}
+
+Confidence Interval for One-Sample t-Test
+\[CI_{1-\alpha} = \bar x \pm \left(t_{\frac{\alpha}{2}df}\right)\left(\frac{s}{\sqrt n}\right)\]
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}14}]:} \PY{c+c1}{\PYZsh{} frequentist approach \PYZhy{} confidence interval for the one\PYZhy{}sample t\PYZhy{}test}
+         
+         \PY{c+c1}{\PYZsh{} alpha = 0.05, confidence coefficient = 95\PYZpc{}}
+         
+         \PY{c+c1}{\PYZsh{} confidence interval for one draw}
+         \PY{n}{ci\PYZus{}low\PYZus{}f}\PY{p}{,} \PY{n}{ci\PYZus{}high\PYZus{}f} \PY{o}{=} \PY{n}{stats}\PY{o}{.}\PY{n}{norm}\PY{o}{.}\PY{n}{interval}\PY{p}{(}\PY{l+m+mf}{0.95}\PY{p}{,} \PY{n}{loc}\PY{o}{=}\PY{n}{x\PYZus{}bar}\PY{p}{,} \PY{n}{scale}\PY{o}{=}\PY{n}{s}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{95}\PY{l+s+si}{\PYZpc{} c}\PY{l+s+s1}{onfidence interval (one draw)}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+si}{\PYZob{}:0.5\PYZcb{}}\PY{l+s+s1}{ \PYZhy{} }\PY{l+s+si}{\PYZob{}:0.5\PYZcb{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{ci\PYZus{}low\PYZus{}f}\PY{p}{,} \PY{n}{ci\PYZus{}high\PYZus{}f}\PY{p}{)}\PY{p}{)}
+         
+         
+         \PY{c+c1}{\PYZsh{} margin of error }
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{margin of error}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+si}{\PYZob{}:0.5\PYZcb{}}\PY{l+s+s1}{ \PYZhy{} }\PY{l+s+si}{\PYZob{}:0.5\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{p}{(}\PY{n}{ci\PYZus{}low\PYZus{}f} \PY{o}{\PYZhy{}} \PY{n}{x\PYZus{}bar}\PY{p}{)}\PY{p}{,} \PY{p}{(}\PY{n}{ci\PYZus{}high\PYZus{}f} \PY{o}{\PYZhy{}} \PY{n}{x\PYZus{}bar}\PY{p}{)}\PY{p}{)}\PY{p}{)} 
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+95\% confidence interval (one draw)
+96.818 - 99.681
+
+
+margin of error
+-1.4315 - 1.4315
+
+    \end{Verbatim}
+
+    Analysis:
+
+According to both the Bootstrap and Frequentist approaches, using the
+mean we calculated (98.249°), and at a 95\% confidence interval, a
+temperature below 96.818° or above 99.681° would be considered abnormal.
+
+    \subsubsection{Question \#6}\label{question-6}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+Is there a significant difference between males and females in normal
+temperature?
+
+\begin{verbatim}
+<li> What testing approach did you use and why?
+<li> Write a story with your conclusion in the context of the original problem.
+\end{verbatim}
+
+    \subsubsection{Hypotheses}\label{hypotheses}
+
+\(H_0: \bar x_m\ =\ \bar x_f\)
+
+\(H_a: \bar x_m \neq\ \bar x_f\)
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}15}]:} \PY{n}{males} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{n}{df}\PY{o}{.}\PY{n}{gender} \PY{o}{==} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{M}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+         \PY{n}{females} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{n}{df}\PY{o}{.}\PY{n}{gender} \PY{o}{==} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{F}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+         
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Of the }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{ participants, }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{ are female and }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{ are male.}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{males} \PY{o}{+} \PY{n}{females}\PY{p}{)}\PY{p}{,} \PY{n+nb}{len}\PY{p}{(}\PY{n}{females}\PY{p}{)}\PY{p}{,} \PY{n+nb}{len}\PY{p}{(}\PY{n}{males}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Of the 130 participants, 65 are female and 65 are male.
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}16}]:} \PY{c+c1}{\PYZsh{} plot a boxplot for an overview}
+         \PY{n}{sns}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{x} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{gender}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{y} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{temperature}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{data}\PY{o}{=}\PY{n}{df}\PY{p}{)}
+         
+         \PY{n}{sns}\PY{o}{.}\PY{n}{set}\PY{p}{(}\PY{n}{rc}\PY{o}{=}\PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{figure.figsize}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{(}\PY{l+m+mi}{12}\PY{p}{,} \PY{l+m+mi}{8}\PY{p}{)}\PY{p}{\PYZcb{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{style}\PY{o}{.}\PY{n}{use}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{fivethirtyeight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         
+         \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Gender}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Temp}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Fig. 6.1: Body Temp by Gender}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         
+         \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}\PY{p}{;}
+\end{Verbatim}
+
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_41_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}17}]:} \PY{c+c1}{\PYZsh{} are both samples normally distributed?}
+         \PY{n}{sns}\PY{o}{.}\PY{n}{set}\PY{p}{(}\PY{n}{rc}\PY{o}{=}\PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{figure.figsize}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{(}\PY{l+m+mi}{12}\PY{p}{,} \PY{l+m+mi}{8}\PY{p}{)}\PY{p}{\PYZcb{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{style}\PY{o}{.}\PY{n}{use}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{fivethirtyeight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{} Compute the ECDFs for males and females}
+         \PY{n}{x\PYZus{}male}\PY{p}{,} \PY{n}{y\PYZus{}male} \PY{o}{=} \PY{n}{ecdf}\PY{p}{(}\PY{n}{males}\PY{o}{.}\PY{n}{temperature}\PY{p}{)}
+         \PY{n}{x\PYZus{}female}\PY{p}{,} \PY{n}{y\PYZus{}female} \PY{o}{=} \PY{n}{ecdf}\PY{p}{(}\PY{n}{females}\PY{o}{.}\PY{n}{temperature}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{} Generate plot}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x\PYZus{}male}\PY{p}{,} \PY{n}{y\PYZus{}male}\PY{p}{,} \PY{n}{marker} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{linestyle} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{none}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{color}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{b}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x\PYZus{}female}\PY{p}{,} \PY{n}{y\PYZus{}female}\PY{p}{,} \PY{n}{marker}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{linestyle}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{none}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{color}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{r}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{} draw 100,000 random samples from a normal distribution}
+         \PY{n}{m\PYZus{}norm\PYZus{}dist} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{normal}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{n}{males}\PY{o}{.}\PY{n}{temperature}\PY{p}{)}\PY{p}{,} \PY{n}{np}\PY{o}{.}\PY{n}{std}\PY{p}{(}\PY{n}{males}\PY{o}{.}\PY{n}{temperature}\PY{p}{)}\PY{p}{,} \PY{l+m+mi}{100000}\PY{p}{)}
+         \PY{n}{mnd\PYZus{}x}\PY{p}{,} \PY{n}{mnd\PYZus{}y} \PY{o}{=} \PY{n}{ecdf}\PY{p}{(}\PY{n}{m\PYZus{}norm\PYZus{}dist}\PY{p}{)}
+         \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{mnd\PYZus{}x}\PY{p}{,} \PY{n}{mnd\PYZus{}y}\PY{p}{,} \PY{n}{color}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{b}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{alpha}\PY{o}{=}\PY{l+m+mf}{0.5}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{} draw 100,000 random samples from a normal distribution}
+         \PY{n}{f\PYZus{}norm\PYZus{}dist} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{normal}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{n}{females}\PY{o}{.}\PY{n}{temperature}\PY{p}{)}\PY{p}{,} \PY{n}{np}\PY{o}{.}\PY{n}{std}\PY{p}{(}\PY{n}{females}\PY{o}{.}\PY{n}{temperature}\PY{p}{)}\PY{p}{,} \PY{l+m+mi}{100000}\PY{p}{)}
+         \PY{n}{fnd\PYZus{}x}\PY{p}{,} \PY{n}{fnd\PYZus{}y} \PY{o}{=} \PY{n}{ecdf}\PY{p}{(}\PY{n}{f\PYZus{}norm\PYZus{}dist}\PY{p}{)}
+         \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{fnd\PYZus{}x}\PY{p}{,} \PY{n}{fnd\PYZus{}y}\PY{p}{,} \PY{n}{color}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{r}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{alpha}\PY{o}{=}\PY{l+m+mf}{0.5}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{} Make the margins nice}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{margins} \PY{o}{=} \PY{l+m+mf}{0.02}
+         
+         \PY{c+c1}{\PYZsh{} Label the axes}
+         \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Gender}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ECDF}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Fig. 6.2: CDFs of males v. females}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{\PYZus{}} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{legend}\PY{p}{(}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{males}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{females}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{,} \PY{n}{loc}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lower right}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{fontsize}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{large}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{markerscale}\PY{o}{=}\PY{l+m+mi}{2}\PY{p}{)}
+         
+         \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}\PY{p}{;}
+\end{Verbatim}
+
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_42_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}18}]:} \PY{c+c1}{\PYZsh{} common variables}
+         \PY{n}{temp\PYZus{}m} \PY{o}{=} \PY{n}{males}\PY{o}{.}\PY{n}{temperature}
+         \PY{n}{temp\PYZus{}f} \PY{o}{=} \PY{n}{females}\PY{o}{.}\PY{n}{temperature}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}19}]:} \PY{c+c1}{\PYZsh{} Check for identical variances}
+         \PY{n}{mv} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{var}\PY{p}{(}\PY{n}{temp\PYZus{}m}\PY{p}{)}
+         \PY{n}{fv} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{var}\PY{p}{(}\PY{n}{temp\PYZus{}f}\PY{p}{)}
+         
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Male variance: }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{Female variance: }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{mv}\PY{p}{,} \PY{n}{fv}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Male variance: 0.4807479289940825
+Female variance: 0.5442698224852062
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}20}]:} \PY{c+c1}{\PYZsh{} confirm that variances are not equal with bootstrap \PYZhy{} null hypothesis is that they are equal}
+         
+         \PY{n}{size} \PY{o}{=} \PY{l+m+mi}{10000}
+         
+         \PY{n}{bs\PYZus{}replicates\PYZus{}m} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{empty}\PY{p}{(}\PY{n}{size}\PY{p}{)}
+         
+         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{size}\PY{p}{)}\PY{p}{:}
+             \PY{n}{bs\PYZus{}sample\PYZus{}m} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{choice}\PY{p}{(}\PY{n}{temp\PYZus{}m}\PY{p}{,} \PY{n+nb}{len}\PY{p}{(}\PY{n}{temp\PYZus{}m}\PY{p}{)}\PY{p}{)}
+             \PY{n}{bs\PYZus{}replicates\PYZus{}m}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{var}\PY{p}{(}\PY{n}{bs\PYZus{}sample\PYZus{}m}\PY{p}{)}
+             
+         \PY{n}{bs\PYZus{}var\PYZus{}m} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{bs\PYZus{}replicates\PYZus{}m}\PY{p}{)}\PY{o}{/}\PY{n}{size}
+         
+         \PY{n}{bs\PYZus{}replicates\PYZus{}f} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{empty}\PY{p}{(}\PY{n}{size}\PY{p}{)}
+         
+         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{size}\PY{p}{)}\PY{p}{:}
+             \PY{n}{bs\PYZus{}sample\PYZus{}f} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{choice}\PY{p}{(}\PY{n}{temp\PYZus{}f}\PY{p}{,} \PY{n+nb}{len}\PY{p}{(}\PY{n}{temp\PYZus{}f}\PY{p}{)}\PY{p}{)}
+             \PY{n}{bs\PYZus{}replicates\PYZus{}f}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{var}\PY{p}{(}\PY{n}{bs\PYZus{}sample\PYZus{}f}\PY{p}{)}
+         
+         \PY{n}{bs\PYZus{}var\PYZus{}f} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{bs\PYZus{}replicates\PYZus{}f}\PY{p}{)}\PY{o}{/}\PY{n}{size}
+         
+         \PY{n}{bs\PYZus{}var\PYZus{}m}
+         \PY{n}{bs\PYZus{}var\PYZus{}f}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Bootstrap verification:}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{Male variance: }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{Female variance: }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{bs\PYZus{}var\PYZus{}m}\PY{p}{,} \PY{n}{bs\PYZus{}var\PYZus{}f}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}20}]:} 0.4739684009467454
+\end{Verbatim}
+            
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}20}]:} 0.5372722897041412
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+Bootstrap verification:
+Male variance: 0.4739684009467454
+Female variance: 0.5372722897041412
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}21}]:} \PY{c+c1}{\PYZsh{} Variances are not identical, so set `equal\PYZus{}var` to false to perform Welch\PYZsq{}s t\PYZhy{}test}
+         \PY{n}{r} \PY{o}{=} \PY{n}{stats}\PY{o}{.}\PY{n}{ttest\PYZus{}ind}\PY{p}{(}\PY{n}{temp\PYZus{}m}\PY{p}{,} \PY{n}{temp\PYZus{}f}\PY{p}{,} \PY{n}{equal\PYZus{}var}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{t\PYZhy{}statistic: }\PY{l+s+si}{\PYZob{}:0.4\PYZcb{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{p\PYZhy{}value: }\PY{l+s+si}{\PYZob{}:0.4\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{r}\PY{o}{.}\PY{n}{statistic}\PY{p}{,} \PY{n}{r}\PY{o}{.}\PY{n}{pvalue}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+t-statistic: -2.285
+p-value: 0.02394
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}22}]:} \PY{c+c1}{\PYZsh{} males}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{MALES}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{xbar\PYZus{}m} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{n}{temp\PYZus{}m}\PY{p}{)}
+         \PY{n}{s\PYZus{}m} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{std}\PY{p}{(}\PY{n}{temp\PYZus{}m}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{sample mean: }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{sample standard deviation: }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n+nb}{round}\PY{p}{(}\PY{n}{xbar\PYZus{}m}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{)}\PY{p}{,} \PY{n+nb}{round}\PY{p}{(}\PY{n}{s\PYZus{}m}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{} confidence interval for one draw}
+         \PY{n}{ci\PYZus{}low\PYZus{}m}\PY{p}{,} \PY{n}{ci\PYZus{}high\PYZus{}m} \PY{o}{=} \PY{n}{stats}\PY{o}{.}\PY{n}{norm}\PY{o}{.}\PY{n}{interval}\PY{p}{(}\PY{l+m+mf}{0.95}\PY{p}{,} \PY{n}{loc}\PY{o}{=}\PY{n}{xbar\PYZus{}m}\PY{p}{,} \PY{n}{scale}\PY{o}{=}\PY{n}{s\PYZus{}m}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{95}\PY{l+s+si}{\PYZpc{} c}\PY{l+s+s1}{onfidence interval (one draw): }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{ \PYZhy{} }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n+nb}{round}\PY{p}{(}\PY{n}{ci\PYZus{}low\PYZus{}m}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{)}\PY{p}{,} \PY{n+nb}{round}\PY{p}{(}\PY{n}{ci\PYZus{}high\PYZus{}m}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{} females}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{FEMALES}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{xbar\PYZus{}f} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{n}{temp\PYZus{}f}\PY{p}{)}
+         \PY{n}{s\PYZus{}f} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{std}\PY{p}{(}\PY{n}{temp\PYZus{}f}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{sample mean: }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{sample standard deviation: }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n+nb}{round}\PY{p}{(}\PY{n}{xbar\PYZus{}f}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{)}\PY{p}{,} \PY{n+nb}{round}\PY{p}{(}\PY{n}{s\PYZus{}f}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{} confidence interval for one draw}
+         \PY{n}{ci\PYZus{}low\PYZus{}f}\PY{p}{,} \PY{n}{ci\PYZus{}high\PYZus{}f} \PY{o}{=} \PY{n}{stats}\PY{o}{.}\PY{n}{norm}\PY{o}{.}\PY{n}{interval}\PY{p}{(}\PY{l+m+mf}{0.95}\PY{p}{,} \PY{n}{loc}\PY{o}{=}\PY{n}{xbar\PYZus{}f}\PY{p}{,} \PY{n}{scale}\PY{o}{=}\PY{n}{s\PYZus{}f}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{95}\PY{l+s+si}{\PYZpc{} c}\PY{l+s+s1}{onfidence interval (one draw): }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{ \PYZhy{} }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n+nb}{round}\PY{p}{(}\PY{n}{ci\PYZus{}low\PYZus{}f}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{)}\PY{p}{,} \PY{n+nb}{round}\PY{p}{(}\PY{n}{ci\PYZus{}high\PYZus{}f}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+MALES
+sample mean: 98.105
+sample standard deviation: 0.693
+
+95\% confidence interval (one draw): 96.746 - 99.464
+
+
+FEMALES
+sample mean: 98.394
+sample standard deviation: 0.738
+
+95\% confidence interval (one draw): 96.948 - 99.84
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}23}]:} \PY{c+c1}{\PYZsh{} bootstrap \PYZhy{} two\PYZhy{}sided Welch\PYZsq{}s t\PYZhy{}test  }
+         \PY{n}{size} \PY{o}{=} \PY{l+m+mi}{10000}
+         \PY{n}{bs\PYZus{}replicates\PYZus{}m} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{empty}\PY{p}{(}\PY{n}{size}\PY{p}{)}
+         
+         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{size}\PY{p}{)}\PY{p}{:}
+             \PY{n}{bs\PYZus{}sample\PYZus{}m} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{choice}\PY{p}{(}\PY{n}{temp\PYZus{}m}\PY{p}{,} \PY{n+nb}{len}\PY{p}{(}\PY{n}{temp\PYZus{}m}\PY{p}{)}\PY{p}{)}
+             \PY{n}{bs\PYZus{}replicates\PYZus{}m}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{n}{bs\PYZus{}sample\PYZus{}m}\PY{p}{)}
+             
+         \PY{n}{bs\PYZus{}mean\PYZus{}m} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{bs\PYZus{}replicates\PYZus{}m}\PY{p}{)}\PY{o}{/}\PY{n}{size}
+         
+         \PY{n}{bs\PYZus{}replicates\PYZus{}f} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{empty}\PY{p}{(}\PY{n}{size}\PY{p}{)}
+         
+         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{size}\PY{p}{)}\PY{p}{:}
+             \PY{n}{bs\PYZus{}sample\PYZus{}f} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{choice}\PY{p}{(}\PY{n}{temp\PYZus{}f}\PY{p}{,} \PY{n+nb}{len}\PY{p}{(}\PY{n}{temp\PYZus{}f}\PY{p}{)}\PY{p}{)}
+             \PY{n}{bs\PYZus{}replicates\PYZus{}f}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{n}{bs\PYZus{}sample\PYZus{}f}\PY{p}{)}
+         
+         \PY{n}{bs\PYZus{}mean\PYZus{}f} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{bs\PYZus{}replicates\PYZus{}f}\PY{p}{)}\PY{o}{/}\PY{n}{size}
+         
+         
+         \PY{n}{result} \PY{o}{=} \PY{n}{stats}\PY{o}{.}\PY{n}{ttest\PYZus{}ind}\PY{p}{(}\PY{n}{bs\PYZus{}replicates\PYZus{}f}\PY{p}{,} \PY{n}{bs\PYZus{}replicates\PYZus{}m}\PY{p}{,} \PY{n}{equal\PYZus{}var}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+         
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Welch}\PY{l+s+se}{\PYZbs{}\PYZsq{}}\PY{l+s+s1}{s t\PYZhy{}test:}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{t\PYZhy{}statistic: }\PY{l+s+si}{\PYZob{}:0.5\PYZcb{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{p\PYZhy{}value: }\PY{l+s+si}{\PYZob{}:0.5\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{result}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n}{result}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Welch's t-test:
+t-statistic: 227.09
+p-value: 0.0
+
+    \end{Verbatim}
+
+    Analysis:
+
+The mean human body temperature has been proven to be 98.25°, rather
+than 98.6°. The sample consists of 130 samples; 65 male and 65 female.
+
+A boxplot (Fig. 6.1) shows that the females' mean body temperature is
+slightly higher than the males'.
+
+CDFs (Fig. 6.2) show that both sample sets roughly follow the standard
+normal distribution, with the females' temperatures running a little
+warmer and with slightly more variation.
+
+The distributions for both samples approximate the standard normal
+distribution and both sample sizes are sufficiently large, so the
+Central Limit Theorem applies and inferences can be made based on the
+properties of the normal distribution.
+
+\[H_0: \bar x_m = \bar x_f\] \[H_A: \bar x_m \neq \bar x_f\]
+
+The null hypothesis is that the mean male body temperature is equal to
+the mean female body temperature. An unequal variance \(t\)-test will be
+used to test the means of two continuous distributions with unequal
+variances. Because the null hypothesis is that the means are equal, a
+two-tailed test is required.
+
+The p-values and \(t\)-statistics for both the bootstrap and frequentist
+hypothesis tests require that the null hypothesis be rejected and
+support the alternate hypothesis that mean male and female body
+temperatures are different. A table summarizing the differences between
+male and female mean body temperatures is provided below:
+
+Male
+
+Female
+
+\(\bar x\)
+
+98.105
+
+98.394
+
+\(s\)
+
+0.693
+
+0.738
+
+Margin of Error
+
+1.359
+
+1.446
+
+95\% Conf. Int.
+
+(96.746, 99.464)
+
+(96.948, 99.84)
+
+
+    % Add a bibliography block to the postdoc
+    
+    
+    
+    \end{document}
