@@ -1,0 +1,1311 @@
+,birth_date,college,first_name,height,high_school,last_name,name,position,pref_name,season_count,seasons,weight
+0,1991-02-14,Georgia Southern,James,72,Cairo (GA),Wilcox,J.J. Wilcox,FS,J.J.,5,"[2013, 2014, 2015, 2016, 2017]",212.0
+1,1989-03-31,Virginia,Chase,72,Henry Clay (KY),Minnifield,None Minnifield,CB,,2,"[2013, 2014]",185.0
+2,1983-12-31,South Carolina,Fred,73,,Bennett,None Bennett,CB,,4,"[2007, 2008, 2009, 2010]",200.0
+3,1989-05-07,Texas,Earl,70,West Orange-Stark (TX),Thomas,Earl Thomas,FS,Earl,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",202.0
+4,1994-01-10,Alabama,Landon,72,Dutchtown High School (LA),Collins,Landon Collins,SS,Landon,3,"[2015, 2016, 2017]",225.0
+5,1987-04-12,Western Michigan,Louis,71,North Miami Beach (FL),Delmas,Louis Delmas,FS,Louis,6,"[2009, 2010, 2011, 2012, 2013, 2014]",210.0
+6,1994-11-21,Southern California,Leon,74,Armwood (FL),McQuay,Leon McQuay,DB,Leon,1,[2017],185.0
+7,1990-04-26,Northwest Missouri State,Brandon,71,Coconut Creek (FL),Dixon,Brandon Dixon,CB,Brandon,2,"[2014, 2017]",203.0
+8,1977-03-19,Washington State,Steve,71,,Gleason,None Gleason,S,,7,"[2000, 2001, 2002, 2003, 2004, 2005, 2006]",212.0
+9,,Wisconsin,Shelton,72,,Johnson,None Johnson,S,,1,[2013],197.0
+10,1980-06-25,Virginia Union,Pete,74,,Hunter,None Hunter,DB,,4,"[2002, 2003, 2004, 2005]",212.0
+11,1990-11-04,Auburn,Christopher,71,Woodlawn (AL),Davis,Chris Davis,CB,Chris,3,"[2014, 2015, 2016]",200.0
+12,1983-02-28,Nebraska,Daniel,72,,Bullocks,None Bullocks,S,,2,"[2006, 2008]",212.0
+13,1991-03-01,Idaho,Aaron,71,West Seattle (WA),Grymes,Aaron Grymes,DB,Aaron,1,[2016],183.0
+14,1978-08-05,Syracuse,Will,70,Corcoran (NY),Allen,None Allen,CB,,10,"[2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011]",195.0
+15,1993-03-27,Tennessee,Justin,71,Brunswick (GA),Coleman,Justin Coleman,CB,Justin,3,"[2015, 2016, 2017]",190.0
+16,1983-08-19,Troy,Brandon,73,,Condren,None Condren,S,,2,"[2007, 2008]",205.0
+17,1992-10-06,Northern Iowa,Makinton,71,Lely,Dorleant,Makinton Dorleant,CB,Makinton,1,[2016],185.0
+18,1988-12-14,Fordham,Isa,73,Union (NJ),Abdul-Quddus,Isa Abdul-Quddus,FS,Isa,6,"[2011, 2012, 2013, 2014, 2015, 2016]",203.0
+19,1991-02-23,Syracuse,Shamarko,69,Ocean Lakes (VA),Thomas,Shamarko Thomas,SS,Shamarko,5,"[2013, 2014, 2015, 2016, 2017]",217.0
+20,1980-11-18,UCLA,Ricky,69,,Manning,None Manning,CB,,6,"[2003, 2004, 2005, 2006, 2007, 2008]",195.0
+21,1988-01-22,Georgia,Asher,69,,Allen,None Allen,CB,,3,"[2009, 2010, 2011]",194.0
+22,1978-06-04,LSU,Fred,69,,Booker,None Booker,SS,,1,[2005],188.0
+23,1981-04-18,North Carolina,Dexter,71,,Reid,None Reid,S,,3,"[2004, 2005, 2006]",203.0
+24,1985-08-27,Mississippi,Jamarca,70,South Panola (MS),Sanford,Jamarca Sanford,SS,Jamarca,7,"[2009, 2010, 2011, 2012, 2013, 2014, 2015]",200.0
+25,1994-08-05,Washington State,Shalom,72,Faga'itua (AMS),Luani,Shalom Luani,FS,Shalom,1,[2017],205.0
+26,1993-08-04,North Carolina State,Juston,72,Broughton (NC),Burris,Juston Burris,CB,Juston,2,"[2016, 2017]",202.0
+27,1988-12-13,UCLA,Alterraun,70,Mayfair (CA),Verner,Alterraun Verner,CB,Alterraun,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",187.0
+28,1995-01-20,"St. Francis, Pa.",Lorenzo,70,J.P. Taravella (FL),Jerome,Lorenzo Jerome,FS,Lorenzo,1,[2017],204.0
+29,1991-08-07,San Diego State,Eric,75,Inderkum (CA),Pinkins,Eric Pinkins,LB,Eric,2,"[2015, 2016]",230.0
+30,1989-07-10,New Mexico State,Davon,72,Palmdale (CA),House,Davon House,CB,Davon,7,"[2011, 2012, 2013, 2014, 2015, 2016, 2017]",195.0
+31,1980-06-30,Stanford,Tank,74,Bay (MS),Williams,None Williams,S,,5,"[2002, 2003, 2004, 2005, 2007]",223.0
+32,1993-08-04,Central Florida,Jacoby,72,Vigor,Glenn,Jacoby Glenn,CB,Jacoby,2,"[2015, 2016]",180.0
+33,1981-11-17,Texas,Nathan,71,,Vasher,None Vasher,DB,,7,"[2004, 2005, 2006, 2007, 2008, 2009, 2010]",185.0
+34,1981-01-20,Arkansas,Ken,74,,Hamlin,None Hamlin,S,,8,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010]",208.0
+35,1980-02-16,North Carolina A&T,Jason,72,,Horton,None Horton,CB,,2,"[2004, 2005]",190.0
+36,1981-09-19,Central Florida,Atari,71,,Bigby,None Bigby,S,,8,"[2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",215.0
+37,1995-07-20,Central Florida,Shaquill,72,Lakewood (FL),Griffin,Shaquill Griffin,CB,Shaquill,1,[2017],198.0
+38,1984-03-08,Coastal Carolina,Quinton,72,,Teal,None Teal,S,,4,"[2007, 2008, 2009, 2010]",205.0
+39,1994-03-09,Mississippi,Michael,69,Sandy Creek (GA),Hilton,Mike Hilton,CB,Mike,1,[2017],184.0
+40,1989-02-03,Southern Illinois,Korey,70,Scotlandville Magnet (LA),Lindsey,None Lindsey,CB,,1,[2011],194.0
+41,1979-05-28,North Carolina,Ronald,74,Hampton (VA),Curry,None Curry,S,,7,"[2002, 2003, 2004, 2005, 2006, 2007, 2008]",210.0
+42,1993-09-25,Appalachian State,Douglas,72,Parkland (NC),Middleton,Doug Middleton,SS,Doug,1,[2016],210.0
+43,1994-04-09,UCLA,Fabian,72,Western (FL),Moreau,Fabian Moreau,CB,Fabian,1,[2017],198.0
+44,1986-10-07,Oregon,Jairus,70,Clayton (MO),Byrd,Jairus Byrd,FS,Jairus,9,"[2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",203.0
+45,1989-10-03,Mississippi State,Johnthan,74,East Webster (MS),Banks,Johnthan Banks,CB,Johnthan,5,"[2013, 2014, 2015, 2016, 2017]",185.0
+46,1992-09-23,Florida Atlantic,D'Joun,71,American (FL),Smith,D'Joun Smith,CB,D'Joun,2,"[2015, 2016]",193.0
+47,1995-10-17,Louisiana State,Jamal,73,Carrollton Hebron (TX),Adams,Jamal Adams,SS,Jamal,1,[2017],213.0
+48,1991-12-10,Louisiana State,Eric,73,Dutchtown (LA),Reid,Eric Reid,SS,Eric,5,"[2013, 2014, 2015, 2016, 2017]",213.0
+49,1982-03-17,Arizona State,Chris,69,,McKenzie,None McKenzie,CB,,1,[2005],180.0
+50,1987-09-08,Boise State,Kyle,70,Piscataway (NJ),Wilson,Kyle Wilson,CB,Kyle,6,"[2010, 2011, 2012, 2013, 2014, 2015]",190.0
+51,1987-12-20,Ohio State,Malcolm,72,Piscataway (NJ),Jenkins,Malcolm Jenkins,SS,Malcolm,9,"[2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",204.0
+52,1994-03-22,Oklahoma State,Kevin,71,Wagoner (OK),Peterson,Kevin Peterson,CB,Kevin,1,[2017],180.0
+53,1992-06-01,Central Florida,Clayton,74,Carver's Bay (SC),Geathers,Clayton Geathers,SS,Clayton,3,"[2015, 2016, 2017]",220.0
+54,1987-03-22,USC,Cary,71,,Harris,None Harris,FS,,2,"[2009, 2010]",187.0
+55,1983-04-23,Jackson State,Cletis,73,,Gordon,None Gordon,CB,,4,"[2006, 2007, 2008, 2009]",205.0
+56,1981-07-28,Florida International,Nick,74,,Turnbull,None Turnbull,S,,1,[2006],222.0
+57,1980-01-26,Oklahoma,Andre,74,,Woolfolk,None Woolfolk,CB,,4,"[2003, 2004, 2005, 2006]",197.0
+58,1979-05-26,,Marques,71,,Anderson,None Anderson,S,,4,"[2002, 2003, 2004, 2005]",
+59,1986-12-10,Utah,Brice,69,Terrell (TX),McCain,Brice McCain,CB,Brice,9,"[2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",190.0
+60,1989-05-05,Oklahoma,Jamell,71,Seguin (TX),Fleming,Jamell Fleming,CB,Jamell,4,"[2012, 2013, 2014, 2015]",206.0
+61,1975-09-10,Southern California,Sammy,73,Rubidoux (CA),Knight,None Knight,S,,9,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",215.0
+62,1977-11-15,Arkansas,Kenoy,73,,Kennedy,None Kennedy,S,,8,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007]",215.0
+63,1993-12-15,Purdue,Anthony,71,Hillsborough (FL),Brown,Anthony Brown,CB,Anthony,2,"[2016, 2017]",196.0
+64,1982-12-09,Eastern Washington,Isaiah,68,Wilson (WA),Trufant,None Trufant,DB,,4,"[2010, 2011, 2012, 2013]",170.0
+65,1980-03-05,North Carolina State,Terrence,74,,Holt,None Holt,S,,6,"[2003, 2004, 2005, 2006, 2007, 2008]",208.0
+66,1983-06-09,Nebraska,Fabian,71,,Washington,None Washington,CB,,6,"[2005, 2006, 2007, 2008, 2009, 2010]",175.0
+67,1988-06-12,Boise State,Jeron,70,Dominguez (CA),Johnson,Jeron Johnson,SS,Jeron,6,"[2011, 2012, 2013, 2014, 2015, 2016]",212.0
+68,1989-11-08,Clemson,Jonathan,72,Rock Hill (SC),Meeks,Jonathan Meeks,SS,Jonathan,4,"[2013, 2014, 2015, 2016]",209.0
+69,1990-04-14,Florida State,Terrance,74,,Parks,Terrance Parks,DB,Terrance,1,[2014],215.0
+70,1969-11-28,Tennessee,Dale,73,,Carter,None Carter,CB,,4,"[2001, 2002, 2003, 2005]",210.0
+71,1995-11-26,Michigan,Delano,73,Cass Tech (MI),Hill,Delano Hill,SS,Delano,1,[2017],216.0
+72,1990-10-01,Wisconsin,Dezmen,74,St. Thomas Aquinas (FL),Southward,Dezmen Southward,CB,Dezmen,3,"[2014, 2015, 2017]",208.0
+73,1982-05-05,LSU,Randall,71,,Gay,None Gay,CB,,7,"[2004, 2005, 2006, 2007, 2008, 2009, 2010]",190.0
+74,1992-08-29,San Jose State,Akeem,75,Nipomo (CA),King,Akeem King,CB,Akeem,1,[2015],212.0
+75,1978-04-20,Washington,Omare,73,,Lowe,None Lowe,S,,6,"[2002, 2003, 2004, 2005, 2006, 2008]",195.0
+76,1976-03-31,Minnesota,Tyrone,69,,Carter,None Carter,S,,11,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010]",195.0
+77,1995-05-01,Miami,Artie,72,Northwestern (FL),Burns,Artie Burns,CB,Artie,2,"[2016, 2017]",197.0
+78,1994-02-09,Michigan,Jarrod,74,Buchtel (OH),Wilson,Jarrod Wilson,SS,Jarrod,2,"[2016, 2017]",210.0
+79,1977-03-26,Louisiana State,Mark,71,New Iberia (LA),Roman,None Roman,S,,10,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",203.0
+80,1982-05-04,North Carolina State,Lamont,71,,Reid,None Reid,CB,,1,[2005],195.0
+81,1991-11-07,Oklahoma State,Justin,72,Huntsville (TX),Gilbert,Justin Gilbert,CB,Justin,3,"[2014, 2015, 2016]",202.0
+82,1976-04-26,Memphis,Mike,72,,McKenzie,None McKenzie,CB,,10,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",194.0
+83,1983-02-18,Ohio,Dion,70,,Byrum,None Byrum,CB,,1,[2006],192.0
+84,1991-02-18,Nebraska,Daimion,73,Norco (CA),Stafford,Daimion Stafford,SS,Daimion,4,"[2013, 2014, 2015, 2016]",218.0
+85,1994-11-01,Auburn,Johnathan,72,New Hope (AL),Ford,Rudy Ford,FS,Rudy,1,[2017],204.0
+86,1986-06-25,Iowa,Bradley,72,Liberty (OH),Fletcher,Bradley Fletcher,CB,Bradley,7,"[2009, 2010, 2011, 2012, 2013, 2014, 2015]",200.0
+87,1972-12-27,North Carolina State,DeWayne,71,,Washington,None Washington,CB,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",193.0
+88,1979-09-25,Louisville,Chris,73,Pine Tree (TX),Johnson,None Johnson,CB,,9,"[2003, 2004, 2005, 2007, 2008, 2009, 2010, 2011, 2012]",200.0
+89,1993-06-08,Auburn,Brandon,74,Thompson (AL),King,Brandon King,FS,Brandon,3,"[2015, 2016, 2017]",220.0
+90,1986-08-29,Purdue,Torri,74,,Williams,None Williams,S,,1,[2010],208.0
+91,1985-01-23,Eastern Kentucky,Antwaun,73,Glenville (OH),Molden,None Molden,CB,,5,"[2008, 2009, 2010, 2011, 2012]",199.0
+92,1970-06-08,Wisconsin,Troy,73,Pennsbury (PA),Vincent,None Vincent,S,,7,"[2000, 2001, 2002, 2003, 2004, 2005, 2006]",200.0
+93,1982-03-01,Louisiana Tech,Jerron,72,,Wishom,None Wishom,CB,,1,[2005],197.0
+94,1973-01-04,Texas A&M,Ray,68,,Mickens,None Mickens,DB,,6,"[2000, 2001, 2002, 2003, 2005, 2006]",180.0
+95,1982-08-31,Southern Arkansas,Jordan,72,,Babineaux,None Babineaux,S,,9,"[2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",210.0
+96,1986-11-08,Arkansas,Jamar,72,North Little Rock (AR),Love,None Love,CB,,1,[2009],190.0
+97,1974-09-06,Maryland,Chad,71,,Scott,None Scott,DB,,7,"[2000, 2001, 2002, 2003, 2004, 2005, 2006]",205.0
+98,1979-03-22,Florida State,Derrick,74,,Gibson,None Gibson,S,,5,"[2001, 2002, 2003, 2005, 2006]",210.0
+99,1980-12-19,Tuskegee,Drayton,72,Vanguard (FL),Florence,None Florence,CB,,11,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",193.0
+100,1995-01-16,Louisiana State,Tre'Davious,71,Green Oaks,White,Tre'Davious White,CB,Tre'Davious,1,[2017],192.0
+101,1994-02-07,Illinois,Justin,73,Glenville (OH),Hardee,Justin Hardee,DB,Justin,1,[2017],200.0
+102,1983-07-23,Illinois,Kelvin,72,Hubbard (IL),Hayden,None Hayden,DB,,9,"[2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014]",195.0
+103,1993-10-19,Notre Dame,KeiVarae,71,Mariner (WA),Russell,KeiVarae Russell,CB,KeiVarae,2,"[2016, 2017]",196.0
+104,1993-05-03,North Carolina A&T,Tony,70,Scotland County (NC),McRae,Tony McRae,CB,Tony,1,[2017],185.0
+105,1981-10-03,Auburn,Roderick,71,,Hood,None Hood,CB,,8,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011]",201.0
+106,1980-11-17,LSU,Adrian,73,,Mayes,None Mayes,S,,2,"[2004, 2005]",215.0
+107,1985-10-12,Nicholls State,Lardarius,70,Beauregard (AL),Webb,Lardarius Webb,FS,Lardarius,9,"[2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",185.0
+108,1989-07-31,Utah,Brandon,72,Clear Creek (TX),Burton,None Burton,CB,,3,"[2011, 2012, 2013]",185.0
+109,,Florida,Loucheiz,73,Pine Forest (FL),Purifoy,None Purifoy,CB,,1,[2014],188.0
+110,1992-07-17,Eastern Washington,Tevin,71,Edison High School,McDonald,Tevin McDonald,FS,Tevin,1,[2015],195.0
+111,1982-02-11,Tennessee,Jabari,71,South Side (TN),Greer,None Greer,CB,,10,"[2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",180.0
+112,1978-09-11,Miami (FL),Ed,71,Destrehan (LA),Reed,None Reed,S,,12,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",205.0
+113,1988-10-20,Georgia Tech,Mario,73,Nease (FL),Butler,Mario Butler,CB,Mario,2,"[2012, 2015]",187.0
+114,1976-03-26,Ohio State,Ahmed,72,,Plummer,None Plummer,CB,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",191.0
+115,1987-09-09,Rice,Andrew,73,Smithson Valley (TX),Sendejo,Andrew Sendejo,SS,Andrew,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",210.0
+116,1980-08-27,Bethune-Cookman,Rashean,73,Englewood (FL),Mathis,Rashean Mathis,CB,Rashean,13,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]",195.0
+117,1995-08-26,Texas A&M,Justin,73,Stone (MS),Evans,Justin Evans,SS,Justin,1,[2017],195.0
+118,1984-04-16,South Carolina,Johnathan,71,Northwestern (SC),Joseph,Johnathan Joseph,CB,Johnathan,12,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",185.0
+119,1990-03-08,Connecticut,Dwayne,71,Piscataway (NJ),Gratz,Dwayne Gratz,CB,Dwayne,4,"[2013, 2014, 2015, 2016]",201.0
+120,1976-11-24,Cincinnati,Artrell,70,,Hawkins,None Hawkins,DB,,7,"[2000, 2001, 2002, 2003, 2004, 2005, 2006]",195.0
+121,1982-11-15,North Carolina State,Marcus,74,,Hudson,None Hudson,S,,5,"[2006, 2007, 2008, 2009, 2010]",200.0
+122,1989-11-17,Stanford,Delano,71,Hart (CA),Howell,None Howell,S,,2,"[2012, 2013]",197.0
+123,1989-06-16,San Jose State,Duke,73,Serra (CA),Ihenacho,Duke Ihenacho,SS,Duke,5,"[2012, 2013, 2014, 2015, 2016]",207.0
+124,1987-01-06,Wisconsin,Christopher,70,Horlick (WI),Maragos,Chris Maragos,SS,Chris,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",200.0
+125,1983-09-26,Tusculum,Ricardo,71,,Colclough,None Colclough,DB,,6,"[2004, 2005, 2006, 2007, 2008, 2009]",194.0
+126,1982-02-22,Pittsburgh,Shawntae,73,Woodland Hills (PA),Spencer,None Spencer,CB,,9,"[2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",190.0
+127,1993-06-30,Texas A&M,De'Vante,71,Horn (TX),Harris,De'Vante Harris,CB,De'Vante,2,"[2016, 2017]",190.0
+128,1987-04-14,Temple,Dominique,74,,Harris,None Harris,S,,1,[2010],213.0
+129,1996-05-21,Washington,Sidney,72,West Covina (CA),Jones,Sidney Jones,CB,Sidney,1,[2017],181.0
+130,1988-01-29,Texas A&M,Jordan,71,Plano West (TX),Pugh,None Pugh,S,,4,"[2010, 2011, 2012, 2013]",210.0
+131,1984-02-20,Auburn,Pat,72,Columbus (FL),Lee,None Lee,CB,,4,"[2008, 2010, 2011, 2012]",195.0
+132,1991-10-02,Oklahoma,Aaron,72,Owasso (OK),Colvin,Aaron Colvin,CB,Aaron,4,"[2014, 2015, 2016, 2017]",193.0
+133,1977-06-24,Ohio State,Antoine,69,Garfield (OH),Winfield,None Winfield,CB,,13,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",180.0
+134,1988-09-24,Texas,Curtis,72,Gilmer (TX),Brown,Curtis Brown,CB,Curtis,3,"[2011, 2012, 2013]",185.0
+135,1980-07-13,USC,Chris,70,,Cash,None Cash,CB,,3,"[2002, 2004, 2005]",185.0
+136,1993-07-04,Baylor,Xavien,74,Wheatley (TX),Howard,Xavien Howard,CB,Xavien,2,"[2016, 2017]",200.0
+137,1982-12-02,UCLA,Matt,75,,Ware,None Ware,S,,7,"[2004, 2005, 2006, 2007, 2008, 2009, 2010]",218.0
+138,1989-12-21,Louisiana State,Craig,74,Eisenhower (TX),Loston,Craig Loston,SS,Craig,2,"[2014, 2015]",209.0
+139,1979-10-10,Alabama,Reggie,71,,Myles,None Myles,S,,4,"[2002, 2003, 2004, 2005]",195.0
+140,1988-04-01,West Virginia,Brandon,70,,Hogan,None Hogan,CB,,1,[2011],190.0
+141,1992-11-30,Ohio State,Doran,70,St. Vincent-St. Mary (OH),Grant,Doran Grant,CB,Doran,1,[2015],200.0
+142,1982-12-16,Miami,Antrel,72,South Dade (FL),Rolle,Antrel Rolle,S,Antrel,11,"[2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]",206.0
+143,1985-11-21,Clemson,Mike,74,,Hamlin,None Hamlin,S,,2,"[2009, 2010]",213.0
+144,1990-06-26,Louisiana-Lafayette,Melvin,73,Brazosport (TX),White,Melvin White,CB,Melvin,2,"[2013, 2014]",205.0
+145,1989-04-02,Maine,Jerron,71,Hillside HS (NJ),McMillian,None McMillian,S,,2,"[2012, 2013]",203.0
+146,1983-01-27,Miami (FL),Tanard,69,,Davis,None Davis,CB,,1,[2007],184.0
+147,1978-02-05,San Diego State,Brian,74,Bishop Amat Memorial (CA),Russell,None Russell,S,,8,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",210.0
+148,1983-05-25,Oklahoma State,Jamie,72,,Thompson,None Thompson,S,,1,[2006],192.0
+149,1991-12-30,Notre Dame,Cody,69,St. Thomas Aquinas (FL),Riggs,Cody Riggs,CB,Cody,2,"[2015, 2016]",187.0
+150,1992-10-27,Houston,William,72,Wheatley (TX),Jackson,William Jackson,CB,William,1,[2017],187.0
+151,1989-12-05,Connecticut,Blidi,73,General McLane (PA),Wreh-Wilson,Blidi Wreh-Wilson,CB,Blidi,5,"[2013, 2014, 2015, 2016, 2017]",190.0
+152,1984-01-08,Virginia Tech,Aaron,76,First Colonial (VA),Rouse,None Rouse,S,,3,"[2007, 2008, 2009]",223.0
+153,1978-06-22,Georgia,Champ,72,Charlton Co. (GA),Bailey,None Bailey,CB,,14,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",192.0
+154,1982-06-12,Washington State,Jason,68,,David,None David,DB,,6,"[2004, 2005, 2006, 2007, 2008, 2009]",180.0
+155,1983-11-13,Northwestern,Marquice,70,Hillcrest (IL),Cole,None Cole,CB,,5,"[2009, 2010, 2011, 2012, 2013]",195.0
+156,1980-01-31,Georgia,Bruce,70,,Thornton,None Thornton,CB,,2,"[2004, 2005]",192.0
+157,1982-06-03,Clemson,Tye,70,,Hill,None Hill,CB,,5,"[2006, 2007, 2008, 2009, 2010]",185.0
+158,1985-08-21,California,Dante,70,,Hughes,None Hughes,DB,,5,"[2007, 2008, 2009, 2010, 2011]",186.0
+159,1978-03-19,Arkansas-Pine Bluff,Greg,74,,Wesley,None Wesley,S,,8,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007]",206.0
+160,1993-07-18,Florida State,Javien,71,Rutherford (FL),Elliott,Javien Elliott,CB,Javien,2,"[2016, 2017]",176.0
+161,1989-10-25,Louisiana State,Delvin,73,McDonogh 35 (LA),Breaux,Delvin Breaux,CB,Delvin,2,"[2015, 2016]",196.0
+162,1991-01-26,Oklahoma State,Andrew,70,Vista Ridge (TX),Patmon,Tyler Patmon,CB,Tyler,3,"[2014, 2015, 2017]",188.0
+163,1988-06-20,Notre Dame,Darrin,72,Woodland Hills (PA),Walls,Darrin Walls,CB,Darrin,5,"[2011, 2012, 2013, 2014, 2015]",190.0
+164,1983-01-31,Penn State,Ethan,72,,Kilmer,None Kilmer,S,,2,"[2006, 2007]",205.0
+165,1973-05-18,Louisiana State,Tory,74,Archbishop Shaw (LA),James,None James,CB,,7,"[2000, 2001, 2002, 2003, 2004, 2005, 2006]",190.0
+166,1989-10-30,Boise State,Brandyn,70,,Thompson,None Thompson,DB,,1,[2011],188.0
+167,1992-01-27,Oklahoma,Tony,71,Eastlake (CA),Jefferson,Tony Jefferson,SS,Tony,5,"[2013, 2014, 2015, 2016, 2017]",212.0
+168,1981-09-23,Washington,Roc,70,Roy J. Wasson (CO),Alexander,None Alexander,CB,,3,"[2004, 2005, 2006]",190.0
+169,1983-11-25,Texas Christian,Quincy,73,,Butler,None Butler,CB,,4,"[2006, 2008, 2009, 2010]",188.0
+170,1988-07-20,South Carolina State,Phillip,71,Rock Hill (SC),Adams,Phillip Adams,CB,Phillip,6,"[2010, 2011, 2012, 2013, 2014, 2015]",195.0
+171,1991-03-26,UCLA,Sheldon,74,Bishop Amat (CA),Price,Sheldon Price,CB,Sheldon,5,"[2013, 2014, 2015, 2016, 2017]",194.0
+172,1990-03-17,Stanford,Michael,71,Nimitz (TX),Thomas,Michael Thomas,SS,Michael,5,"[2013, 2014, 2015, 2016, 2017]",195.0
+173,1987-05-12,South Carolina State,Rafael,71,Elko (SC),Bush,Rafael Bush,SS,Rafael,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",205.0
+174,1989-10-26,Alabama,D'Andre,74,Gadsden City (AL),Kirkpatrick,Dre Kirkpatrick,CB,Dre,6,"[2012, 2013, 2014, 2015, 2016, 2017]",185.0
+175,1980-10-09,Louisiana-Lafayette,Kyries,75,Eunice (LA),Hebert,None Hebert,S,,3,"[2002, 2008, 2009]",220.0
+176,1976-11-12,Iowa,Matt,73,,Bowen,None Bowen,S,,7,"[2000, 2001, 2002, 2003, 2004, 2005, 2006]",203.0
+177,1993-01-21,Minnesota,Briean,69,Wilmington Delcastle Tech (DE),Boddy-Calhoun,Briean Boddy-Calhoun,CB,Briean,2,"[2016, 2017]",193.0
+178,1985-10-26,Oklahoma,Lendy,73,,Holmes,None Holmes,S,,1,[2009],201.0
+179,1990-02-16,Arizona State,Robert,69,North Gwinnett (FL),Nelson,Robert Nelson,CB,Robert,4,"[2014, 2015, 2016, 2017]",175.0
+180,1993-01-23,East Carolina,Joshua,70,Glenn (NC),Hawkins,Josh Hawkins,CB,Josh,2,"[2016, 2017]",189.0
+181,1993-12-15,Texas Christian,Derrick,70,Wagner (TX),Kindred,Derrick Kindred,SS,Derrick,2,"[2016, 2017]",210.0
+182,1987-01-13,South Florida,Jerome,72,Elizabeth (NJ),Murphy,None Murphy,CB,,3,"[2010, 2012, 2013]",200.0
+183,1980-09-16,Boise State,Quintin,70,Willamette (OR),Mikell,None Mikell,S,,11,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",204.0
+184,1984-05-24,Oklahoma,Brodney,74,,Pool,None Pool,S,,7,"[2005, 2006, 2007, 2008, 2009, 2010, 2011]",210.0
+185,1991-02-16,Utah State,Maurice,73,Eureka High School (MO),Alexander,Maurice Alexander,SS,Maurice,4,"[2014, 2015, 2016, 2017]",222.0
+186,1985-06-29,Texas-El Paso,Quintin,71,Roosevelt (TX),Demps,Quintin Demps,SS,Quintin,10,"[2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",216.0
+187,1978-12-07,Memphis,Idrees,74,,Bashir,None Bashir,S,,6,"[2001, 2002, 2003, 2004, 2005, 2007]",198.0
+188,1983-04-01,Miami (FL),Sean,74,,Taylor,None Taylor,S,,4,"[2004, 2005, 2006, 2007]",212.0
+189,1991-04-26,New Mexico State,Jeremy,74,Dorsey (CA),Harris,Jeremy Harris,CB,Jeremy,2,"[2014, 2015]",185.0
+190,1992-07-07,Texas,Carrington,72,Lufkin (TX),Byndom,Carrington Byndom,CB,Carrington,1,[2014],180.0
+191,1985-05-08,Kent State,Usama,72,Largo (MD),Young,None Young,S,,8,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]",200.0
+192,1993-01-25,North Carolina,Tim,71,Colonial Forge,Scott,Tim Scott,FS,Tim,1,[2017],195.0
+193,1984-12-25,Texas,Brandon,68,,Foster,None Foster,DB,,1,[2008],185.0
+194,1985-07-27,Washington State,Husain,72,Pomona (CA),Abdullah,Husain Abdullah,FS,Husain,7,"[2008, 2009, 2010, 2011, 2013, 2014, 2015]",204.0
+195,1991-01-03,Tarleton State,Dashaun,71,Duncanville (TX),Phillips,Dashaun Phillips,CB,Dashaun,2,"[2015, 2016]",186.0
+196,1991-04-04,Rice,Phillip,72,Judson (MA),Gaines,Phillip Gaines,CB,Phillip,4,"[2014, 2015, 2016, 2017]",193.0
+197,1985-01-05,Georgia,Tra,71,Mary Persons (GA),Battle,None Battle,S,,1,[2008],173.0
+198,1984-08-13,Nicholls State,Kareem,71,,Moore,None Moore,S,,3,"[2008, 2009, 2010]",217.0
+199,1982-11-11,Texas,Cedric,72,Holmes (TX),Griffin,None Griffin,CB,,7,"[2006, 2007, 2008, 2009, 2010, 2011, 2012]",195.0
+200,1994-08-11,Louisiana Tech,Kentrell,71,Ruston (LA),Brice,Kentrell Brice,FS,Kentrell,2,"[2016, 2017]",200.0
+201,1990-04-12,Nebraska,Stanley,75,Westlake Prep (FL),Jean-Baptiste,Stanley Jean-Baptiste,CB,Stanley,2,"[2014, 2017]",215.0
+202,1994-05-31,Northern Iowa,Deiondre',74,Blue Springs (MO),Hall,Deiondre' Hall,CB,Deiondre',2,"[2016, 2017]",206.0
+203,1992-07-02,Michigan State,Tony,75,Crockett (MI),Lippett,Tony Lippett,CB,Tony,2,"[2015, 2016]",192.0
+204,1992-06-25,North Carolina,Jayestin,73,North Fort Myers (FL),Boston,Tre Boston,FS,Tre,4,"[2014, 2015, 2016, 2017]",205.0
+205,1980-10-29,Pittsburgh,Torrie,70,,Cox,None Cox,CB,,6,"[2003, 2004, 2005, 2006, 2007, 2009]",192.0
+206,1980-12-25,Washington State,Marcus,71,Wilson (WA),Trufant,None Trufant,CB,,10,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",197.0
+207,1994-05-11,West Virginia,Kimlon,73,Apopka (FL),Dillon,K.J. Dillon,SS,K.J.,1,[2016],203.0
+208,1993-06-05,San Diego State,Damontae,71,Cajon (CA),Kazee,Damontae Kazee,SS,Damontae,1,[2017],174.0
+209,1992-05-13,Louisiana State,Tyrann,69,St. Augustine (LA),Mathieu,Tyrann Mathieu,FS,Tyrann,5,"[2013, 2014, 2015, 2016, 2017]",186.0
+210,1993-09-09,Georgia Tech,David,71,Union Grove (GA),White,D.J. White,CB,D.J.,2,"[2016, 2017]",193.0
+211,1988-08-17,South Carolina,Chris,72,Garner (NC),Culliver,Chris Culliver,CB,Chris,5,"[2011, 2012, 2014, 2015, 2016]",199.0
+212,1991-08-31,William & Mary,Jerome,74,Bishop McNamara (MD),Couplin,Jerome Couplin,SS,Jerome,2,"[2014, 2015]",215.0
+213,1982-06-20,Fresno State,Therrian,70,Leuzinger (CA),Fontenot,None Fontenot,DB,,2,"[2005, 2006]",185.0
+214,1987-05-11,Penn State,Justin,71,Gateway (PA),King,None King,CB,,4,"[2009, 2010, 2011, 2012]",197.0
+215,1978-04-28,Colorado State,John,72,,Howell,None Howell,S,,5,"[2001, 2002, 2003, 2004, 2005]",210.0
+216,1992-10-03,Louisville,Charles,70,Central,Gaines,Charles Gaines,CB,Charles,1,[2015],180.0
+217,1988-12-20,Arizona State,Omar,70,Colony (CA),Bolden,Omar Bolden,FS,Omar,4,"[2012, 2013, 2014, 2015]",195.0
+218,1984-02-02,Samford,Cortland,70,Milton (FL),Finnegan,Cortland Finnegan,CB,Cortland,10,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]",188.0
+219,1992-09-09,Texas A&M,Brandon,72,Royal (TX),Williams,Brandon Williams,CB,Brandon,2,"[2016, 2017]",200.0
+220,1973-03-17,Memphis,Jerome,75,,Woods,None Woods,S,,5,"[2000, 2001, 2003, 2004, 2005]",205.0
+221,1988-12-29,Tennessee,James,72,Creekside (GA),Berry,Eric Berry,SS,Eric,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",212.0
+222,1978-12-18,Florida,Todd,73,,Johnson,None Johnson,S,,7,"[2003, 2004, 2005, 2006, 2007, 2008, 2009]",202.0
+223,1993-01-22,Texas,Quandre,69,Angleton (TX),Diggs,Quandre Diggs,CB,Quandre,3,"[2015, 2016, 2017]",200.0
+224,1993-02-05,Ball State,Eric,70,H.B. Plant ,Patterson,Eric Patterson,CB,Eric,1,[2015],193.0
+225,1996-07-08,Alabama,Marlon,72,Hoover (AL),Humphrey,Marlon Humphrey,CB,Marlon,1,[2017],197.0
+226,1991-09-14,Alabama,DeMarcus,72,Stanhope Elmore (AL),Milliner,Dee Milliner,CB,Dee,3,"[2013, 2014, 2015]",201.0
+227,1986-08-11,Indiana,Tracy,71,Port Allen (LA),Porter,Tracy Porter,CB,Tracy,9,"[2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]",190.0
+228,1982-03-12,Georgia,Greg,74,,Blue,None Blue,S,,2,"[2006, 2007]",216.0
+229,1986-09-15,Maryland,Kevin,73,,Barnes,None Barnes,CB,,4,"[2009, 2010, 2011, 2012]",190.0
+230,1993-04-19,Oklahoma State,Michael,72,West Monroe (LA),Hunter,Michael Hunter,CB,Michael,2,"[2016, 2017]",186.0
+231,1994-10-24,Florida State,Jalen,74,Brentwood Academy (TN),Ramsey,Jalen Ramsey,CB,Jalen,2,"[2016, 2017]",208.0
+232,1991-02-15,Texas,Kenny,72,Early (TX),Vaccaro,Kenny Vaccaro,SS,Kenny,5,"[2013, 2014, 2015, 2016, 2017]",214.0
+233,1985-06-17,Louisiana-Lafayette,Michael,68,Kimball (TX),Adams,None Adams,DB,,7,"[2007, 2008, 2009, 2010, 2011, 2012, 2013]",181.0
+234,1993-02-06,Colorado,Kenneth,73,H.D.Woodson (DC),Crawley,Ken Crawley,CB,Ken,2,"[2016, 2017]",180.0
+235,1983-01-08,Syracuse,Steve,71,Curtis (NY),Gregory,None Gregory,S,,8,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",200.0
+236,1982-01-17,Toledo,Patrick,74,Schenley (PA),Body,None Body,S,,2,"[2005, 2007]",198.0
+237,1991-10-14,Florida Atlantic,Sharrod,72,Braden River (FL),Neasman,Sharrod Neasman,SS,Sharrod,2,"[2016, 2017]",198.0
+238,1992-09-15,Georgia Tech,Christopher,71,Charlton County (GA),Milton,Chris Milton,CB,Chris,2,"[2016, 2017]",196.0
+239,1979-09-12,Central Florida,Travis,70,,Fisher,None Fisher,CB,,8,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",194.0
+240,1981-01-20,Northern Iowa,Benny,70,,Sapp,None Sapp,CB,,8,"[2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011]",190.0
+241,1988-10-09,Florida International,Anthony,70,Northwestern (FL),Gaitor,Anthony Gaitor,CB,Anthony,2,"[2011, 2012]",182.0
+242,1990-10-26,San Diego State,Leon,70,St. John Bosco (CA),McFadden,Leon McFadden,CB,Leon,5,"[2013, 2014, 2015, 2016, 2017]",190.0
+243,1985-11-07,Jackson State,D.J.,73,La Marque (TX),Johnson,None Johnson,DB,,4,"[2009, 2010, 2011, 2012]",191.0
+244,1989-06-18,Kansas,Christopher,70,Bixby (OK),Harris,Chris Harris,CB,Chris,7,"[2011, 2012, 2013, 2014, 2015, 2016, 2017]",199.0
+245,1981-07-06,California,Nnamdi,74,Narbonne (CA),Asomugha,None Asomugha,CB,,11,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",210.0
+246,1981-02-01,Penn State,Rich,70,,Gardner,None Gardner,DB,,3,"[2004, 2005, 2006]",194.0
+247,1985-04-04,Auburn,Eric,72,,Brock,None Brock,S,,2,"[2008, 2009]",202.0
+248,1993-09-15,Penn State,Trevor,71,Calvert Hall (MD),Williams,Trevor Williams,CB,Trevor,2,"[2016, 2017]",191.0
+249,1990-04-23,Texas,Aaron,72,McNeil (TX),Williams,Aaron Williams,SS,Aaron,6,"[2011, 2012, 2013, 2014, 2015, 2016]",199.0
+250,1975-11-03,William & Mary,Darren,74,,Sharper,None Sharper,S,,11,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010]",210.0
+251,1974-02-10,Michigan,Ty,71,Aliquippa (PA),Law,None Law,CB,,10,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",200.0
+252,1988-04-10,Alabama,Kareem,70,Westside (GA),Jackson,Kareem Jackson,CB,Kareem,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",185.0
+253,1986-09-05,Arizona,Nathrain,73,,Ness,Nate Ness,S,Nate,4,"[2009, 2010, 2011, 2014]",206.0
+254,1989-11-17,Nebraska,DeJon,72,Logan (CA),Gomes,None Gomes,S,,3,"[2011, 2012, 2013]",201.0
+255,1986-01-15,New Mexico,Glover,72,North Pike (MS),Quin,Glover Quin,FS,Glover,9,"[2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",207.0
+256,1990-03-31,Boise State,George,76,Kempner (TX),Iloka,George Iloka,FS,George,6,"[2012, 2013, 2014, 2015, 2016, 2017]",225.0
+257,1987-11-11,Ohio State,Jermale,73,,Hines,None Hines,S,,1,[2011],222.0
+258,1991-02-27,Virginia Tech,Antone,72,Deep Run (VA),Exum,Antone Exum,FS,Antone,3,"[2014, 2015, 2017]",219.0
+259,1988-09-09,Virginia Tech,Roc,70,Gwynn Park (MD),Carmichael,None Carmichael,CB,,4,"[2011, 2012, 2013, 2014]",184.0
+260,1990-11-15,Kansas,Bradley,73,Scioto (OH),McDougald,Bradley McDougald,FS,Bradley,5,"[2013, 2014, 2015, 2016, 2017]",209.0
+261,1978-02-13,Nebraska,Mike,70,Saguaro (AZ),Brown,None Brown,S,,10,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",205.0
+262,1987-05-19,William & Mary,David,71,Montclair (NJ),Caldwell,None Caldwell,DB,,1,[2011],212.0
+263,1993-11-12,Clemson,Mackensie,70,Immokalee (FL),Alexander,Mackensie Alexander,CB,Mackensie,2,"[2016, 2017]",192.0
+264,1985-03-12,Rutgers,Derrick,70,Northeast (FL),Roberson,None Roberson,DB,,2,"[2009, 2010]",182.0
+265,1978-07-30,Washington State,Lamont,73,,Thompson,None Thompson,S,,6,"[2002, 2003, 2004, 2005, 2006, 2007]",215.0
+266,1991-06-19,Liberty,Walter,73,Harding University (IL),Aikens,Walt Aikens,CB,Walt,4,"[2014, 2015, 2016, 2017]",212.0
+267,1981-02-24,Iowa,Bob,68,,Sanders,None Sanders,S,,8,"[2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011]",206.0
+268,1988-03-07,Nebraska,Larry,72,Annandale (VA),Asante,Larry Asante,FS,Larry,5,"[2010, 2011, 2013, 2014, 2015]",210.0
+269,1985-03-19,California,Thomas,74,Pinole Valley (CA),DeCoud,None DeCoud,S,,7,"[2008, 2009, 2010, 2011, 2012, 2013, 2014]",195.0
+270,1989-06-01,Syracuse,Mike,71,,Holmes,None Holmes,DB,,1,[2011],184.0
+271,,,Victor,0,,Harris,None Harris,S,,2,"[2009, 2010]",
+272,1992-02-04,Fresno State,Derron,70,Banning High School (CA),Smith,Derron Smith,SS,Derron,3,"[2015, 2016, 2017]",200.0
+273,1981-06-23,Stanford,Oshiomogho,71,,Atogwe,None Atogwe,S,,7,"[2005, 2006, 2007, 2008, 2009, 2010, 2011]",205.0
+274,1983-08-24,Oregon State,Sabby,75,,Piscitelli,None Piscitelli,S,,5,"[2007, 2008, 2009, 2010, 2011]",224.0
+275,1986-11-19,Georgia Tech,Jahi,72,,Word-Daniels,None Word-Daniels,DB,,1,[2009],194.0
+276,1976-12-09,USC,Daylon,70,,McCutcheon,None McCutcheon,DB,,7,"[2000, 2001, 2002, 2003, 2004, 2005, 2006]",190.0
+277,1994-04-05,Connecticut,Henry,75,Grafton (MA),Melifonwu,Obi Melifonwu,DB,Obi,1,[2017],217.0
+278,1989-09-09,Vanderbilt,Casey,71,Perry HS (GA),Hayward,Casey Hayward,CB,Casey,6,"[2012, 2013, 2014, 2015, 2016, 2017]",192.0
+279,1994-10-27,Midwestern State,Marqui,71,Spring (TX),Christian,Marqui Christian,SS,Marqui,2,"[2016, 2017]",200.0
+280,1992-05-16,Georgia Tech,Isaiah,73,Sandy Creek (GA),Johnson,Isaiah Johnson,FS,Isaiah,3,"[2015, 2016, 2017]",207.0
+281,1979-01-22,Southern Mississippi,Chad,69,,Williams,None Williams,S,,5,"[2002, 2003, 2004, 2005, 2006]",207.0
+282,1989-09-27,Duke,Matthew,72,Fayette County (GA),Daniels,Matt Daniels,SS,Matt,4,"[2012, 2013, 2014, 2015]",212.0
+283,1981-09-24,Duquesne,Leigh,73,,Bodden,None Bodden,DB,,8,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011]",193.0
+284,1994-08-29,West Virginia,Rasul,74,East Orange (NJ),Douglas,Rasul Douglas,CB,Rasul,1,[2017],209.0
+285,1984-10-12,Troy,Jerald,73,,Martin,Sherrod Martin,FS,Sherrod,6,"[2009, 2010, 2011, 2012, 2014, 2015]",200.0
+286,1993-10-23,Maryland,Sean,73,Maret (DC),Davis,Sean Davis,SS,Sean,2,"[2016, 2017]",202.0
+287,1983-06-30,Michigan,Marlin,72,,Jackson,None Jackson,DB,,5,"[2005, 2006, 2007, 2008, 2009]",196.0
+288,1983-07-19,Shippensburg,Brent,70,Northeast (PA),Grimes,Brent Grimes,CB,Brent,11,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",185.0
+289,1993-09-18,Southern Utah,LeShaun,72,Andre Agassi Prep (NV),Sims,LeShaun Sims,CB,LeShaun,2,"[2016, 2017]",203.0
+290,1983-07-23,Wisconsin,Scott,69,,Starks,None Starks,CB,,5,"[2005, 2006, 2007, 2008, 2009]",176.0
+291,1984-03-27,Tennessee,Jonathan,71,,Wade,None Wade,DB,,5,"[2007, 2008, 2009, 2010, 2011]",200.0
+292,1989-10-18,Wake Forest,Kenny,73,,Okoro,None Okoro,DB,,1,[2014],190.0
+293,1978-03-03,Eastern Kentucky,Yeremiah,72,Winchester Clark (KY),Bell,None Bell,S,,10,"[2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",205.0
+294,1980-11-24,Colorado,Donald,70,,Strickland,None Strickland,S,,9,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011]",185.0
+295,1988-07-03,Texas-San Antonio,Ted,73,John Tyler (TX),Williams,Teddy Williams,CB,Teddy,6,"[2010, 2012, 2013, 2014, 2015, 2016]",210.0
+296,1985-01-04,Utah,Eric,71,Alta Loma (CA),Weddle,Eric Weddle,FS,Eric,11,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",200.0
+297,1980-03-02,Stanford,Colin,72,,Branch,None Branch,S,,3,"[2003, 2004, 2006]",203.0
+298,1987-02-17,Texas-El Paso,Da'Mon,74,Rancho Verde (CA),Cromartie-Smith,Da'Mon Cromartie-Smith,SS,Da'Mon,3,"[2011, 2012, 2013]",203.0
+299,1994-06-29,Ohio State,Gareon,72,Massillon Washington (OH),Conley,Gareon Conley,DB,Gareon,1,[2017],195.0
+300,1986-04-12,LSU,Chris,73,,Hawkins,None Hawkins,CB,,1,[2011],184.0
+301,1990-09-19,South Carolina,Stephon,73,South Pointe (SC),Gilmore,Stephon Gilmore,CB,Stephon,6,"[2012, 2013, 2014, 2015, 2016, 2017]",190.0
+302,1986-05-17,Oregon State,Keenan,73,O. Perry Walker (LA),Lewis,Keenan Lewis,CB,Keenan,7,"[2009, 2010, 2011, 2012, 2013, 2014, 2015]",208.0
+303,1982-04-08,Louisville,Antoine,70,,Harris,None Harris,S,,3,"[2007, 2008, 2009]",205.0
+304,1991-03-24,Oklahoma,Demontre,70,Lancaster (TX),Hurst,Demontre Hurst,CB,Demontre,4,"[2014, 2015, 2016, 2017]",183.0
+305,1993-08-17,Middle Tennessee,Kevin,71,Martin Luther King (GA),Byard,Kevin Byard,FS,Kevin,2,"[2016, 2017]",212.0
+306,1991-04-13,South Carolina State,Kimario,71,Mundy Mills,McFadden,Kimario McFadden,S,Kimario,1,[2015],197.0
+307,1985-01-06,Texas,Tarell,71,North (TX),Brown,Tarell Brown,CB,Tarell,9,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]",190.0
+308,1988-07-25,Arkansas State,M.D.,72,Calhoun City (MS),Jennings,None Jennings,S,,3,"[2011, 2012, 2013]",195.0
+309,1990-04-07,Georgia Tech,Jemea,70,Fitzgerald (GA),Thomas,Jemea Thomas,CB,Jemea,1,[2014],195.0
+310,1992-04-06,Wyoming,Marqueston,71,Liberty-Eylau (TX),Huff,Marqueston Huff,FS,Marqueston,3,"[2014, 2015, 2016]",196.0
+311,1994-12-13,Utah,Dominique,70,Crenshaw (CA),Hatfield,Dominique Hatfield,CB,Dominique,1,[2017],170.0
+312,1983-03-06,Eastern Michigan,Chris,71,,Roberson,None Roberson,CB,,2,"[2005, 2008]",190.0
+313,1987-12-08,Miami,Samuel,71,Booker (FL),Shields,Sam Shields,CB,Sam,7,"[2010, 2011, 2012, 2013, 2014, 2015, 2016]",184.0
+314,1991-01-03,Emporia State,Jeff,74,,Richards,Jeff Richards,DB,Jeff,1,[2017],200.0
+315,1980-03-15,Kansas State,Rashad,74,,Washington,None Washington,S,,4,"[2004, 2005, 2006, 2007]",210.0
+316,1983-09-21,Florida,Reggie,71,Palm Bay (FL),Nelson,Reggie Nelson,FS,Reggie,11,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",210.0
+317,1990-12-31,Iowa,Micah,72,Fostoria (OH),Hyde,Micah Hyde,SS,Micah,5,"[2013, 2014, 2015, 2016, 2017]",197.0
+318,1980-10-14,Northwestern State-Louisiana,Terrence,69,,McGee,None McGee,CB,,10,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",205.0
+319,1990-02-11,UCLA,Rahim,73,Susan Miller Dorsey (CA),Moore,Rahim Moore,FS,Rahim,5,"[2011, 2012, 2013, 2014, 2015]",195.0
+320,1983-03-06,Texas,Michael,72,Nimitz (TX),Huff,None Huff,S,,8,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",211.0
+321,1994-01-02,Florida State,Ronald,71,Potomac,Darby,Ronald Darby,CB,Ronald,3,"[2015, 2016, 2017]",193.0
+322,1986-10-06,Central Florida,Sha'reff,72,,Rashad,None Rashad,S,,2,"[2009, 2010]",198.0
+323,1977-07-28,Florida State,Dexter,72,,Jackson,None Jackson,S,,9,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",210.0
+324,1983-11-29,Miami (OH),Darrell,71,,Hunter,None Hunter,CB,,1,[2006],211.0
+325,1981-09-17,Florida State,Michael,75,Spring Valley (SC),Boulware,None Boulware,S,,4,"[2004, 2005, 2006, 2007]",220.0
+326,1987-08-17,Newberry,Ronald,72,Beaufort (SC),Parker,Ron Parker,FS,Ron,7,"[2011, 2012, 2013, 2014, 2015, 2016, 2017]",206.0
+327,1978-11-24,Baylor,Gray,74,,Baxter,None Baxter,DB,,7,"[2001, 2002, 2003, 2004, 2005, 2006, 2007]",210.0
+328,1988-02-26,Texas-El Paso,Cornelius,71,Forest Brook (TX),Brown,None Brown,DB,,1,[2010],198.0
+329,1992-08-02,West Chester,Al-Hajj,74,John Bartram (PA),Shabazz,Al-Hajj Shabazz,CB,Al-Hajj,1,[2016],200.0
+330,1986-10-12,Hampton,Jackie,70,,Bates,None Bates,CB,,1,[2010],180.0
+331,1993-01-22,Oregon State,Steven,71,Northside (GA),Nelson,Steven Nelson,CB,Steven,3,"[2015, 2016, 2017]",194.0
+332,1988-06-06,Marshall,Omar,71,Berkeley (SC),Brown,None Brown,S,,2,"[2012, 2013]",195.0
+333,1986-12-12,Oregon,Terrell,70,De La Salle (CA),Ward,T.J. Ward,FS,T.J.,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",200.0
+334,1986-09-03,Oklahoma,Reggie,73,Santa Fe (OK),Smith,None Smith,S,,4,"[2008, 2009, 2010, 2011]",200.0
+335,1979-07-02,North Carolina State,Brian,71,,Williams,None Williams,DB,,10,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011]",202.0
+336,1986-04-18,Cincinnati,Haruki,70,St. Edward (OH),Nakamura,None Nakamura,S,,5,"[2008, 2009, 2010, 2011, 2012]",205.0
+337,1987-07-20,Massachusetts,Jeromy,74,Winslow Township (NJ),Miles,Jeromy Miles,FS,Jeromy,5,"[2010, 2011, 2012, 2013, 2014]",211.0
+338,1994-05-26,Jacksonville State,Jaylen,70,Marietta (GA),Hill,Jaylen Hill,CB,Jaylen,1,[2017],186.0
+339,1977-06-14,Mt. San Antonio College,Chris,73,,McAlister,None McAlister,DB,,10,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",210.0
+340,1991-02-17,Washington,Travell,73,Norland (FL),Dixon,Travell Dixon,CB,Travell,1,[2016],195.0
+341,1986-04-07,Tennessee State,Dominique,74,Lakewood Ranch (FL),Rodgers-Cromartie,Dominique Rodgers-Cromartie,CB,Dominique,10,"[2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",205.0
+342,1989-11-18,North Carolina State,Curtis,71,Lincolnton (NC),Wilson,C.J. Wilson,CB,C.J.,2,"[2013, 2014]",187.0
+343,1989-01-13,Georgia Tech,Morgan,73,North Clayton (GA),Burnett,Morgan Burnett,SS,Morgan,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",209.0
+344,1973-09-11,Tennessee-Martin,Fred,69,,Thomas,None Thomas,CB,,8,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007]",185.0
+345,1982-08-09,Abilene Christian,Danieal,71,Corsicana (TX),Manning,None Manning,S,,9,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]",212.0
+346,1985-04-04,Grambling,Greg,71,,Fassitt,None Fassitt,CB,,1,[2009],186.0
+347,1981-10-21,Missouri,Michael,71,,Harden,None Harden,CB,,1,[2005],190.0
+348,1992-03-21,Ohio State,Christian,69,Glenville (OH),Bryant,Christian Bryant,SS,Christian,2,"[2015, 2016]",198.0
+349,1995-04-03,San Diego,Jamal,70,Point Loma (CA),Agnew,Jamal Agnew,CB,Jamal,1,[2017],190.0
+350,1992-02-28,Norfolk State,Keenan,72,Maury,Lambert,Keenan Lambert,S,Keenan,1,[2015],209.0
+351,1979-10-15,Cincinnati,Blue,70,,Adams,None Adams,CB,,4,"[2003, 2005, 2006, 2007]",187.0
+352,1979-05-22,USC,Ifeanyi,74,,Ohalete,None Ohalete,S,,5,"[2001, 2002, 2003, 2004, 2005]",221.0
+353,1992-10-21,Missouri Western,Michael,73,Hazelwood Central (MO),Jordan,Michael Jordan,CB,Michael,2,"[2016, 2017]",200.0
+354,1982-05-16,Missouri,Shirdonya,71,Sam Houston (TX),Mitchell,None Mitchell,CB,,1,[2006],193.0
+355,1991-02-05,Middle Tennessee,Samuel,72,Ooltewah (TN),Seamster,Sammy Seamster,CB,Sammy,2,"[2014, 2015]",205.0
+356,1992-05-13,New Mexico,SaQwan,72,Manvel High School ,Edwards,SaQwan Edwards,CB,SaQwan,1,[2015],200.0
+357,1983-04-25,USC,John,73,,Walker,None Walker,S,,1,[2006],200.0
+358,1987-02-14,Norfolk State,Don,71,Washington (VA),Carey,Don Carey,FS,Don,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",202.0
+359,1986-07-30,Montana,James,71,Point Loma (CA),Wilson,Jimmy Wilson,SS,Jimmy,5,"[2011, 2012, 2013, 2014, 2015]",205.0
+360,1988-10-18,McNeese State,Devin,72,Istrouma (LA),Holland,None Holland,S,,1,[2011],205.0
+361,1996-04-02,Ohio State,Malik,74,New Castle (PA),Hooker,Malik Hooker,FS,Malik,1,[2017],212.0
+362,1978-08-11,South Carolina,Andre',70,,Goodman,None Goodman,CB,,10,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011]",184.0
+363,1985-02-18,Louisiana Tech,Jonathan,73,Mangham (LA),Holland,None Holland,DB,,2,"[2008, 2009]",195.0
+364,1983-12-05,Texas Christian,Marvin,73,,White,None White,S,,4,"[2007, 2008, 2009, 2010]",199.0
+365,1988-04-04,Fresno State,A.J.,73,West Bakersfield (CA),Jefferson,None Jefferson,CB,,4,"[2010, 2011, 2012, 2013]",190.0
+366,1993-04-13,William & Mary,DeAndre,73,Massaponax (VA),Houston-Carson,DeAndre Houston-Carson,FS,DeAndre,2,"[2016, 2017]",205.0
+367,1995-05-24,Colorado,Chidobe,73,Oak Grove (CA),Awuzie,Chidobe Awuzie,CB,Chidobe,1,[2017],202.0
+368,1991-05-15,Valdosta State,Donatello,72,North Cobb (FL),Brown,Donatello Brown,CB,Donatello,1,[2017],190.0
+369,1995-05-05,Washington,Kevin,75,Bishop O'Dowd (CA),King,Kevin King,CB,Kevin,1,[2017],200.0
+370,1986-04-22,Northern Arizona,K.J.,73,,Gerard,None Gerard,S,,1,[2009],192.0
+371,1978-07-31,Virginia Tech,Nick,75,,Sorensen,None Sorensen,S,,10,"[2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010]",210.0
+372,1989-08-10,Auburn,Onterio,70,Fort Meade (FL),McCalebb,Onterio McCalebb,CB,Onterio,1,[2014],170.0
+373,1987-07-17,Michigan,Stephen,71,East (IN),Brown,Stevie Brown,FS,Stevie,4,"[2010, 2011, 2012, 2014]",215.0
+374,1989-05-03,Buffalo,Joshua,71,Cedar Hill (TX),Thomas,Josh Thomas,CB,Josh,5,"[2011, 2012, 2013, 2014, 2015]",185.0
+375,1988-12-17,Oregon,Edward,70,Kennedy (CA),Pleasant,Eddie Pleasant,SS,Eddie,6,"[2012, 2013, 2014, 2015, 2016, 2017]",200.0
+376,1976-08-29,Augustana,Kevin,73,Lakeville (MN),Kaesviharn,None Kaesviharn,S,,9,"[2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",200.0
+377,1995-08-23,Valdosta State,Kenny,69,Lowndes (GA),Moore,Kenny Moore,CB,Kenny,1,[2017],179.0
+378,1981-01-09,Oklahoma,Antonio,71,,Perkins,None Perkins,DB,,2,"[2005, 2006]",190.0
+379,1995-02-13,Virginia Tech,Kendall,71,Good Counsel (MD),Fuller,Kendall Fuller,CB,Kendall,2,"[2016, 2017]",198.0
+380,1994-07-25,Florida Atlantic,Cre'von,71,Glades Central  (FL),LeBlanc,Cre'von LeBlanc,CB,Cre'von,2,"[2016, 2017]",190.0
+381,1994-09-20,North Carolina State,Joshua,74,Walled Lake Western (MI),Jones,Josh Jones,SS,Josh,1,[2017],220.0
+382,1975-11-23,Washington,Tony,72,Marina (CA),Parrish,None Parrish,S,,7,"[2000, 2001, 2002, 2003, 2004, 2005, 2006]",210.0
+383,1984-01-14,Miami,Brandon,71,Apopka (FL),Meriweather,Brandon Meriweather,FS,Brandon,9,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]",197.0
+384,1990-09-21,Texas A&M,Steven,70,,Terrell,Steven Terrell,FS,Steven,4,"[2014, 2015, 2016, 2017]",197.0
+385,1979-07-24,Southern Mississippi,Raymond,70,,Walls,None Walls,DB,,5,"[2001, 2002, 2003, 2004, 2005]",189.0
+386,1990-07-23,Stanford,Johnson,72,Gonzaga College (MD),Bademosi,Johnson Bademosi,CB,Johnson,6,"[2012, 2013, 2014, 2015, 2016, 2017]",206.0
+387,1994-01-28,Boise State,Donte,69,Summit (CA),Deayon,Donte Deayon,CB,Donte,1,[2017],158.0
+388,1984-05-09,Arizona,Michael,74,,Johnson,None Johnson,S,,4,"[2007, 2008, 2009, 2010]",207.0
+389,1976-12-21,Oklahoma State,R.W.,70,Booker T. Washington (OK),McQuarters,None McQuarters,DB,,9,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",194.0
+390,1991-08-29,Oregon,Troy,71,St. Bonaventure (CA),Hill,Troy Hill,CB,Troy,3,"[2015, 2016, 2017]",184.0
+391,1980-09-19,Miami (Fla.),Phillip,71,,Buchanon,None Buchanon,CB,,10,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011]",190.0
+392,1988-04-03,Virginia Tech,Kameron,75,Maury (VA),Chancellor,Kam Chancellor,SS,Kam,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",225.0
+393,1990-10-15,Nevada,Michael,71,Hug (NV),Williams,Duke Williams,SS,Duke,4,"[2013, 2014, 2015, 2016]",201.0
+394,1990-08-09,Texas-El Paso,Antwon,69,Marshall (TX),Blake,Antwon Blake,CB,Antwon,5,"[2012, 2013, 2014, 2015, 2016]",198.0
+395,1991-07-12,Pittsburgh,K'Waun,69,St. Joseph Regional (NJ),Williams,K'Waun Williams,CB,K'Waun,3,"[2014, 2015, 2017]",183.0
+396,1996-08-16,Florida,Quincy,73,Fort Lauderdale University (FL),Wilson,Quincy Wilson,CB,Quincy,1,[2017],206.0
+397,1987-01-20,Oregon State,Al,71,Kahuke (HI),Afalava,None Afalava,S,,3,"[2009, 2010, 2012]",212.0
+398,1989-03-06,Wake Forest,Joshua,71,West Davidson (NC),Bush,Josh Bush,SS,Josh,4,"[2012, 2013, 2014, 2015]",205.0
+399,1996-01-10,Washington,Budda,70,Bellevue (WA),Baker,Budda Baker,FS,Budda,1,[2017],195.0
+400,1982-12-30,Georgia Tech,Dawan,73,Hahnville (LA),Landry,None Landry,S,,9,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]",212.0
+401,1982-03-14,Louisiana State,Marcus,74,Glen Oaks (LA),Randall,None Randall,S,,1,[2005],219.0
+402,1990-06-23,Virginia,Rodney,70,DeMatha (MD),McLeod,Rodney McLeod,FS,Rodney,6,"[2012, 2013, 2014, 2015, 2016, 2017]",195.0
+403,1971-09-25,Stanford,John,74,,Lynch,None Lynch,S,,8,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007]",220.0
+404,1985-03-27,Kent State,Jack,69,,Williams,None Williams,CB,,2,"[2008, 2009]",183.0
+405,1984-05-11,Albany,Rashad,72,,Barksdale,None Barksdale,CB,,1,[2007],208.0
+406,1985-07-24,Ohio State,Donte,70,Glenville (OH),Whitner,Donte Whitner,SS,Donte,11,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]",208.0
+407,1993-03-31,Coastal Carolina,Denzel,72,Jacket Integrated Academy (NC),Rice,Denzel Rice,CB,Denzel,2,"[2015, 2016]",196.0
+408,1992-10-14,Oregon State,Ryan,72,Oakland Tech,Murphy,Ryan Murphy,SS,Ryan,1,[2017],214.0
+409,1989-09-07,Notre Dame,Robert,73,David W. Butler (NC),Blanton,Robert Blanton,FS,Robert,6,"[2012, 2013, 2014, 2015, 2016, 2017]",200.0
+410,1981-10-18,Maryland,Madieu,73,,Williams,None Williams,S,,9,"[2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",209.0
+411,1994-02-16,Mississippi,Demontrae,72,Oxford (AL),Elston,Trae Elston,SS,Trae,2,"[2016, 2017]",190.0
+412,1982-09-27,Oklahoma State,Darrent,68,,Williams,None Williams,CB,,2,"[2005, 2006]",188.0
+413,1991-03-21,Sam Houston State,Daxton,71,LaVega (TX),Swanson,Dax Swanson,CB,Dax,1,[2016],191.0
+414,1983-03-27,Maryland,Domonique,71,,Foxworth,None Foxworth,CB,,6,"[2005, 2006, 2007, 2008, 2009, 2011]",180.0
+415,1981-11-21,Florida State,Bryant,72,,McFadden,None McFadden,CB,,7,"[2005, 2006, 2007, 2008, 2009, 2010, 2011]",190.0
+416,1987-07-24,Cincinnati,Mike,73,,Mickens,None Mickens,CB,,1,[2009],190.0
+417,1985-10-26,Wake Forest,Chip,74,,Vaughn,None Vaughn,DB,,1,[2010],221.0
+418,1992-05-30,Vanderbilt,Andre,70,Port Allen (LA),Hal,Andre Hal,FS,Andre,4,"[2014, 2015, 2016, 2017]",195.0
+419,1987-03-27,Tennessee State,Anthony,71,Richard J. Reynolds (NC),Levine,Anthony Levine,SS,Anthony,6,"[2012, 2013, 2014, 2015, 2016, 2017]",200.0
+420,1988-11-25,"California, Pa.",Rontez,72,Woodland Hills (PA),Miles,Rontez Miles,FS,Rontez,5,"[2013, 2014, 2015, 2016, 2017]",203.0
+421,1983-08-04,Arkansas,Ahmad,70,,Carroll,None Carroll,DB,,5,"[2004, 2005, 2006, 2008, 2009]",190.0
+422,1985-05-07,Appalachian State,Corey,72,Evangelical Christian School (FL),Lynch,None Lynch,S,,6,"[2008, 2009, 2010, 2011, 2012, 2013]",210.0
+423,1987-08-12,Oregon,Walter,71,West Covina (CA),Thurmond,Walter Thurmond,S,Walter,6,"[2010, 2011, 2012, 2013, 2014, 2015]",190.0
+424,1993-03-20,Louisiana State,Jalen,73,Olive Branch (MS),Collins,Jalen Collins,CB,Jalen,2,"[2015, 2016]",203.0
+425,1982-11-05,Stanford,Stanley,71,,Wilson,None Wilson,CB,,3,"[2005, 2006, 2007]",189.0
+426,1982-03-02,Georgia,Sean,73,,Jones,None Jones,S,,7,"[2005, 2006, 2007, 2008, 2009, 2010, 2011]",220.0
+427,1985-10-28,Texas Tech,Darcel,73,Gainesville (TX),McBath,None McBath,S,,4,"[2009, 2010, 2011, 2012]",198.0
+428,1983-02-28,Nebraska,Josh,72,,Bullocks,None Bullocks,S,,6,"[2005, 2006, 2007, 2008, 2009, 2010]",207.0
+429,1981-09-09,Cal Poly,David,74,,Richardson,None Richardson,DB,,3,"[2004, 2005, 2006]",205.0
+430,1988-03-10,Louisiana State,Danny,73,Westfield (TX),McCray,Danny McCray,SS,Danny,6,"[2010, 2011, 2012, 2013, 2014, 2015]",221.0
+431,1988-04-10,South Carolina,Captain,69,S.S. Murphy (AL),Munnerlyn,Captain Munnerlyn,CB,Captain,9,"[2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",195.0
+432,1991-09-06,Texas-El Paso,Jameill,74,Shoemaker (TX),Showers,Jameill Showers,SS,Jameill,1,[2015],230.0
+433,1994-01-07,Minnesota,Eric,71,Riverside (WI),Murray,Eric Murray,FS,Eric,2,"[2016, 2017]",199.0
+434,1993-07-27,Cincinnati,Michael,73,Lake Taylor (VA),Tyson,Mike Tyson,CB,Mike,1,[2017],207.0
+435,1990-09-26,San Jose State,Peyton,70,Granite Bay (CA),Thompson,Peyton Thompson,FS,Peyton,4,"[2014, 2015, 2016, 2017]",184.0
+436,1990-01-24,Central Michigan,Jahleel,70,Riverview (FL),Addae,Jahleel Addae,SS,Jahleel,5,"[2013, 2014, 2015, 2016, 2017]",195.0
+437,1990-06-12,Michigan,Jordan,70,Clay (OH),Kovacs,Jordan Kovacs,DB,Jordan,3,"[2013, 2014, 2015]",210.0
+438,1987-09-07,Florida State,Patrick,71,Gulliver Prep (FL),Robinson,Patrick Robinson,CB,Patrick,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",191.0
+439,1978-07-14,Penn State,David,69,,Macklin,None Macklin,DB,,9,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",193.0
+440,1984-02-06,Washington State,Eric,71,Oak Grove (CA),Frampton,None Frampton,S,,7,"[2007, 2008, 2009, 2010, 2011, 2012, 2013]",205.0
+441,1993-01-15,Pittsburg State,De'Vante,74,Hogan Prep Academy (MO),Bausby,De'Vante Bausby,CB,De'Vante,1,[2016],178.0
+442,1990-09-04,Texas State,Darryl,70,Warren (TX),Morris,Darryl Morris,CB,Darryl,5,"[2013, 2014, 2015, 2016, 2017]",188.0
+443,,New Mexico State,Cameron,70,,Fuller,None Fuller,CB,,1,[2014],178.0
+444,1977-05-17,Memphis,Reggie,72,,Howard,None Howard,CB,,7,"[2000, 2001, 2002, 2003, 2004, 2005, 2006]",185.0
+445,1988-10-04,California,Sean,75,Hubbard (IL),Cattouse,None Cattouse,S,,2,"[2012, 2013]",218.0
+446,1990-02-07,Louisiana State,Morris,71,Fair Park (LA),Claiborne,Morris Claiborne,CB,Morris,6,"[2012, 2013, 2014, 2015, 2016, 2017]",192.0
+447,1981-02-08,Notre Dame,Gerome,73,,Sapp,None Sapp,S,,5,"[2003, 2004, 2005, 2006, 2007]",216.0
+448,1985-09-19,Wingate,David,72,,Jones,None Jones,CB,,6,"[2007, 2008, 2009, 2010, 2011, 2012]",197.0
+449,1984-09-18,Washington,Dashon,74,Narbonne (CA),Goldson,Dashon Goldson,FS,Dashon,10,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]",200.0
+450,1983-01-23,Montana,Tuff,72,,Harris,None Harris,S,,2,"[2007, 2008]",198.0
+451,1984-04-15,Florida State,Antonio,74,Lincoln (FL),Cromartie,Antonio Cromartie,CB,Antonio,11,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]",210.0
+452,1990-09-28,Georgia Tech,Roderick,72,Luella (GA),Sweeting,Rod Sweeting,CB,Rod,1,[2013],187.0
+453,1990-11-26,Marshall,Darryl,72,Lakeland (FL),Roberts,Darryl Roberts,CB,Darryl,2,"[2016, 2017]",182.0
+454,1985-05-19,Washington,Roy,70,,Lewis,None Lewis,CB,,4,"[2008, 2009, 2010, 2011]",190.0
+455,1985-12-14,Michigan,Morgan,73,,Trent,None Trent,DB,,3,"[2009, 2010, 2011]",193.0
+456,1985-01-08,Baylor,Josh,71,,Bell,None Bell,CB,,2,"[2008, 2009]",177.0
+457,1985-05-01,Nevada-Reno,Paul,70,,Pratt,None Pratt,CB,,1,[2010],185.0
+458,1976-03-03,Nebraska,Eric,72,,Warfield,None Warfield,CB,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",200.0
+459,1990-04-02,"California, Pa.",Erik,75,New Oxford (PA),Harris,Erik Harris,SS,Erik,2,"[2016, 2017]",225.0
+460,1989-02-20,Middle Tennessee State,Rod,71,,Issac,None Issac,DB,,1,[2011],196.0
+461,1982-05-19,Nicholls State,Chris,72,,Thompson,None Thompson,DB,,2,"[2004, 2005]",200.0
+462,1979-06-18,Alabama,Tony,74,Pickens County (AL),Dixon,None Dixon,S,,5,"[2001, 2002, 2003, 2004, 2005]",210.0
+463,1990-03-08,Georgia,Sanders,72,Westside (GA),Commings,Sanders Commings,CB,Sanders,1,[2013],223.0
+464,1988-10-29,Citadel,Cortez,73,North Marion (FL),Allen,Cortez Allen,CB,Cortez,5,"[2011, 2012, 2013, 2014, 2015]",196.0
+465,1987-03-31,Boise State,Winston,71,,Venable,None Venable,S,,1,[2011],210.0
+466,1988-12-08,Clemson,Marcus,70,T. Wingate Andrews (NC),Gilchrist,Marcus Gilchrist,FS,Marcus,7,"[2011, 2012, 2013, 2014, 2015, 2016, 2017]",200.0
+467,1993-09-07,North Carolina Central,Ryan,72,Wise (MD),Smith,Ryan Smith,CB,Ryan,2,"[2016, 2017]",190.0
+468,1986-03-18,Connecticut,Darius,70,Charter (FL),Butler,Darius Butler,FS,Darius,9,"[2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",192.0
+469,1975-05-27,Hofstra,Lance,74,Canarsie (NY),Schulters,None Schulters,S,,8,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007]",202.0
+470,1985-01-16,Maryland,Isaiah,71,,Gardner,None Gardner,CB,,1,[2008],197.0
+471,1980-08-14,Oklahoma,Roy,72,Union City (CA) Logan,Williams,None Williams,S,,9,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010]",222.0
+472,1987-10-14,Colorado,Jalil,73,South Mountain (AZ),Brown,Jalil Brown,CB,Jalil,5,"[2011, 2012, 2013, 2014, 2015]",210.0
+473,1993-01-09,Washington,Marcus,72,McClymonds (CA),Peters,Marcus Peters,CB,Marcus,3,"[2015, 2016, 2017]",197.0
+474,1993-12-29,Southern Mississippi,Kalan,71,Briarwood Christian (AL),Reed,Kalan Reed,CB,Kalan,2,"[2016, 2017]",192.0
+475,1980-02-15,Western Kentucky,Joseph,73,,Jefferson,None Jefferson,DB,,4,"[2002, 2003, 2004, 2005]",202.0
+476,1995-08-09,Ohio State,Eli,73,Eastern (PA),Apple,Eli Apple,CB,Eli,2,"[2016, 2017]",199.0
+477,1984-05-11,Cincinnati,John,71,,Bowie,None Bowie,CB,,2,"[2007, 2009]",190.0
+478,1977-08-06,Virginia Tech,Pierson,71,,Prioleau,None Prioleau,S,,11,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010]",188.0
+479,1987-11-11,Buffalo,Mike,70,,Newton,None Newton,DB,,1,[2010],207.0
+480,1992-01-17,Southern California,Nickell,68,Frostproof (FL),Robey,Nickell Robey,CB,Nickell,5,"[2013, 2014, 2015, 2016, 2017]",178.0
+481,1985-12-10,Alrpm,Brandon,70,,Anderson,None Anderson,CB,,1,[2009],179.0
+482,1991-10-18,Stanford,Ed,73,Woodberry Forest (VA),Reynolds,Ed Reynolds,FS,Ed,2,"[2015, 2016]",207.0
+483,1985-01-08,USC,Terrell,72,Cucamonga (CA),Thomas,None Thomas,CB,,4,"[2008, 2009, 2010, 2013]",202.0
+484,1995-12-31,Florida,Jalen,72,Washington DC Friendship (DC),Tabor,Teez Tabor,CB,Teez,1,[2017],201.0
+485,1990-01-21,Troy,Kanorris,70,,Davis,None Davis,S,,1,[2013],203.0
+486,1970-12-26,Western Carolina,Willie,69,,Williams,None Williams,CB,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",194.0
+487,1989-02-27,Northern Illinois,Tracy,74,St. Francis de Sales (IL),Wilson,None Wilson,S,,2,"[2011, 2012]",203.0
+488,1987-02-09,Central Michigan,Joshua,71,Washington County (GA),Gordy,Josh Gordy,CB,Josh,5,"[2010, 2011, 2012, 2013, 2014]",196.0
+489,1988-08-20,Belhaven,Tramaine,70,Long Beach (MS),Brock,Tramaine Brock,CB,Tramaine,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",197.0
+490,1988-01-10,Texas Tech,Jamar,70,,Wall,None Wall,S,,1,[2010],202.0
+491,1979-03-24,Syracuse,Will,70,,Hunter,None Hunter,S,,2,"[2005, 2006]",190.0
+492,1984-01-19,Tulsa,Nick,70,,Graham,None Graham,DB,,2,"[2007, 2008]",191.0
+493,1987-01-25,Louisville,Woodny,72,,Turenne,None Turenne,CB,,1,[2009],184.0
+494,1995-01-20,Colorado,Tedric,72,Valencia (CA),Thompson,Tedric Thompson,SS,Tedric,1,[2017],204.0
+495,1987-02-26,Virginia Tech,Cody,73,Oakton (VA),Grimm,None Grimm,S,,3,"[2010, 2011, 2012]",200.0
+496,1991-10-28,Alabama,Vinnie,72,Northridge (AL),Sunseri,Vinnie Sunseri,SS,Vinnie,2,"[2014, 2016]",210.0
+497,1988-02-11,Toledo,Barry,74,Penn Hills (PA),Church,Barry Church,SS,Barry,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",218.0
+498,1987-05-28,Oklahoma State,Jacob,70,Naaman Forest (TX),Lacey,None Lacey,DB,,5,"[2009, 2010, 2011, 2012, 2013]",177.0
+499,1983-09-01,Miami (OH),John,74,,Busing,None Busing,S,,4,"[2006, 2007, 2008, 2009]",221.0
+500,1986-09-30,Notre Dame,Kyle,73,Mooney (OH),McCarthy,None McCarthy,S,,2,"[2010, 2011]",205.0
+501,1987-01-18,Maryland,Nolan,73,Clay (FL),Carroll,Nolan Carroll,CB,Nolan,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",205.0
+502,1986-09-14,Miami (Fla.),Randy,73,,Phillips,None Phillips,S,,1,[2010],210.0
+503,1977-10-18,Notre Dame,Deke,74,,Cooper,None Cooper,S,,6,"[2002, 2003, 2004, 2005, 2006, 2007]",210.0
+504,1988-10-31,Southeastern Louisiana,Robert,70,Hammond (LA),Alford,Robert Alford,CB,Robert,5,"[2013, 2014, 2015, 2016, 2017]",186.0
+505,1981-08-06,Tuskegee,Frank,71,,Walker,None Walker,CB,,9,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011]",200.0
+506,1987-11-24,Vanderbilt,Myron,74,Pompano Beach (FL),Lewis,None Lewis,CB,,3,"[2010, 2011, 2012]",203.0
+507,1993-08-06,Findlay,Harold,71,Horizon Science Academy (OH),Jones-Quartey,Harold Jones-Quartey,SS,Harold,2,"[2015, 2016]",215.0
+508,1983-07-26,Houston,Stanford,73,Connally (TX),Routt,None Routt,CB,,8,"[2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",195.0
+509,1982-10-21,Villanova,Bubba,70,,Ventrone,None Ventrone,S,,8,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]",200.0
+510,1992-09-19,Tennessee State,De'Ante,69,Deland High School,Saunders,De'Ante Saunders,S,De'Ante,1,[2015],187.0
+511,1981-04-04,Murray State,Laroni,72,,Gallishaw,None Gallishaw,CB,,1,[2005],190.0
+512,1987-02-07,California,Syd'Quan,69,,Thompson,None Thompson,CB,,1,[2010],191.0
+513,1984-12-29,UCLA,Chris,73,,Horton,None Horton,S,,3,"[2008, 2009, 2010]",221.0
+514,1982-02-22,Howard,Ron,73,Renaissance (MI),Bartell,None Bartell,CB,,8,"[2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",210.0
+515,1991-04-25,Oregon State,Jordan,72,Astoria (OR),Poyer,Jordan Poyer,FS,Jordan,5,"[2013, 2014, 2015, 2016, 2017]",191.0
+516,1979-10-09,Fresno State,Vernon,70,Cimarron-Memorial (NV),Fox,None Fox,S,,8,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",203.0
+517,1984-02-18,Notre Dame,Mike,71,,Richardson,None Richardson,DB,,3,"[2008, 2009, 2010]",190.0
+518,1988-09-23,South Carolina,Antonio,73,Trinity Catholic (FL),Allen,Antonio Allen,FS,Antonio,4,"[2012, 2013, 2014, 2016]",210.0
+519,1980-04-29,Colorado,Michael,73,,Lewis,None Lewis,S,,9,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010]",222.0
+520,1982-01-04,Stanford,Leigh,71,,Torrence,None Torrence,CB,,7,"[2005, 2006, 2007, 2008, 2009, 2010, 2011]",179.0
+521,1985-07-01,Elon,Chad,71,,Nkang,None Nkang,DB,,2,"[2007, 2008]",215.0
+522,1991-09-05,Tulsa,Dexter,76,Lutcher (LA),McCoil,Dexter McCoil,FS,Dexter,2,"[2016, 2017]",220.0
+523,1984-08-31,Iowa,Marcus,72,,Paschal,None Paschal,S,,2,"[2007, 2009]",206.0
+524,1990-08-10,Arizona State,Deveron,71,Chaparral (AZ),Carr,Deveron Carr,CB,Deveron,1,[2013],190.0
+525,1992-08-05,Texas Southern,Tray,74,Miami Northwestern,Walker,Tray Walker,CB,Tray,1,[2015],191.0
+526,1977-01-26,Syracuse,Quentin,73,,Harris,None Harris,S,,5,"[2002, 2003, 2004, 2005, 2006]",213.0
+527,1992-02-16,Virginia Tech,Kyle,72,Mount Saint Joseph (MD),Fuller,Kyle Fuller,CB,Kyle,4,"[2014, 2015, 2016, 2017]",190.0
+528,1984-10-27,Boston College,William,72,Bishop Hendricken (RI),Blackmon,Will Blackmon,FS,Will,10,"[2006, 2007, 2008, 2009, 2010, 2011, 2013, 2014, 2015, 2016]",204.0
+529,1995-12-19,Boston College,John,73,Northwestern (MD),Johnson,John Johnson,SS,John,1,[2017],204.0
+530,1976-01-14,Southern California,Brian,71,Overland (CO),Kelly,None Kelly,CB,,9,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",193.0
+531,1987-04-28,Wyoming,Christopher,73,Buffalo (WY),Prosinski,Chris Prosinski,FS,Chris,7,"[2011, 2012, 2013, 2014, 2015, 2016, 2017]",208.0
+532,1985-06-30,Arkansas,Matterral,72,,Richardson,None Richardson,CB,,1,[2008],197.0
+533,1992-08-29,Arizona State,Damarious,71,Pensacola (FL),Randall,Damarious Randall,CB,Damarious,3,"[2015, 2016, 2017]",196.0
+534,1985-09-28,Wheaton,Pete,70,,Ittersagen,None Ittersagen,S,,1,[2010],191.0
+535,1982-08-24,Penn State,Alan,74,,Zemaitis,None Zemaitis,CB,,1,[2006],202.0
+536,1990-12-03,Wisconsin,Marcus,72,Timberview (TX),Cromartie,Marcus Cromartie,FS,Marcus,5,"[2013, 2014, 2015, 2016, 2017]",195.0
+537,1986-02-19,Troy,Trevor,72,,Ford,None Ford,CB,,1,[2009],188.0
+538,1988-02-23,Clemson,Byron,73,Fort Dorchester (SC),Maxwell,Byron Maxwell,CB,Byron,7,"[2011, 2012, 2013, 2014, 2015, 2016, 2017]",198.0
+539,1990-06-27,Houston,Derek,71,Elkins (TX),Hayden,D.J. Hayden,CB,D.J.,5,"[2013, 2014, 2015, 2016, 2017]",190.0
+540,1983-02-24,Alabama,Charlie,71,East (TX),Peprah,None Peprah,S,,7,"[2006, 2007, 2008, 2009, 2010, 2011, 2012]",203.0
+541,1976-10-05,Mississippi,Ronnie,75,,Heard,None Heard,S,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",215.0
+542,1995-08-31,Michigan,Jourdan,70,Cass Tech (MI),Lewis,Jourdan Lewis,CB,Jourdan,1,[2017],170.0
+543,1993-05-04,Virginia Tech,Kyshoen,70,East Stroudsburg South,Jarrett,Kyshoen Jarrett,FS,Kyshoen,1,[2015],200.0
+544,1980-08-28,Youngstown State,Russell,72,,Stuvaints,None Stuvaints,S,,3,"[2003, 2004, 2005]",202.0
+545,1985-10-21,North Carolina State,DaJuan,72,,Morgan,None Morgan,S,,3,"[2008, 2009, 2010]",203.0
+546,1992-02-23,Missouri,Edwin,70,Fort Osage (MO),Gaines,E.J. Gaines,CB,E.J.,3,"[2014, 2016, 2017]",185.0
+547,1988-01-07,Ohio State,Chimdi,72,East Ridge (FL),Chekwa,Chimdi Chekwa,CB,Chimdi,5,"[2011, 2012, 2013, 2014, 2016]",194.0
+548,1979-06-19,Texas,Quentin,72,Angleton (TX),Jammer,None Jammer,DB,,12,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",204.0
+549,1987-11-22,Texas Christian,Malcolm,71,,Williams,None Williams,DB,,2,"[2011, 2012]",200.0
+550,1989-02-17,Arizona State,LeQuan,71,Artesia (CA),Lewis,None Lewis,CB,,2,"[2012, 2014]",190.0
+551,1978-02-19,California,Chidi,69,,Iwuoma,None Iwuoma,CB,,7,"[2001, 2002, 2003, 2004, 2005, 2006, 2007]",189.0
+552,1990-04-26,Northwest Missouri State,Brian,72,Coconut Creek (FL),Dixon,Brian Dixon,CB,Brian,3,"[2014, 2015, 2016]",195.0
+553,1973-10-13,Clemson,Brian,72,,Dawkins,None Dawkins,S,,12,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011]",210.0
+554,1980-11-24,Louisiana Tech,Hiram,74,,Eugene,None Eugene,S,,5,"[2006, 2007, 2008, 2009, 2010]",200.0
+555,1983-09-30,West Virginia,Adam,70,Westlake (GA),Jones,Adam Jones,CB,Adam,11,"[2005, 2006, 2008, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",180.0
+556,1979-11-08,Miami (FL),Mike,74,,Rumph,None Rumph,S,,5,"[2002, 2003, 2004, 2005, 2006]",205.0
+557,1985-07-13,LSU,Curtis,74,Franklinton (LA),Taylor,None Taylor,S,,3,"[2009, 2010, 2013]",212.0
+558,1987-12-15,Coastal Carolina,Joshua,72,Greenwood (SC),Norman,Josh Norman,CB,Josh,6,"[2012, 2013, 2014, 2015, 2016, 2017]",200.0
+559,1989-07-10,Albion,Christopher,73,Martin Luther King (MI),Greenwood,Chris Greenwood,CB,Chris,2,"[2013, 2014]",193.0
+560,1974-10-06,Syracuse,Tebucky,74,,Jones,None Jones,S,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",220.0
+561,1981-02-25,Colorado State,Dexter,69,,Wynn,None Wynn,CB,,5,"[2004, 2005, 2006, 2007, 2008]",175.0
+562,1987-06-06,Wake Forest,Brandon,72,Jack Britt (NC),Ghee,Brandon Ghee,CB,Brandon,4,"[2010, 2011, 2013, 2014]",200.0
+563,1977-06-19,Georgia Southern,Kiwaukee,71,,Thomas,None Thomas,DB,,8,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007]",188.0
+564,1991-06-18,Catawba,L.J.,72,Harding University (NC),McCray,L.J. McCray,SS,L.J.,2,"[2014, 2015]",210.0
+565,1988-07-01,Florida,Major,71,St. Thomas Aquinas (FL),Wright,Major Wright,SS,Major,7,"[2010, 2011, 2012, 2013, 2014, 2015, 2016]",204.0
+566,1974-02-12,New Mexico,Scott,73,,McGarrahan,None McGarrahan,S,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",200.0
+567,1993-11-19,Boston College,Justin,74,Martin County (FL),Simmons,Justin Simmons,SS,Justin,2,"[2016, 2017]",202.0
+568,1976-03-30,Arizona State,Jason,69,,Simmons,None Simmons,SS,,8,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007]",204.0
+569,1980-10-12,Wisconsin,B.J.,70,,Tucker,None Tucker,CB,,3,"[2003, 2005, 2006]",192.0
+570,1994-02-16,Ohio State,Tyvis,75,Bedford (OH),Powell,Tyvis Powell,FS,Tyvis,2,"[2016, 2017]",208.0
+571,1991-04-23,Utah State,Nevin,69,Piper (FL),Lawson,Nevin Lawson,CB,Nevin,4,"[2014, 2015, 2016, 2017]",192.0
+572,1980-03-20,McNeese State,Keith,71,,Smith,None Smith,CB,,6,"[2004, 2005, 2006, 2007, 2008, 2009]",191.0
+573,1987-05-30,Ohio State,Anderson,72,Marist (GA),Russell,None Russell,S,,2,"[2010, 2012]",205.0
+574,1982-03-20,Virginia,Jermaine,70,,Hardy,None Hardy,S,,1,[2005],213.0
+575,1983-02-02,Miami (FL),Marcus,74,,Maxey,None Maxey,DB,,1,[2006],200.0
+576,1982-02-17,San Diego State,Marviel,70,,Underwood,None Underwood,S,,2,"[2005, 2007]",200.0
+577,1981-03-24,Ohio State,Mike,70,Canton McKinley (OH),Doss,None Doss,S,,6,"[2003, 2004, 2005, 2006, 2007, 2008]",207.0
+578,1986-05-23,Oregon State,Brandon,71,Bloomington (IL),Hughes,None Hughes,CB,,4,"[2010, 2011, 2012, 2013]",185.0
+579,1988-11-25,Nevada-Reno,Jonathon,74,Diamond Bar (CA),Amaya,None Amaya,S,,3,"[2010, 2011, 2012]",205.0
+580,1991-05-06,Central Florida,Kemal,72,North Miami Beach (FL),Ishmael,Kemal Ishmael,FS,Kemal,5,"[2013, 2014, 2015, 2016, 2017]",206.0
+581,1983-08-20,Washington State,Hamza,74,,Abdullah,None Abdullah,S,,7,"[2005, 2006, 2007, 2008, 2009, 2010, 2011]",216.0
+582,1991-09-05,Baylor,Ahmad,72,Midway (TX),Dixon,None Dixon,S,,1,[2014],205.0
+583,1985-06-05,Stillman,Brian,70,,Witherspoon,None Witherspoon,CB,,3,"[2008, 2009, 2010]",180.0
+584,1993-11-07,Oklahoma State,Lenzy,72,Mansfield (TX),Pipkins,Lenzy Pipkins,CB,Lenzy,1,[2017],196.0
+585,1982-12-18,Florida State,Pat,77,,Watkins,None Watkins,S,,5,"[2006, 2007, 2008, 2009, 2010]",220.0
+586,1993-12-04,Louisiana-Monroe,Clarence,69,Berkner (TX),Caldwell,Trey Caldwell,CB,Trey,1,[2016],186.0
+587,1987-02-15,Virginia,Christopher,74,Heritage (VA),Cook,Chris Cook,CB,Chris,5,"[2010, 2011, 2012, 2013, 2014]",212.0
+588,1992-07-18,Fresno State,Curtis,72,University (FL),Riley,Curtis Riley,FS,Curtis,2,"[2016, 2017]",190.0
+589,1983-06-18,Tuskegee,Dimitri,70,Maynard Evans (FL),Patterson,None Patterson,S,,8,"[2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",200.0
+590,1986-05-24,Florida State,Tony,69,Mandarin (FL),Carter,Tony Carter,CB,Tony,7,"[2009, 2010, 2011, 2012, 2013, 2014, 2015]",175.0
+591,1979-05-31,Tennessee,Andre,70,,Lott,None Lott,S,,4,"[2002, 2003, 2004, 2006]",196.0
+592,1986-02-02,Kentucky,Trevard,72,Hiram (GA),Lindley,None Lindley,CB,,1,[2010],183.0
+593,1982-06-04,Louisiana State,Ronnie,71,,Prude,None Prude,CB,,2,"[2006, 2007]",180.0
+594,1993-09-22,Boise State,Darian,73,Paraclete (CA),Thompson,Darian Thompson,FS,Darian,2,"[2016, 2017]",213.0
+595,1986-06-03,West Virginia,Ellis,69,C.F. Vigor (AL),Lankster,Ellis Lankster,CB,Ellis,5,"[2009, 2011, 2012, 2013, 2014]",190.0
+596,1994-06-29,Michigan,Jeremy,75,Madisonville North Hopkins (KY),Clark,Jeremy Clark,CB,Jeremy,1,[2017],220.0
+597,1991-02-26,Illinois,Justin,71,Male (KY),Green,Justin Green,DB,Justin,1,[2013],195.0
+598,1984-07-27,Howard,Antoine,71,Denbigh (VA),Bethea,Antoine Bethea,SS,Antoine,12,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",206.0
+599,1989-07-24,California,Darion,72,Cheyenne (NV),Campbell,D.J. Campbell,SS,D.J.,2,"[2012, 2013]",205.0
+600,1976-10-10,UCLA,Shaun,74,,Williams,None Williams,S,,7,"[2000, 2001, 2002, 2003, 2004, 2005, 2006]",218.0
+601,1976-11-03,Toledo,Kelly,71,,Herndon,None Herndon,CB,,6,"[2002, 2003, 2004, 2005, 2006, 2007]",180.0
+602,1987-10-27,Texas Christian,Colin,72,Bridgeport (TX),Jones,Colin Jones,FS,Colin,7,"[2011, 2012, 2013, 2014, 2015, 2016, 2017]",205.0
+603,1982-10-16,California,Matt,71,Buchanan (CA),Giordano,None Giordano,S,,9,"[2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",210.0
+604,1980-07-29,Southern Methodist,Kevin,69,,Garrett,None Garrett,CB,,3,"[2003, 2004, 2006]",194.0
+605,1991-11-17,Southwestern Oklahoma,Trevon,74,Watonga (OK),Hartfield,Trevon Hartfield,CB,Trevon,1,[2016],195.0
+606,1986-07-17,Cincinnati,DeAngelo,71,,Smith,None Smith,S,,1,[2009],200.0
+607,1983-12-05,Louisiana-Monroe,Kevin,72,,Payne,None Payne,S,,3,"[2007, 2008, 2009]",212.0
+608,1989-08-01,Arizona,Trevin,70,Stony Point (TX),Wade,Trevin Wade,CB,Trevin,4,"[2012, 2013, 2015, 2016]",190.0
+609,1993-05-03,Towson,Tye,72,Wakefield (NC),Smith,Tye Smith,CB,Tye,2,"[2015, 2017]",195.0
+610,1974-09-15,West Virginia,Mike,73,,Logan,None Logan,S,,7,"[2000, 2001, 2002, 2003, 2004, 2005, 2006]",211.0
+611,1995-04-19,Virginia Tech,Charles,72,King's Fork (VA),Clark,Chuck Clark,FS,Chuck,1,[2017],210.0
+612,1981-08-16,Southern Mississippi,Etric,72,,Pruitt,None Pruitt,S,,2,"[2004, 2005]",218.0
+613,1981-10-04,North Carolina A&T,Curtis,74,,Deloatch,None Deloatch,CB,,4,"[2004, 2005, 2006, 2007]",214.0
+614,1985-09-24,Mississippi,Trumaine,69,Clarkdale (MS),McBride,Trumaine McBride,CB,Trumaine,8,"[2007, 2008, 2009, 2010, 2011, 2013, 2014, 2015]",185.0
+615,1974-05-08,Colorado State,Calvin,71,,Branch,None Branch,S,,2,"[2000, 2005]",195.0
+616,1972-02-03,Fort Valley State,Tyrone,68,LaGrange (GA),Poole,None Poole,DB,,7,"[2000, 2002, 2003, 2004, 2005, 2006, 2008]",190.0
+617,1986-01-02,Alabama,Julian,71,Sulligent (AL),Johnson,Rashad Johnson,FS,Rashad,8,"[2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]",204.0
+618,1991-03-11,Baylor,Chance,71,Crosby (TX),Casey,Chance Casey,CB,Chance,2,"[2013, 2014]",192.0
+619,1982-03-10,Rice,Patrick,72,,Dendy,None Dendy,CB,,3,"[2005, 2006, 2007]",190.0
+620,1979-03-06,Virginia Tech,Kevin,73,El Capitan (CA),McCadam,None McCadam,S,,5,"[2002, 2003, 2004, 2005, 2006]",219.0
+621,1977-06-23,Northwestern Oklahoma State,Lynn,72,Turpin (OK),Scott,None Scott,S,,5,"[2001, 2002, 2003, 2004, 2005]",211.0
+622,1987-09-16,Oklahoma State,Ricky,73,,Price,None Price,S,,2,"[2009, 2010]",195.0
+623,1992-05-13,Miami,Ladarius,74,Jefferson Davis High School (AL),Gunter,Ladarius Gunter,CB,Ladarius,3,"[2015, 2016, 2017]",201.0
+624,1980-12-16,Southern Mississippi,Greg,71,,Brooks,None Brooks,CB,,3,"[2004, 2005, 2006]",175.0
+625,1983-11-19,Virginia Tech,DeAngelo,70,Deep Creek (VA),Hall,DeAngelo Hall,FS,DeAngelo,14,"[2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",200.0
+626,1979-07-11,Florida,Marquand,72,,Manuel,None Manuel,S,,8,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",213.0
+627,1984-02-23,Auburn,Jonathan,71,,Wilhite,None Wilhite,CB,,4,"[2008, 2009, 2010, 2011]",185.0
+628,1983-10-09,South Carolina,Ko,73,,Simpson,None Simpson,S,,4,"[2006, 2007, 2008, 2009]",202.0
+629,1988-06-25,Pittsburgh,Aaron,71,McDevitt (PA),Berry,None Berry,DB,,4,"[2010, 2011, 2012, 2014]",180.0
+630,1974-11-27,Georgia Tech,Nick,71,,Ferguson,None Ferguson,S,,10,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",204.0
+631,1995-03-21,Colorado,James,75,Christian Brothers (CA),Witherspoon,Ahkello Witherspoon,CB,Ahkello,1,[2017],190.0
+632,1987-02-13,Utah,Robert,74,John C. Fremont (CA),Johnson,None Johnson,S,,3,"[2010, 2011, 2012]",206.0
+633,1982-09-07,Georgia Tech,James,75,,Butler,None Butler,S,,7,"[2005, 2006, 2007, 2008, 2009, 2010, 2011]",209.0
+634,1991-12-01,North Carolina State,Dontae,74,Pennington Prep (NJ),Johnson,Dontae Johnson,CB,Dontae,4,"[2014, 2015, 2016, 2017]",200.0
+635,1979-10-12,North Carolina State,Adrian,75,T. Wingate Andrews (NC),Wilson,None Wilson,S,,12,"[2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",230.0
+636,1991-09-01,South Carolina,Dayario,70,Greenwood (SC),Swearinger,D.J. Swearinger,FS,D.J.,5,"[2013, 2014, 2015, 2016, 2017]",205.0
+637,1988-07-20,Oklahoma,Quinton,73,Cheyenne (NV),Carter,None Carter,S,,3,"[2011, 2012, 2014]",200.0
+638,1988-01-14,Georgia,Prince,69,James F. Byrnes (SC),Miller,None Miller,DB,,3,"[2010, 2011, 2012]",207.0
+639,1981-11-20,Oregon,Keith,72,,Lewis,None Lewis,S,,6,"[2004, 2005, 2006, 2007, 2008, 2009]",220.0
+640,1992-01-29,Michigan State,Kurtis,73,Hubbard (OH),Drummond,Kurtis Drummond,SS,Kurtis,2,"[2015, 2017]",200.0
+641,1991-06-21,Southern California,Jawanza,73,Lincoln (FL),Starling,None Starling,FS,,1,[2013],206.0
+642,1987-12-18,Miami (Fla.),Bruce,71,,Johnson,None Johnson,CB,,2,"[2009, 2010]",182.0
+643,,Illinois,Eugene,0,,Wilson,None Wilson,S,,8,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010]",200.0
+644,1991-01-24,Rutgers,Duron,73,Caesar Rodney (DE),Harmon,Duron Harmon,FS,Duron,5,"[2013, 2014, 2015, 2016, 2017]",205.0
+645,1992-03-27,Southern California,Joshua,73,Palmdale (CA),Shaw,Josh Shaw,CB,Josh,3,"[2015, 2016, 2017]",200.0
+646,1994-04-22,Tulane,Lorenzo,71,St. Augustine (LA),Doss,Lorenzo Doss,CB,Lorenzo,3,"[2015, 2016, 2017]",187.0
+647,1978-09-16,Nebraska,Ralph,70,Bishop Amat Memorial (CA),Brown,None Brown,DB,,10,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",185.0
+648,1985-01-02,"St. Paul's, Va.",Gregory,72,Northwestern (MD),Toler,Gregory Toler,CB,Gregory,7,"[2009, 2010, 2012, 2013, 2014, 2015, 2016]",190.0
+649,1988-08-17,Hawaii,Mana,72,Kamehameha (HI),Silva,None Silva,S,,2,"[2011, 2012]",206.0
+650,1979-03-19,South Carolina,Sheldon,70,,Brown,None Brown,DB,,11,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",200.0
+651,1991-02-01,South Florida,Kayvon,71,Pace (FL),Webster,Kayvon Webster,CB,Kayvon,5,"[2013, 2014, 2015, 2016, 2017]",192.0
+652,1992-07-15,"Miami, O.",Quinten,71,Wilmington (OH),Rollins,Quinten Rollins,CB,Quinten,3,"[2015, 2016, 2017]",195.0
+653,1992-06-11,Texas State,Craig,71,Luling (TX),Mager,Craig Mager,CB,Craig,3,"[2015, 2016, 2017]",200.0
+654,1971-07-10,Tennessee State,Brent,71,,Alexander,None Alexander,S,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",200.0
+655,1991-09-21,Florida,Matt,70,William T. Dwyer (FL),Elam,Matt Elam,SS,Matt,3,"[2013, 2014, 2016]",200.0
+656,1985-03-11,Maryland,Josh,69,DeMatha (MD),Wilson,Josh Wilson,CB,Josh,9,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]",187.0
+657,1982-10-17,North Carolina State,Dovonte,73,,Edwards,None Edwards,CB,,2,"[2005, 2007]",182.0
+658,1981-12-18,Oklahoma,Donte,73,,Nicholson,None Nicholson,S,,4,"[2005, 2006, 2007, 2008]",216.0
+659,1993-04-29,Penn State,Adrian,72,Calvert Hall College (MD),Amos,Adrian Amos,FS,Adrian,3,"[2015, 2016, 2017]",214.0
+660,1990-06-04,South Carolina State,Christian,72,St. Thomas Aquinas (FL),Thompson,None Thompson,S,,1,[2012],211.0
+661,1989-12-25,Memphis,Akeem,73,Laurel,Davis,Akeem Davis,S,Akeem,3,"[2014, 2015, 2016]",200.0
+662,1995-07-23,Louisiana State,Rashard,73,Ely (FL),Robinson,Rashard Robinson,CB,Rashard,2,"[2016, 2017]",177.0
+663,1985-10-25,Montana,Colt,70,Butte (MT),Anderson,Colt Anderson,FS,Colt,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",195.0
+664,1991-06-05,Florida,Josh,72,Irvington (NJ),Evans,Josh Evans,SS,Josh,4,"[2013, 2014, 2015, 2016]",205.0
+665,1974-06-27,Mississippi Delta,Juran,75,Hillsborough (FL),Bolden,None Bolden,CB,,5,"[2002, 2003, 2004, 2005, 2006]",210.0
+666,1985-11-15,Iowa,Charles,71,Lee (TX),Godfrey,Charles Godfrey,S,Charles,8,"[2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]",210.0
+667,1990-11-27,Florida State,Lamarcus,68,St. Thomas Aquinas (FL),Joyner,Lamarcus Joyner,FS,Lamarcus,4,"[2014, 2015, 2016, 2017]",190.0
+668,1977-09-14,Northwestern State,Kenny,73,,Wright,None Wright,DB,,8,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007]",205.0
+669,1976-06-19,Southern Mississippi,Patrick,71,Edna Karr (LA),Surtain,None Surtain,CB,,9,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",195.0
+670,1986-07-14,Troy,Elbert,70,North (KS),Mack,None Mack,CB,,7,"[2008, 2009, 2010, 2011, 2012, 2013, 2014]",175.0
+671,1975-04-07,Virginia,Ronde,70,Cave Spring (VA),Barber,None Barber,S,,13,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",184.0
+672,1988-04-15,Iowa,Amari,71,Xavier (CT),Spievey,None Spievey,S,,3,"[2010, 2011, 2012]",195.0
+673,1982-04-15,Indiana,Herana-Daze,71,,Jones,None Jones,S,,4,"[2006, 2007, 2008, 2009]",206.0
+674,1979-05-07,Oregon,Rashad,68,,Bauman,None Bauman,CB,,4,"[2002, 2003, 2004, 2005]",184.0
+675,1990-04-23,Kentucky,Winston,73,Catholic (KY),Guy,Winston Guy,SS,Winston,5,"[2012, 2013, 2014, 2015, 2016]",220.0
+676,1995-03-03,Brigham Young,Kaimana,72,Liberty (NV),Nacua,Kai Nacua,SS,Kai,1,[2017],205.0
+677,1991-12-26,Kansas State,Randall,72,Miami Palmetto (FL),Evans,Randall Evans,DB,Randall,1,[2015],195.0
+678,1978-10-22,Grambling,Kalvin,70,Hazlewood (AL),Pearson,None Pearson,S,,6,"[2002, 2005, 2006, 2007, 2008, 2009]",200.0
+679,1987-01-10,Oklahoma State,Perrish,72,University (TX),Cox,Perrish Cox,CB,Perrish,6,"[2010, 2012, 2013, 2014, 2015, 2016]",190.0
+680,1991-05-14,Saginaw Valley State,Jeffrey,73,Lake Orion (MI),Heath,Jeff Heath,SS,Jeff,5,"[2013, 2014, 2015, 2016, 2017]",212.0
+681,1983-07-05,Brigham Young,Aaron,74,,Francisco,None Francisco,S,,6,"[2005, 2006, 2007, 2008, 2009, 2010]",207.0
+682,1990-01-24,Miami,Brandon,70,Booker T. Washington (FL),Harris,Brandon Harris,CB,Brandon,4,"[2011, 2012, 2013, 2014]",189.0
+683,1990-02-01,Rutgers,Marcus,74,Bloomfield (CT),Cooper,Marcus Cooper,CB,Marcus,5,"[2013, 2014, 2015, 2016, 2017]",197.0
+684,1988-05-27,Illinois,Vontae,71,Dunbar (DC),Davis,Vontae Davis,CB,Vontae,9,"[2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",207.0
+685,1990-07-11,Louisiana State,Patrick,73,Ely (FL),Peterson,Patrick Peterson,CB,Patrick,7,"[2011, 2012, 2013, 2014, 2015, 2016, 2017]",203.0
+686,1989-09-09,Nebraska,Alfonzo,70,Wilcox County (GA),Dennard,Alfonzo Dennard,CB,Alfonzo,3,"[2012, 2013, 2014]",200.0
+687,1991-11-27,Florida,Jaylen,71,Cape Coral (FL),Watkins,Jaylen Watkins,SS,Jaylen,4,"[2014, 2015, 2016, 2017]",194.0
+688,1992-06-23,Louisville,James,74,Grant (CA),Sample,James Sample,FS,James,1,[2015],209.0
+689,1994-08-16,Toledo,Rolan,70,Lake Wales (FL),Milligan,Rolan Milligan,S,Rolan,1,[2017],200.0
+690,1989-10-27,Iowa,Shaun,70,Central (NE),Prater,Shaun Prater,CB,Shaun,3,"[2013, 2014, 2015]",190.0
+691,1990-04-06,Nevada,Isaiah,72,Jesuit (CA),Frey,Isaiah Frey,CB,Isaiah,2,"[2013, 2014]",190.0
+692,1981-03-23,San Diego State,Jeff,70,,Shoate,None Shoate,CB,,2,"[2004, 2007]",180.0
+693,1990-09-08,Lindenwood,Pierre,74,Francis Howell Central (MO),Desir,Pierre Desir,CB,Pierre,4,"[2014, 2015, 2016, 2017]",198.0
+694,1974-04-23,Louisville,Sam,71,,Madison,None Madison,CB,,9,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",180.0
+695,1989-05-16,Louisiana-Lafayette,Dwight,70,Pahokee HS (FL),Bentley,Dwight Bentley,CB,Dwight,4,"[2012, 2013, 2014, 2015]",182.0
+696,1977-09-08,Texas A&M,Jason,69,,Webster,None Webster,CB,,9,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",187.0
+697,1973-10-09,Clemson,Dexter,70,,McCleon,None McCleon,CB,,7,"[2000, 2001, 2002, 2003, 2004, 2005, 2006]",195.0
+698,1984-02-10,Cal Poly-S.L.O.,Courtney,73,,Brown,None Brown,S,,2,"[2007, 2008]",204.0
+699,1975-04-11,South Carolina,Terry,69,Miami Beach (FL),Cousin,None Cousin,DB,,9,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",185.0
+700,1977-03-17,Kentucky,Marlon,71,Atlantic (FL),McCree,None McCree,S,,8,"[2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",202.0
+701,,,Deshea,0,,Townsend,None Townsend,DB,,11,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010]",
+702,1986-03-15,Portland State,Reggie,72,,Jones,None Jones,CB,,1,[2010],193.0
+703,1991-08-16,Central Florida,Arlandus,72,Tucker (GA),Bouye,A.J. Bouye,CB,A.J.,5,"[2013, 2014, 2015, 2016, 2017]",191.0
+704,1983-12-03,Massachusetts,James,73,Regional (MA),Ihedigbo,James Ihedigbo,SS,James,9,"[2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]",214.0
+705,1978-03-31,Kansas State,Jarrod,73,,Cooper,None Cooper,S,,7,"[2001, 2002, 2003, 2004, 2005, 2006, 2007]",215.0
+706,1982-09-15,Texas,Aaron,72,John Tyler (TX),Ross,Aaron Ross,CB,Aaron,7,"[2007, 2008, 2009, 2010, 2011, 2012, 2013]",197.0
+707,1984-09-07,Wisconsin,Roderick,74,Stephenson (GA),Rogers,None Rogers,S,,2,"[2007, 2008]",187.0
+708,1985-09-01,Troy,Leodis,70,Ware County HS (GA),McKelvin,Leodis McKelvin,CB,Leodis,9,"[2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]",185.0
+709,1990-05-31,Oklahoma State,Shamiel,72,Washington,Gary,Shamiel Gary,FS,Shamiel,2,"[2015, 2016]",210.0
+710,1993-11-30,Michigan,Dymonte,74,Marlington (OH),Thomas,Dymonte Thomas,S,Dymonte,1,[2017],199.0
+711,1996-05-20,Ohio State,Marshon,72,Cleveland Glenville (OH),Lattimore,Marshon Lattimore,CB,Marshon,1,[2017],192.0
+712,1985-11-29,Michigan,Jamar,74,,Adams,None Adams,S,,3,"[2008, 2009, 2010]",215.0
+713,1990-01-01,Montana,Trumaine,74,Edison (CA),Johnson,Trumaine Johnson,CB,Trumaine,6,"[2012, 2013, 2014, 2015, 2016, 2017]",213.0
+714,1981-06-21,Purdue,Stuart,73,Saginaw Heritage (MI),Schweigert,None Schweigert,S,,5,"[2004, 2005, 2006, 2007, 2008]",210.0
+715,1980-03-17,West Georgia,Marquis,72,,Floyd,None Floyd,DB,,1,[2009],190.0
+716,1994-12-12,Ohio State,Vonn,71,Ridgeland (GA),Bell,Vonn Bell,FS,Vonn,2,"[2016, 2017]",205.0
+717,1990-08-01,Southern Methodist,Richard,71,El Camino (CA),Crawford,Richard Crawford,CB,Richard,2,"[2012, 2014]",192.0
+718,1990-09-10,Washington,Desmond,72,Wilson (WA),Trufant,Desmond Trufant,CB,Desmond,5,"[2013, 2014, 2015, 2016, 2017]",190.0
+719,1990-07-06,Holy Cross,Chandler,73,Frank W. Cox (VA),Fenner,Chandler Fenner,CB,Chandler,1,[2014],189.0
+720,1993-03-16,Fresno State,Charles,70,Crespi (CA),Washington,Charles Washington,FS,Charles,1,[2017],192.0
+721,1988-07-10,Louisiana Tech,Josh,70,Destrehan (LA),Victorian,None Victorian,CB,,2,"[2012, 2013]",190.0
+722,1985-09-15,Clemson,Christian,73,DeSoto (FL),Clemons,Chris Clemons,FS,Chris,7,"[2009, 2010, 2011, 2012, 2013, 2014, 2015]",214.0
+723,1983-04-24,West Virginia,Dee,71,,McCann,None McCann,CB,,1,[2006],198.0
+724,1990-02-11,UCLA,Tony,70,Santiago (CA),Dye,None Dye,S,,1,[2013],200.0
+725,1979-10-23,Hofstra,Charlie,74,,Adams,None Adams,CB,,4,"[2003, 2004, 2005, 2006]",190.0
+726,1979-02-12,Minnesota,Willie,73,,Middlebrooks,None Middlebrooks,S,,5,"[2001, 2002, 2003, 2004, 2005]",200.0
+727,1993-08-01,Oregon State,Treston,74,Lakeshore (LA),Decoud,Treston Decoud,CB,Treston,1,[2017],206.0
+728,1992-01-03,Clemson,Bashaud,71,Allendale-Fairfax (SC),Breeland,Bashaud Breeland,CB,Bashaud,4,"[2014, 2015, 2016, 2017]",195.0
+729,1994-01-25,Miami,Rayshawn,73,Admiral Farragut Academy (FL),Jenkins,Rayshawn Jenkins,SS,Rayshawn,1,[2017],214.0
+730,1987-10-28,Alabama,Javier,69,Robinson (FL),Arenas,Javier Arenas,CB,Javier,5,"[2010, 2011, 2012, 2013, 2014]",197.0
+731,1991-10-10,Michigan State,Darqueze,71,Twiggs County (GA),Dennard,Darqueze Dennard,CB,Darqueze,4,"[2014, 2015, 2016, 2017]",198.0
+732,1993-02-26,Louisiana State,Ronald,74,White Castle (LA),Martin,Ronald Martin,SS,Ronald,3,"[2015, 2016, 2017]",220.0
+733,1989-07-22,Eastern Washington,Matt,73,Tumwater (WA),Johnson,None Johnson,S,,1,[2012],215.0
+734,1995-01-13,Portland State,Xavier,71,Jesuit (OR),Coleman,Xavier Coleman,CB,Xavier,1,[2017],190.0
+735,1981-02-14,Mississippi,Von,70,,Hutchins,None Hutchins,FS,,4,"[2004, 2005, 2006, 2007]",180.0
+736,1985-07-25,New Hampshire,Corey,72,Carroll (NY),Graham,Corey Graham,FS,Corey,11,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",196.0
+737,1990-08-07,Wyoming,Tashaun,71,Kimball (TX),Gipson,Tashaun Gipson,FS,Tashaun,6,"[2012, 2013, 2014, 2015, 2016, 2017]",212.0
+738,1981-08-13,Texas Tech,Joselio,69,St. Bernard (CA),Hanson,None Hanson,CB,,8,"[2004, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",180.0
+739,1979-09-26,Boston College,Lenny,76,,Walls,None Walls,CB,,6,"[2002, 2003, 2004, 2005, 2006, 2007]",197.0
+740,1992-07-25,James Madison,Dean,73,Holy Cross (NY),Marlowe,Dean Marlowe,SS,Dean,2,"[2015, 2016]",205.0
+741,1983-07-14,Michigan,Ernest,76,,Shazor,None Shazor,S,,1,[2005],231.0
+742,1990-05-14,Notre Dame,Zeke,72,Vero Beach (FL),Motta,None Motta,S,,1,[2013],206.0
+743,1980-04-08,Texas A&M,Sammy,73,,Davis,None Davis,CB,,5,"[2003, 2004, 2005, 2006, 2007]",195.0
+744,1985-03-29,Illinois,Alan,74,St. Martin de Porres (MI),Ball,Alan Ball,CB,Alan,9,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]",195.0
+745,1986-05-09,Ohio U.,Mark,70,,Parson,None Parson,CB,,1,[2009],192.0
+746,1980-05-03,Iowa,D.J.,71,,Johnson,None Johnson,DB,,1,[2005],215.0
+747,1983-04-30,Auburn,Kevin,72,Tampa Bay Tech (FL),Hobbs,None Hobbs,CB,,3,"[2007, 2008, 2009]",188.0
+748,1985-05-22,Notre Dame,Tom,71,Buffalo Grove (IL),Zbikowski,None Zbikowski,S,,5,"[2008, 2009, 2010, 2011, 2012]",200.0
+749,1981-07-02,Auburn,Carlos,72,Butler (GA),Rogers,None Rogers,CB,,10,"[2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]",195.0
+750,1991-10-23,Rice,Bryce,70,Cy Woods High School (TX),Callahan,Bryce Callahan,CB,Bryce,3,"[2015, 2016, 2017]",188.0
+751,1989-02-11,Chattanooga,Christopher,70,Campbell (GA),Lewis-Harris,Chris Lewis-Harris,CB,Chris,5,"[2012, 2013, 2014, 2015, 2016]",186.0
+752,1993-08-14,Miami,Deon,72,Columbus (FL),Bush,Deon Bush,SS,Deon,2,"[2016, 2017]",205.0
+753,1990-07-29,Florida International,Johnathan,72,North Miami Beach (FL),Cyprien,Johnathan Cyprien,SS,Johnathan,5,"[2013, 2014, 2015, 2016, 2017]",223.0
+754,1988-10-29,North Alabama,Janoris,70,Pahokee (FL),Jenkins,Janoris Jenkins,CB,Janoris,6,"[2012, 2013, 2014, 2015, 2016, 2017]",198.0
+755,1987-09-30,Minnesota,Marcus,70,John Marshall (MN),Sherels,Marcus Sherels,CB,Marcus,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",175.0
+756,1993-07-13,Memphis,Arthur,70,Bonnabel (LA),Maulet,Arthur Maulet,DB,Arthur,1,[2017],190.0
+757,1989-09-28,Youngstown State,Brandian,73,Meadowbrook (VA),Ross,Brandian Ross,SS,Brandian,4,"[2012, 2013, 2014, 2015]",191.0
+758,1990-03-02,West Alabama,Malcolm,71,Vicksburg (MS),Butler,Malcolm Butler,CB,Malcolm,4,"[2014, 2015, 2016, 2017]",190.0
+759,1996-09-08,Utah,Marcus,73,Eastvale Eleanor Roosevelt (CA),Williams,Marcus Williams,FS,Marcus,1,[2017],195.0
+760,1989-04-26,Chattanooga,Darryl,69,Etowah (GA),Skrine,Buster Skrine,CB,Buster,7,"[2011, 2012, 2013, 2014, 2015, 2016, 2017]",185.0
+761,1985-06-17,North Dakota State,Craig,73,Mankato East (MN),Dahl,Craig Dahl,SS,Craig,8,"[2007, 2009, 2010, 2011, 2012, 2013, 2014, 2015]",212.0
+762,1990-05-23,Boston College,Donnie,73,Glenville (OH),Fletcher,None Fletcher,DB,,1,[2012],195.0
+763,1992-10-03,Utah,Nelson,73,Klein (TX),Rowe,Eric Rowe,CB,Eric,3,"[2015, 2016, 2017]",205.0
+764,1988-02-25,Georgia,Reshad,73,Washington (GA),Jones,Reshad Jones,SS,Reshad,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",223.0
+765,1982-10-09,Auburn,David,71,,Irons,None Irons,CB,,2,"[2007, 2008]",188.0
+766,1982-02-09,Washington,Derrick,70,,Johnson,None Johnson,CB,,2,"[2005, 2006]",186.0
+767,1983-05-17,Clemson,Jamaal,69,,Fudge,None Fudge,S,,4,"[2006, 2007, 2008, 2009]",196.0
+768,1994-04-12,Miami,Jamal,73,Southridge (FL),Carter,Jamal Carter,SS,Jamal,1,[2017],218.0
+769,1987-07-21,Memphis,Marcus,73,Stephenson,Ball,Marcus Ball,SS,Marcus,2,"[2014, 2016]",220.0
+770,1988-07-17,Ohio,Julian,71,La Salle (OH),Posey,None Posey,DB,,2,"[2012, 2013]",187.0
+771,1990-07-28,Ohio,Travis,72,De La Salle (CA),Carrie,T.J. Carrie,CB,T.J.,4,"[2014, 2015, 2016, 2017]",204.0
+772,1980-12-19,Arkansas,Eddie,72,,Jackson,None Jackson,DB,,4,"[2004, 2005, 2006, 2007]",200.0
+773,1985-08-26,Memphis,Brandon,70,Collins (MS),McDonald,None McDonald,DB,,6,"[2007, 2008, 2009, 2010, 2011, 2012]",185.0
+774,1989-06-06,Nebraska,Prince,72,Apollo (AZ),Amukamara,Prince Amukamara,CB,Prince,7,"[2011, 2012, 2013, 2014, 2015, 2016, 2017]",204.0
+775,1987-07-17,Troy,Jorrick,71,,Calvin,None Calvin,CB,,1,[2010],192.0
+776,1986-09-07,Arizona State,Troy,74,El Camino Real (CA),Nolan,None Nolan,S,,3,"[2010, 2011, 2012]",202.0
+777,1981-03-14,Arkansas,George,72,Tilghman (KY),Wilson,None Wilson,S,,10,"[2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]",210.0
+778,1989-02-23,California,Christopher,74,Loyola (CA),Conte,Chris Conte,SS,Chris,7,"[2011, 2012, 2013, 2014, 2015, 2016, 2017]",203.0
+779,1986-02-18,Virginia Tech,Brandon,69,Atlantic Community (FL),Flowers,Brandon Flowers,CB,Brandon,9,"[2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]",187.0
+780,1976-12-06,Northwestern State,Mike,72,,Green,None Green,S,,8,"[2000, 2001, 2002, 2003, 2004, 2005, 2007, 2008]",195.0
+781,1988-07-26,Colorado,James,74,Colton (CA),Smith,Jimmy Smith,CB,Jimmy,7,"[2011, 2012, 2013, 2014, 2015, 2016, 2017]",210.0
+782,1987-02-10,Boise State,Orlando,70,Los Alamitos (CA),Scandrick,Orlando Scandrick,CB,Orlando,9,"[2008, 2009, 2010, 2011, 2012, 2013, 2014, 2016, 2017]",196.0
+783,1991-05-13,Georgia,Shawn,72,Early County (GA),Williams,Shawn Williams,SS,Shawn,5,"[2013, 2014, 2015, 2016, 2017]",210.0
+784,1995-02-27,Tennessee,Cameron,71,Jonesboro (GA),Sutton,Cameron Sutton,DB,Cameron,1,[2017],188.0
+785,1983-11-11,Fresno State,James,70,Monache (CA),Sanders,None Sanders,S,,8,"[2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",210.0
+786,1987-08-19,Oregon,Patrick,71,Rancho Cucamonga (CA),Chung,Patrick Chung,SS,Patrick,9,"[2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",215.0
+787,1980-12-26,Virginia,Jamaine,70,,Winborne,None Winborne,DB,,2,"[2006, 2007]",202.0
+788,1988-03-01,Utah State,Curtis,73,Royal (CA),Marsh,Curtis Marsh,CB,Curtis,4,"[2011, 2012, 2013, 2015]",197.0
+789,1995-02-27,Minnesota,Jalen,71,Savannah Christian Prep (GA),Myrick,Jalen Myrick,CB,Jalen,1,[2017],200.0
+790,1981-12-31,Texas A&M-Kingsville,Michael,73,Mayfair (CA),Bragg,None Bragg,CB,,1,[2006],195.0
+791,1972-07-08,Rutgers,Jay,71,,Bellamy,None Bellamy,S,,8,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007]",200.0
+792,1967-08-09,Florida State,Deion,73,,Sanders,None Sanders,CB,,3,"[2000, 2004, 2005]",192.0
+793,1987-01-21,Auburn,Walter,70,,McFadden,None McFadden,CB,,1,[2010],180.0
+794,1981-02-23,Louisiana-Lafayette,Charles,74,Copperas Cove (TX),Tillman,Charles Tillman,CB,Charles,13,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]",210.0
+795,1986-09-18,Michigan State,Jeremy,70,,Ware,None Ware,CB,,1,[2010],185.0
+796,1992-10-20,Florida,Brian,70,Southeast (FL),Poole,Brian Poole,CB,Brian,2,"[2016, 2017]",211.0
+797,1988-11-23,Hampton,Micah,72,,Pellerin,Micah Pellerin,CB,Micah,2,"[2013, 2014]",202.0
+798,1993-04-23,Memphis,Lonnie,75,Southwind (TN),Ballentine,Lonnie Ballentine,FS,Lonnie,2,"[2015, 2016]",215.0
+799,1973-08-09,LSU,Denard,73,,Walker,None Walker,CB,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",190.0
+800,1974-12-13,Tuskegee,Anthony,73,,Mitchell,None Mitchell,S,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",220.0
+801,1994-10-19,Stanford,Alex,72,Briar Woods (VA),Carter,Alex Carter,CB,Alex,1,[2016],198.0
+802,1993-06-01,Florida State,Kenneth,72,Vanguard (FL),Williams,P.J. Williams,CB,P.J.,2,"[2016, 2017]",196.0
+803,1992-12-26,Mississippi State,Taveze,73,Morton (MS),Calhoun,Taveze Calhoun,CB,Taveze,1,[2016],180.0
+804,1980-04-18,Utah State,Ade,73,,Jimoh,None Jimoh,DB,,5,"[2003, 2004, 2005, 2006, 2007]",187.0
+805,1981-10-15,Kent State,Abram,72,Newman (FL),Elam,None Elam,S,,7,"[2006, 2007, 2008, 2009, 2010, 2011, 2012]",212.0
+806,1986-09-27,Villanova,Ross,68,Chartiers Valley (PA),Ventrone,Ross Ventrone,SS,Ross,3,"[2011, 2014, 2015]",195.0
+807,1984-12-26,Salisbury State,Byron,70,,Westbrook,None Westbrook,CB,,3,"[2009, 2010, 2011]",201.0
+808,1984-12-14,Boston College,Jamie,71,,Silva,None Silva,S,,2,"[2008, 2009]",204.0
+809,1989-06-09,Michigan State,Johnny,71,Buchtel (OH),Adams,None Adams,CB,,1,[2013],177.0
+810,1993-10-11,Oklahoma,Zack,71,Central (TX),Sanchez,Zack Sanchez,CB,Zack,1,[2016],180.0
+811,1982-04-11,South Carolina,Dunta,70,Clarke Central (GA),Robinson,None Robinson,CB,,10,"[2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",183.0
+812,1982-11-30,Miami (Fla.),Kelly,71,,Jennings,None Jennings,CB,,6,"[2006, 2007, 2008, 2009, 2010, 2011]",180.0
+813,1987-08-13,Rutgers,Devin,70,St. Joseph (NJ),McCourty,Devin McCourty,FS,Devin,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",195.0
+814,1982-04-15,Southern,Ahmad,70,,Treaudo,None Treaudo,CB,,1,[2005],181.0
+815,1974-09-10,Fort Valley State,Nick,70,,Harper,None Harper,DB,,9,"[2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",182.0
+816,1988-05-27,Iowa,Tyler,72,Oskaloosa (IA),Sash,None Sash,S,,2,"[2011, 2012]",215.0
+817,1974-05-24,Texas Tech,Marcus,74,Lake Highlands (TX),Coleman,None Coleman,S,,7,"[2000, 2001, 2002, 2003, 2004, 2005, 2006]",209.0
+818,1990-12-11,Miami,Brandon,71,Plantation (FL),McGee,Brandon McGee,CB,Brandon,3,"[2013, 2014, 2015]",193.0
+819,1995-06-14,Georgia,Maurice,72,Fort Bend Dulles (TX),Smith,Maurice Smith,FS,Maurice,1,[2017],197.0
+820,1988-03-30,Stanford,Richard,75,Dominguez (CA),Sherman,Richard Sherman,CB,Richard,7,"[2011, 2012, 2013, 2014, 2015, 2016, 2017]",195.0
+821,1986-05-22,Montana,Shann,72,Baker (MT),Schillinger,None Schillinger,S,,3,"[2010, 2011, 2013]",202.0
+822,1990-01-21,Vanderbilt,Seandre,74,Linden (AL),Richardson,Sean Richardson,SS,Sean,4,"[2012, 2013, 2014, 2015]",216.0
+823,1979-03-27,Georgia,Jermaine,74,,Phillips,None Phillips,S,,8,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",230.0
+824,1993-05-10,North Dakota State,Charles,71,Burnsville (MN),Smith,C.J. Smith,CB,C.J.,2,"[2016, 2017]",188.0
+825,1980-08-27,Oklahoma,Derrick,71,,Strait,None Strait,DB,,3,"[2004, 2005, 2006]",189.0
+826,1981-02-05,New Mexico State,Siddeeq,71,,Shabazz,None Shabazz,S,,3,"[2003, 2004, 2005]",200.0
+827,1990-09-10,Purdue,Joshua,70,Pasco (FL),Johnson,Josh Johnson,CB,Josh,1,[2016],199.0
+828,1984-10-14,LSU,LaRon,72,Hahnville (LA),Landry,None Landry,S,,8,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]",226.0
+829,1986-12-01,San Jose State,Christopher,69,Dorsey (CA),Owens,Christopher Owens,CB,Christopher,7,"[2009, 2010, 2011, 2012, 2013, 2014, 2015]",179.0
+830,1984-05-29,Arizona State,Justin,69,,Tryon,None Tryon,DB,,5,"[2008, 2009, 2010, 2011, 2012]",180.0
+831,1985-01-12,Oregon State,Gerard,70,,Lawson,None Lawson,DB,,3,"[2008, 2009, 2010]",195.0
+832,1990-09-29,Boise State,Jamar,71,Helix (CA),Taylor,Jamar Taylor,CB,Jamar,5,"[2013, 2014, 2015, 2016, 2017]",192.0
+833,1985-12-11,LSU,Chevis,71,,Jackson,None Jackson,DB,,3,"[2008, 2009, 2010]",194.0
+834,1982-12-11,Alabama,Roman,73,Prattville (AL),Harper,Roman Harper,SS,Roman,11,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]",205.0
+835,1990-05-22,Nebraska,Mohammed,74,West Springfield (VA),Seisay,Mohammed Seisay,CB,Mohammed,1,[2014],202.0
+836,1990-09-13,Arizona,Robert,71,Edison (CA),Golden,Robert Golden,SS,Robert,6,"[2012, 2013, 2014, 2015, 2016, 2017]",202.0
+837,1984-07-18,Kansas,Charles,71,,Gordon,None Gordon,CB,,3,"[2006, 2007, 2008]",180.0
+838,1984-02-18,McNeese State,Darrick,76,,Brown,None Brown,CB,,1,[2008],200.0
+839,1977-03-12,Northern Iowa,Mike,72,,Furrey,None Furrey,S,,7,"[2003, 2004, 2005, 2006, 2007, 2008, 2009]",192.0
+840,1991-11-30,Kansas,Dexter,73,Rockhurst (MO),McDonald,Dexter McDonald,CB,Dexter,3,"[2015, 2016, 2017]",200.0
+841,1995-06-30,Notre Dame,Cole,71,Hamilton (AZ),Luke,Cole Luke,CB,Cole,1,[2017],200.0
+842,1978-11-12,Michigan State,Renaldo,71,,Hill,None Hill,S,,10,"[2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010]",205.0
+843,1992-03-02,Florida State,Terrence,71,Dunnellon (FL),Brooks,Terrence Brooks,SS,Terrence,4,"[2014, 2015, 2016, 2017]",200.0
+844,1985-05-18,Missouri,William,72,Hayti (MO),Moore,William Moore,SS,William,7,"[2009, 2010, 2011, 2012, 2013, 2014, 2015]",221.0
+845,1983-06-04,Wyoming,John,73,Rock Springs (WY),Wendling,None Wendling,S,,7,"[2007, 2008, 2009, 2010, 2011, 2012, 2013]",222.0
+846,1985-08-22,Morgan State,Chad,69,,Simpson,None Simpson,S,,3,"[2008, 2009, 2010]",216.0
+847,1985-01-04,Texas,Michael,72,Bowie (TX),Griffin,Michael Griffin,FS,Michael,10,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]",215.0
+848,1979-06-13,Kansas State,DeMarcus,70,,Faggins,None Faggins,CB,,8,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",182.0
+849,1979-08-28,Wisconsin,Jamar,70,,Fletcher,None Fletcher,CB,,8,"[2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",180.0
+850,1982-02-22,Tennessee,Rashad,70,Woodrow Wilson (NJ),Baker,None Baker,S,,5,"[2004, 2005, 2006, 2007, 2008]",200.0
+851,1986-11-24,Miami,Kenneth,74,Miami Carol City (FL),Phillips,Kenny Phillips,SS,Kenny,6,"[2008, 2009, 2010, 2011, 2012, 2015]",217.0
+852,1990-05-14,Arkansas State,Don,71,Hazelwood (AL),Jones,Don Jones,FS,Don,4,"[2013, 2014, 2015, 2016]",195.0
+853,1983-02-13,Penn State,Calvin,71,,Lowry,None Lowry,S,,3,"[2006, 2007, 2008]",200.0
+854,1986-09-22,William & Mary,Derek,73,Rose (NC),Cox,Derek Cox,CB,Derek,5,"[2009, 2010, 2011, 2012, 2013]",195.0
+855,1979-06-15,Western Illinois,William,72,,James,None James,CB,,10,"[2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010]",200.0
+856,1979-10-28,USC,Kris,71,,Richard,None Richard,CB,,4,"[2002, 2003, 2004, 2005]",190.0
+857,1983-11-02,Baylor,Willie,70,,Andrews,None Andrews,DB,,2,"[2006, 2007]",190.0
+858,1988-04-15,Georgia Tech,Joshua,73,,Nesbitt,None Nesbitt,DB,,1,[2011],213.0
+859,1982-06-18,UCLA,Ben,75,,Emanuel,None Emanuel,S,,2,"[2005, 2006]",212.0
+860,1989-02-02,Notre Dame,Harrison,74,Knoxville Catholic (TN),Smith,Harrison Smith,FS,Harrison,6,"[2012, 2013, 2014, 2015, 2016, 2017]",214.0
+861,1993-11-29,Alabama,Cyrus,70,Gilman (MD),Jones,Cyrus Jones,CB,Cyrus,1,[2016],200.0
+862,1986-11-15,San Jose State,Coye,72,Cordova (CA),Francies,None Francies,DB,,3,"[2009, 2010, 2012]",185.0
+863,1981-02-12,Louisville,Curry,72,,Burns,None Burns,S,,3,"[2003, 2004, 2006]",203.0
+864,1991-06-18,Texas Christian,Jason,70,Rodriguez (CA),Verrett,Jason Verrett,CB,Jason,4,"[2014, 2015, 2016, 2017]",188.0
+865,1983-09-26,Maine,Brandon,71,,McGowan,None McGowan,S,,5,"[2005, 2006, 2007, 2008, 2009]",207.0
+866,1989-06-28,Portland State,DeShawn,74,Highland (CA),Shead,DeShawn Shead,CB,DeShawn,6,"[2012, 2013, 2014, 2015, 2016, 2017]",212.0
+867,1985-03-04,Notre Dame,Chinedum,74,,Ndukwe,None Ndukwe,S,,5,"[2007, 2008, 2009, 2010, 2011]",224.0
+868,1993-03-29,Kansas,JaCorey,71,John Horn,Shepherd,JaCorey Shepherd,DB,JaCorey,1,[2016],199.0
+869,1984-03-08,Virginia Tech,Jimmy,75,,Williams,None Williams,S,,2,"[2006, 2007]",212.0
+870,1993-10-13,Boston College,Al,74,Brockton (MA),Louis-Jean,Al Louis-Jean,CB,Al,1,[2014],195.0
+871,1981-04-19,USC,Troy,70,Douglas (OR),Polamalu,None Polamalu,S,,12,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]",207.0
+872,1982-08-02,Louisville,Kerry,75,,Rhodes,None Rhodes,S,,8,"[2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",212.0
+873,1994-12-04,Mississippi,Derrick,74,Eupora (MS),Jones,Derrick Jones,CB,Derrick,1,[2017],188.0
+874,1985-04-17,Washington,C.J.,72,,Wallace,None Wallace,S,,4,"[2007, 2008, 2009, 2011]",218.0
+875,1988-11-09,Oregon State,James,73,Palm Desert (CA),Dockery,James Dockery,CB,James,4,"[2011, 2012, 2013, 2014]",185.0
+876,1987-05-04,Oklahoma,Brian,72,,Jackson,None Jackson,DB,,2,"[2010, 2011]",198.0
+877,1986-09-23,Hawaii,Ryan,69,Katy (TX),Mouton,None Mouton,DB,,3,"[2009, 2010, 2012]",184.0
+878,1987-12-28,Central Michigan,Vince,70,Catholic Central (MI),Agnew,None Agnew,DB,,1,[2012],192.0
+879,1995-09-18,Southern California,Adoree',71,Gardena Junipero Serra (CA),Jackson,Adoree' Jackson,CB,Adoree',1,[2017],185.0
+880,1988-11-16,North Carolina,Da'Norris,71,Towers (GA),Searcy,Da'Norris Searcy,SS,Da'Norris,7,"[2011, 2012, 2013, 2014, 2015, 2016, 2017]",207.0
+881,1987-09-19,"California, Pa.",Tommie,75,Aliquippa (PA),Campbell,Tommie Campbell,CB,Tommie,4,"[2011, 2012, 2013, 2014]",198.0
+882,1982-08-03,Virginia Tech,Vincent,73,,Fuller,None Fuller,S,,7,"[2005, 2006, 2007, 2008, 2009, 2010, 2011]",192.0
+883,1989-05-31,Iowa,Jordan,71,Lincoln (IA),Bernstine,None Bernstine,S,,1,[2012],214.0
+884,1982-03-16,Virginia Tech,Eric,71,,Green,None Green,CB,,4,"[2005, 2006, 2007, 2008]",196.0
+885,1991-12-08,Western Kentucky,Jonathan,75,Southeast (FL),Dowling,Jonathan Dowling,S,Jonathan,2,"[2014, 2015]",195.0
+886,1977-09-01,New Hampshire,Jerry,70,,Azumah,None Azumah,DB,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",192.0
+887,1970-11-28,North Carolina,Bracy,72,,Walker,None Walker,S,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",202.0
+888,1988-04-02,Missouri,Kevin,72,North Shore (TX),Rutland,None Rutland,CB,,2,"[2011, 2012]",188.0
+889,1980-08-29,Montana State,Joey,73,John F. Kennedy (WA),Thomas,None Thomas,CB,,3,"[2004, 2005, 2008]",195.0
+890,1988-10-16,Louisiana State,Rond'trique,70,MacArthur (TX),Brooks,Ron Brooks,CB,Ron,5,"[2012, 2013, 2014, 2015, 2016]",190.0
+891,1986-01-03,North Dakota State,Nick,72,,Schommer,None Schommer,S,,1,[2010],204.0
+892,1981-02-25,Texas Southern,Oliver,72,,Celestin,None Celestin,S,,5,"[2004, 2005, 2006, 2007, 2008]",207.0
+893,1973-03-10,Miami (FL),Earl,72,,Little,None Little,S,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",202.0
+894,1983-09-20,Syracuse,Anthony,72,,Smith,None Smith,S,,6,"[2006, 2007, 2008, 2009, 2010, 2011]",200.0
+895,1984-02-27,Miami (FL),Glenn,72,,Sharpe,None Sharpe,CB,,1,[2008],185.0
+896,1988-02-02,California (PA),James,73,Hyde Leadership (CT),Nixon,None Nixon,CB,,1,[2013],190.0
+897,1988-08-04,South Carolina,Darian,71,Lee (AL),Stewart,Darian Stewart,FS,Darian,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",214.0
+898,1988-05-09,Hampton,Ricardo,75,Baltimore Polytechnic (MD),Silva,None Silva,S,,2,"[2011, 2012]",225.0
+899,1992-09-24,Pittsburgh,Lafayette,71,Woodland Hills (PA),Pitts,Lafayette Pitts,CB,Lafayette,2,"[2016, 2017]",194.0
+900,1989-09-21,Temple,Jaiquawn,72,Fort Hamilton (NY),Jarrett,Jaiquawn Jarrett,FS,Jaiquawn,5,"[2011, 2012, 2013, 2014, 2015]",196.0
+901,1993-11-19,Clemson,Cordrea,73,Aiken Silver Bluff (SC),Tankersley,Cordrea Tankersley,CB,Cordrea,1,[2017],196.0
+902,1987-08-13,Rutgers,Jason,71,St. Joseph (NJ),McCourty,Jason McCourty,CB,Jason,9,"[2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",195.0
+903,1990-02-04,"California, Pa.",Charaun,75,Linsly School (WV),Goodwin,C.J. Goodwin,CB,C.J.,2,"[2016, 2017]",190.0
+904,1983-07-06,Fresno State,Tyrone,73,Palmdale (CA),Culver,None Culver,S,,6,"[2006, 2008, 2009, 2010, 2011, 2012]",210.0
+905,1985-10-20,Wake Forest,Alphonso,69,,Smith,None Smith,CB,,4,"[2009, 2010, 2011, 2012]",190.0
+906,1989-06-11,Baylor,Demetri,71,Klein Collins (TX),Goodson,Demetri Goodson,CB,Demetri,4,"[2014, 2015, 2016, 2017]",197.0
+907,1974-04-29,Texas A&M-Commerce,Kevin,69,Gainesville (TX),Mathis,None Mathis,S,,7,"[2000, 2001, 2002, 2003, 2004, 2005, 2006]",185.0
+908,1977-05-22,North Carolina,Dre',70,Western Branch (VA),Bly,None Bly,CB,,10,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",185.0
+909,1982-06-15,Rutgers,Nate,70,,Jones,None Jones,DB,,8,"[2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011]",185.0
+910,1993-04-08,Maryland,Jeremiah,72,Bowie (MD),Hendy,A.J. Hendy,SS,A.J.,1,[2016],208.0
+911,1986-01-14,Mississippi,Marshay,70,Bastrop (LA),Green,None Green,CB,,3,"[2010, 2011, 2012]",175.0
+912,1982-12-17,Iowa,Sean,72,Byron (IL),Considine,None Considine,S,,8,"[2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",212.0
+913,1989-08-09,Kansas State,Tysyn,75,Kapaun Mt. Carme (KS),Hartman,None Hartman,DB,,1,[2012],206.0
+914,1994-03-14,Temple,Tavon,69,Potomac (VA),Young,Tavon Young,CB,Tavon,1,[2016],177.0
+915,1983-07-13,Southern Mississippi,John,70,,Eubanks,None Eubanks,CB,,2,"[2006, 2007]",173.0
+916,1979-04-17,Mississippi State,Fred,71,Provine (MS),Smoot,None Smoot,CB,,9,"[2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",185.0
+917,1977-08-30,Pittsburgh,Hank,70,Harrisburg (PA),Poteat,None Poteat,DB,,9,"[2000, 2001, 2002, 2003, 2005, 2006, 2007, 2008, 2009]",195.0
+918,1992-08-16,Jacksonville State,Pierre,74,Marbury (AL),Warren,Pierre Warren,S,Pierre,1,[2014],200.0
+919,1990-02-10,Texas A&M,Terrence,70,Katy (TX),Frederick,Terrence Frederick,CB,Terrence,3,"[2012, 2013, 2014]",187.0
+920,1988-09-20,Arkansas State,Kelcie,73,Hardaway (GA),McCray,Kelcie McCray,SS,Kelcie,4,"[2013, 2014, 2015, 2016]",205.0
+921,1981-11-30,LSU,Jack,73,,Hunt,None Hunt,S,,1,[2006],200.0
+922,1990-02-26,Southern Methodist,Ayorunmi,70,Kempner (TX),Banjo,Chris Banjo,SS,Chris,5,"[2013, 2014, 2015, 2016, 2017]",207.0
+923,1986-10-07,UCLA,Bret,73,Diamond Bar (CA),Lockett,None Lockett,DB,,1,[2009],220.0
+924,1994-07-29,Arizona,William,73,Germantown (PA),Parks,Will Parks,FS,Will,2,"[2016, 2017]",194.0
+925,1988-08-20,Kansas State,Joshua,71,,Moore,None Moore,CB,,1,[2010],184.0
+926,1982-09-08,LSU,Travis,73,South Broward HS (FL),Daniels,None Daniels,DB,,8,"[2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",195.0
+927,1977-09-21,Grambling State,Fakhir,71,,Brown,None Brown,CB,,8,"[2000, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",192.0
+928,1992-11-21,Colorado State,DeAndre,73,Carter (TX),Elliott,DeAndre Elliott,CB,DeAndre,1,[2016],189.0
+929,1979-05-25,Utah,Andre,70,,Dyson,None Dyson,CB,,7,"[2001, 2002, 2003, 2004, 2005, 2006, 2007]",183.0
+930,1991-12-18,Purdue,Ricardo,69,Mainland (FL),Allen,Ricardo Allen,SS,Ricardo,4,"[2014, 2015, 2016, 2017]",186.0
+931,1992-07-25,Michigan State,Trae,72,Bradford (WI),Waynes,Trae Waynes,CB,Trae,3,"[2015, 2016, 2017]",190.0
+932,1992-07-02,Louisville,Calvin,71,Port St. Joe (FL),Pryor,Calvin Pryor,SS,Calvin,4,"[2014, 2015, 2016, 2017]",207.0
+933,1992-05-17,Oregon,Terrance,71,Luther Burbank (CA),Mitchell,Terrance Mitchell,CB,Terrance,4,"[2014, 2015, 2016, 2017]",190.0
+934,1984-12-23,Washburn,Cary,73,Chaminade-Madonna (FL),Williams,Cary Williams,CB,Cary,8,"[2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]",190.0
+935,1986-08-02,Minnesota,Dominique,72,,Barber,None Barber,S,,4,"[2008, 2009, 2010, 2011]",210.0
+936,1993-03-28,Purdue,Frankie,69,Robinson,Williams,Frankie Williams,CB,Frankie,1,[2016],190.0
+937,1982-12-15,Houston,Willie,70,Northshore (TX),Gaston,None Gaston,CB,,1,[2007],187.0
+938,1981-12-15,Eastern Michigan,Jereme,71,,Perry,None Perry,S,,2,"[2006, 2007]",200.0
+939,1991-03-07,California,Steven,70,Skyline (TX),Williams,Steve Williams,CB,Steve,3,"[2014, 2015, 2016]",185.0
+940,1990-03-30,Iowa State,Leonard,70,Largo (FL),Johnson,Leonard Johnson,CB,Leonard,6,"[2012, 2013, 2014, 2015, 2016, 2017]",194.0
+941,1987-06-13,Western Michigan,Edjuan,72,North Miami Beach (FL),Biggers,E.J. Biggers,CB,E.J.,7,"[2009, 2010, 2011, 2012, 2013, 2014, 2015]",185.0
+942,1976-04-12,Tulsa,Todd,72,,Franz,None Franz,S,,5,"[2000, 2002, 2003, 2004, 2005]",202.0
+943,1978-02-13,Memphis,Michael,72,Southfield-Lathrup (MI),Stone,None Stone,S,,5,"[2001, 2002, 2004, 2005, 2006]",207.0
+944,1980-03-09,Marshall,Chris,71,,Crocker,None Crocker,S,,11,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",202.0
+945,1982-08-08,Cincinnati,Daven,70,,Holly,None Holly,DB,,3,"[2005, 2006, 2007]",185.0
+946,1989-01-05,Florida State,Mike,70,South Miami (FL),Harris,Mike Harris,CB,Mike,3,"[2012, 2013, 2014]",188.0
+947,1981-06-08,Virginia Tech,Garnell,71,,Wilds,None Wilds,CB,,2,"[2004, 2005]",195.0
+948,1990-05-28,Catawba,Jumal,72,Beddingfield (NC),Rolle,Jumal Rolle,CB,Jumal,3,"[2013, 2014, 2015]",188.0
+949,1980-02-17,Nebraska,DeJuan,70,,Groce,None Groce,DB,,4,"[2003, 2004, 2005, 2006]",191.0
+950,1978-06-18,Kansas State,Dyshod,70,,Carter,None Carter,DB,,3,"[2001, 2004, 2005]",193.0
+951,1987-09-11,Jacksonville State,Lee,72,Alexandria (AL),Heath,T.J. Heath,DB,T.J.,3,"[2011, 2012, 2014]",190.0
+952,1993-06-02,Illinois,Clayton,72,Lemont (IL),Fejedelem,Clayton Fejedelem,FS,Clayton,2,"[2016, 2017]",205.0
+953,1995-07-22,Duke,Breon,72,Statesville (NC),Borders,Breon Borders,CB,Breon,1,[2017],189.0
+954,1990-07-16,Delaware,Marcus,70,Highland Springs (VA),Burley,Marcus Burley,CB,Marcus,5,"[2013, 2014, 2015, 2016, 2017]",190.0
+955,1979-03-19,Virginia Tech,Ronyell,69,Lake Taylor (VA),Whitaker,None Whitaker,CB,,3,"[2003, 2006, 2007]",196.0
+956,1988-02-27,Miami (FL),Cory,73,Neptune (NJ),Nelms,None Nelms,DB,,1,[2012],191.0
+957,1993-03-09,Florida,Marcus,72,Holy Trinity (FL),Maye,Marcus Maye,FS,Marcus,1,[2017],207.0
+958,1976-11-04,North Carolina A&T,Dwaine,74,,Carpenter,None Carpenter,S,,4,"[2003, 2004, 2005, 2006]",207.0
+959,1991-10-09,Georgia Tech,Louis,73,Good Counsel (WA),Young,Lou Young,CB,Lou,1,[2016],205.0
+960,1975-03-11,Ohio State,Shawn,72,Springbrook (MD),Springs,None Springs,CB,,10,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",204.0
+961,1983-03-11,Ohio State,Chris,73,,Gamble,None Gamble,CB,,9,"[2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",200.0
+962,1992-06-28,Utah State,Devonta,72,Campbell,Glover-Wright,Tay Glover-Wright,CB,Tay,1,[2015],180.0
+963,1992-12-04,Georgia,Damian,72,Grady (GA),Swann,Damian Swann,CB,Damian,1,[2015],189.0
+964,1989-07-06,Jacksonville State,A.J.,72,Clay-Chalkville (AL),Davis,None Davis,CB,,1,[2012],183.0
+965,1980-09-29,Florida State,Chris,72,Rock Hill (SC),Hope,None Hope,S,,11,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",204.0
+966,1983-11-02,Iowa,Jovon,69,,Johnson,None Johnson,CB,,1,[2006],177.0
+967,1986-07-28,Furman,William,71,Marist (GA),Middleton,None Middleton,CB,,4,"[2009, 2010, 2011, 2012]",194.0
+968,1992-10-28,Connecticut,Andrew,71,Woodward Academy (GA),Adams,Andrew Adams,FS,Andrew,2,"[2016, 2017]",202.0
+969,1980-04-25,Ohio State,Donnie,75,,Nickey,None Nickey,S,,8,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010]",226.0
+970,1976-08-10,Florida State,Samari,72,Miami Beach (FL),Rolle,None Rolle,CB,,9,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",175.0
+971,1985-07-21,Syracuse,Tanard,72,Bullis (MD),Jackson,None Jackson,S,,5,"[2007, 2008, 2009, 2010, 2011]",193.0
+972,1993-04-22,Texas,Mykkele,72,John Paul Stevens (TX),Thompson,Mykkele Thompson,FS,Mykkele,1,[2016],193.0
+973,1995-12-04,Michigan State,Montae,74,Gateway (PA),Nicholson,Montae Nicholson,FS,Montae,1,[2017],216.0
+974,1987-02-23,Arizona State,Brandon,73,,Smith,Brandon Smith,CB,Brandon,1,[2013],205.0
+975,1973-04-11,Oregon State,Reggie,72,,Tongue,None Tongue,S,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",204.0
+976,1992-05-20,Texas A&M,Tramain,73,,Jacobs,Tramain Jacobs,DB,Tramain,2,"[2014, 2015]",190.0
+977,1989-10-23,Troy,Brynden,74,Sprayberry (GA),Trawick,Brynden Trawick,FS,Brynden,5,"[2013, 2014, 2015, 2016, 2017]",225.0
+978,1994-06-30,Temple,Nathan,72,Governor Thomas Jefferson (MD),Hairston,Nate Hairston,CB,Nate,1,[2017],195.0
+979,1992-01-22,Washington,Gregory,70,Crenshaw (CA),Ducre,Greg Ducre,CB,Greg,2,"[2014, 2015]",183.0
+980,1995-10-04,Michigan,Jabrill,71,Paramus Catholic,Peppers,Jabrill Peppers,FS,Jabrill,1,[2017],213.0
+981,1978-11-28,Kansas State,Jerametrius,70,,Butler,None Butler,CB,,6,"[2001, 2002, 2003, 2004, 2006, 2007]",181.0
+982,1992-03-02,Southern California,Dion,72,Lakewood (CA),Bailey,Dion Bailey,SS,Dion,1,[2015],211.0
+983,1995-04-10,Nevada-Las Vegas,Torry,71,Cathedral (CA),McTyer,Torry McTyer,CB,Torry,1,[2017],184.0
+984,1992-07-22,Florida,Quinton,74,Booker T. Washington (FL),Dunbar,Quinton Dunbar,CB,Quinton,3,"[2015, 2016, 2017]",197.0
+985,1982-08-06,Louisiana-Monroe,Chris,72,,Harris,None Harris,S,,8,"[2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",211.0
+986,1984-11-22,Arizona State,Josh,74,Reno (NV),Barrett,None Barrett,S,,3,"[2008, 2009, 2011]",225.0
+987,1989-09-13,Mississippi State,Charles,71,Clarksdale (MS),Mitchell,None Mitchell,S,,1,[2012],205.0
+988,1988-05-22,Notre Dame,Sergio,74,Proviso East (IL),Brown,Sergio Brown,FS,Sergio,7,"[2010, 2011, 2012, 2013, 2014, 2015, 2016]",207.0
+989,1983-04-15,Iowa State,LaMarcus,72,,Hicks,None Hicks,S,,2,"[2007, 2008]",189.0
+990,1984-10-02,New Mexico State,Courtney,72,,Bryan,None Bryan,S,,2,"[2007, 2008]",210.0
+991,1992-09-26,Connecticut,Byron,72,St. Paul Catholic (CT),Jones,Byron Jones,FS,Byron,3,"[2015, 2016, 2017]",199.0
+992,1979-01-08,Minnesota,Jack,72,,Brewer,None Brewer,S,,4,"[2002, 2003, 2004, 2005]",194.0
+993,1994-04-29,Miami,Tracy,71,Miramar (FL),Howard,Tracy Howard,CB,Tracy,1,[2016],192.0
+994,1983-05-16,Iowa State,Ellis,69,,Hobbs,None Hobbs,CB,,6,"[2005, 2006, 2007, 2008, 2009, 2010]",195.0
+995,1977-11-27,Arizona State,Adam,71,,Archuleta,None Archuleta,S,,7,"[2001, 2002, 2003, 2004, 2005, 2006, 2007]",215.0
+996,1991-10-02,Brigham Young,Robertson,73,Branham (CA),Daniel,Robertson Daniel,CB,Robertson,1,[2016],205.0
+997,1988-12-14,Ohio State,Nate,72,Hilliard Davidson (OH),Ebner,Nate Ebner,SS,Nate,6,"[2012, 2013, 2014, 2015, 2016, 2017]",220.0
+998,1991-04-24,Adams State,Cariel,70,Miami Carol ,Brooks,Cariel Brooks,CB,Cariel,1,[2015],200.0
+999,1974-08-10,Mississippi State,Walt,71,LaGrange (GA),Harris,None Harris,DB,,9,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",192.0
+1000,1982-05-19,Furman,Cam,73,,Newton,None Newton,S,,2,"[2005, 2006]",203.0
+1001,1972-12-02,Florida State,Zack,74,,Crockett,None Crockett,S,,8,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007]",240.0
+1002,1982-11-04,Northern Colorado,Reed,73,Theodore Roosevelt (CO),Doughty,None Doughty,S,,8,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",206.0
+1003,1994-10-16,Lamar,Brendan,72,Kell (GA),Langley,Brendan Langley,CB,Brendan,1,[2017],199.0
+1004,1982-03-10,Minnesota,Ukee,73,,Dozier,None Dozier,CB,,1,[2005],190.0
+1005,1984-06-21,Howard,Geoffrey,72,University of Detroit Jesuit,Pope,None Pope,DB,,2,"[2008, 2009]",190.0
+1006,1986-06-01,Texas A&M,Danny,72,Memorial (TX),Gorrer,None Gorrer,DB,,5,"[2009, 2011, 2012, 2013, 2014]",185.0
+1007,1988-08-30,Alabama,Robert,73,Foley (AL),Lester,Robert Lester,S,Robert,2,"[2013, 2014]",215.0
+1008,1978-12-22,South Carolina,Willie,73,,Offord,None Offord,S,,4,"[2002, 2003, 2004, 2005]",216.0
+1009,1990-05-03,William & Mary,William,71,Warwick (VA),Webb,B.W. Webb,CB,B.W.,5,"[2013, 2014, 2015, 2016, 2017]",190.0
+1010,1985-05-05,Colorado,Terrence,69,,Wheatley,None Wheatley,CB,,4,"[2008, 2009, 2010, 2011]",185.0
+1011,1988-01-20,South Carolina,Emanuel,70,,Cook,None Cook,S,,2,"[2010, 2011]",202.0
+1012,1990-02-11,Auburn,Neiko,74,Tucker (GA),Thorpe,Neiko Thorpe,CB,Neiko,5,"[2012, 2014, 2015, 2016, 2017]",210.0
+1013,1984-12-09,Michigan,Leon,71,Vista (CA),Hall,Leon Hall,CB,Leon,11,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",195.0
+1014,1986-10-02,Valdosta State,Maurice,71,,Leggett,None Leggett,CB,,2,"[2008, 2009]",188.0
+1015,1983-12-17,Alabama State,Michael,72,Cordova (TN),Coe,None Coe,DB,,5,"[2007, 2009, 2010, 2011, 2012]",187.0
+1016,,,Evan,0,,Oglesby,None Oglesby,CB,,6,"[2005, 2006, 2007, 2008, 2009, 2010]",
+1017,1984-12-12,Fresno State,Richard,71,Locke (CA),Marshall,None Marshall,CB,,9,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]",198.0
+1018,1972-07-11,Memphis,Ken,71,,Irvin,None Irvin,S,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",182.0
+1019,1990-06-27,Georgia,Bacarri,72,Seminole County (GA),Rambo,Bacarri Rambo,SS,Bacarri,4,"[2013, 2014, 2015, 2016]",207.0
+1020,1984-06-30,Washington State,Tyron,71,,Brackenridge,None Brackenridge,DB,,4,"[2007, 2008, 2009, 2010]",189.0
+1021,1989-04-14,Florida,Joseph,71,Friendly (MD),Haden,Joe Haden,CB,Joe,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",195.0
+1022,1994-06-20,Southeastern Louisiana,Harlan,72,Kentwood (LA),Miller,Harlan Miller,CB,Harlan,2,"[2016, 2017]",182.0
+1023,1992-07-21,Bowling Green,Jude,71,Northland (OH),Adjei-Barimah,Jude Adjei-Barimah,CB,Jude,2,"[2015, 2016]",200.0
+1024,1976-02-13,Colorado State,Jason,70,East (CO),Craft,None Craft,CB,,9,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",187.0
+1025,1992-08-05,Wake Forest,Kevin,72,River Hill (MD),Johnson,Kevin Johnson,CB,Kevin,3,"[2015, 2016, 2017]",185.0
+1026,1994-08-11,Central Michigan,Kavon,72,Grand Rapids Christian (MI),Frazier,Kavon Frazier,SS,Kavon,2,"[2016, 2017]",215.0
+1027,1982-09-17,Virginia Tech,Justin,75,,Hamilton,None Hamilton,S,,2,"[2006, 2008]",222.0
+1028,1993-01-21,Stanford,Jordan,71,Folsom (CA),Richards,Jordan Richards,SS,Jordan,3,"[2015, 2016, 2017]",210.0
+1029,1976-11-03,South Florida,Anthony,73,Estero (FL),Henry,None Henry,DB,,9,"[2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",208.0
+1030,1993-03-11,Western Kentucky,Prince Charles,71,Father Ryan (TN),Iworah,Prince Charles Iworah,CB,Prince Charles,1,[2016],193.0
+1031,1987-06-10,Ohio,Michael,73,Highlands (KY),Mitchell,Michael Mitchell,FS,Michael,9,"[2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",221.0
+1032,1981-10-08,Alabama,Anthony,69,,Madison,None Madison,DB,,6,"[2006, 2007, 2008, 2009, 2010, 2011]",180.0
+1033,1989-07-18,Wayne State (Mich.),Jeremy,70,Rockford (MI),Jones,None Jones,S,,1,[2012],197.0
+1034,1975-08-12,Syracuse,Donovin,73,,Darius,None Darius,S,,8,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007]",225.0
+1035,1986-12-11,Connecticut,Tyvon,72,Cicero-North Syracuse (NY),Branch,Tyvon Branch,SS,Tyvon,10,"[2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",210.0
+1036,1984-10-18,Arkansas,Christopher,71,Johnson (TX),Houston,Chris Houston,CB,Chris,7,"[2007, 2008, 2009, 2010, 2011, 2012, 2013]",178.0
+1037,1990-05-14,Charleston Southern,Charles,69,Mandarin,James,Charles James,CB,Charles,3,"[2013, 2015, 2016]",179.0
+1038,1980-10-05,Michigan,Jeremy,72,,LeSueur,None LeSueur,DB,,1,[2005],202.0
+1039,1991-07-06,San Diego State,Natneal,72,Colton (CA),Berhe,Nat Berhe,SS,Nat,3,"[2014, 2016, 2017]",194.0
+1040,1983-09-03,Fresno State,Marcus,73,,McCauley,None McCauley,CB,,3,"[2007, 2008, 2009]",203.0
+1041,1991-03-06,Louisiana State,Tharold,74,Eunice (LA),Simon,Tharold Simon,CB,Tharold,3,"[2014, 2015, 2016]",202.0
+1042,1988-05-09,Virginia,Ras-I,73,Deep Creek (VA),Dowling,Ras-I Dowling,CB,Ras-I,3,"[2011, 2012, 2014]",215.0
+1043,1990-02-03,Southern Methodist,Sterling,70,Deer Valley (CA),Moore,Sterling Moore,CB,Sterling,7,"[2011, 2012, 2013, 2014, 2015, 2016, 2017]",202.0
+1044,1992-06-23,Vanderbilt,Kenneth,73,Stephenson (GA),Ladler,Kenny Ladler,S,Kenny,1,[2014],205.0
+1045,1989-10-02,Northern Illinois,Rashaan,74,Waukegan (IL),Melvin,Rashaan Melvin,CB,Rashaan,5,"[2013, 2014, 2015, 2016, 2017]",196.0
+1046,1977-10-31,Virginia Tech,Keion,71,,Carpenter,None Carpenter,S,,5,"[2000, 2001, 2002, 2003, 2005]",205.0
+1047,1991-01-01,Mississippi State,Darius,72,Brunswick (GA),Slay,Darius Slay,CB,Darius,5,"[2013, 2014, 2015, 2016, 2017]",190.0
+1048,1985-07-24,Nevada-Las Vegas,Eric,70,Riordan (CA),Wright,None Wright,DB,,7,"[2007, 2008, 2009, 2010, 2011, 2012, 2013]",200.0
+1049,1982-03-02,LSU,Corey,72,St. James (LA),Webster,None Webster,CB,,9,"[2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",200.0
+1050,1987-09-08,Utah State,De'von,75,,Hall,None Hall,S,,1,[2009],212.0
+1051,1985-03-22,South Florida,Mike,70,Southeast (FL),Jenkins,Mike Jenkins,CB,Mike,8,"[2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]",197.0
+1052,1993-10-06,Miami,Adrian,74,Mineral Wells (TX),Colbert,Adrian Colbert,FS,Adrian,1,[2017],205.0
+1053,1991-01-26,Southern California,Tim,74,Edison (CA),McDonald,T.J. McDonald,SS,T.J.,5,"[2013, 2014, 2015, 2016, 2017]",223.0
+1054,1990-06-19,Florida State,Xavier,73,Norland (FL),Rhodes,Xavier Rhodes,CB,Xavier,5,"[2013, 2014, 2015, 2016, 2017]",218.0
+1055,1995-07-26,Florida,Keanu,72,South Sumter (FL),Neal,Keanu Neal,FS,Keanu,2,"[2016, 2017]",211.0
+1056,1985-05-19,Arkansas State,Tyrell,72,Rison (AR),Johnson,None Johnson,S,,5,"[2008, 2009, 2010, 2011, 2012]",207.0
+1057,1977-10-08,Georgia Tech,Travares,73,,Tillman,None Tillman,S,,7,"[2000, 2001, 2003, 2004, 2005, 2006, 2007]",205.0
+1058,1981-06-10,Notre,Glenn,73,,Earl,None Earl,S,,3,"[2004, 2005, 2006]",215.0
+1059,1982-05-06,Washington State,Erik,70,,Coleman,None Coleman,S,,9,"[2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",207.0
+1060,1992-08-17,Minnesota,Brock,71,Valencia (CA),Vereen,Brock Vereen,FS,Brock,2,"[2014, 2015]",202.0
+1061,1991-02-09,Rutgers,Logan,71,Eastern (NJ),Ryan,Logan Ryan,CB,Logan,5,"[2013, 2014, 2015, 2016, 2017]",195.0
+1062,1993-12-10,Alabama,Eddie,72,Boyd Anderson (FL),Jackson,Eddie Jackson,FS,Eddie,1,[2017],202.0
+1063,1992-05-13,Northwestern,Ibraheim,71,Chestnut Hill (PA),Campbell,Ibraheim Campbell,FS,Ibraheim,3,"[2015, 2016, 2017]",208.0
+1064,1981-03-24,Delaware,Michael,71,Passaic County Technical Institute (NJ),Adams,Mike Adams,SS,Mike,14,"[2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",205.0
+1065,1979-03-10,Vanderbilt,Jimmy,71,Episcopal (LA),Williams,None Williams,CB,,6,"[2001, 2002, 2003, 2004, 2005, 2006]",190.0
+1066,1991-08-05,Auburn,Robenson,69,Jackson (FL),Therezie,Robenson Therezie,SS,Robenson,2,"[2015, 2016]",212.0
+1067,1970-11-30,San Diego State,Robert,72,,Griffith,None Griffith,S,,7,"[2000, 2001, 2002, 2003, 2004, 2005, 2006]",202.0
+1068,1979-05-24,Penn State,Bhawoh,72,,Jue,None Jue,S,,7,"[2001, 2002, 2003, 2004, 2005, 2006, 2007]",200.0
+1069,1983-01-27,Louisiana-Lafayette,C. C. ,72,,Brown,None Brown,S,,7,"[2005, 2006, 2007, 2008, 2009, 2010, 2011]",208.0
+1070,1986-10-20,Iowa State,David,69,Gainesville (FL),Sims,None Sims,S,,1,[2012],204.0
+1071,1995-06-03,Florida,Vernon,71,Wharton (FL),Hargreaves,Vernon Hargreaves,CB,Vernon,2,"[2016, 2017]",199.0
+1072,,Boise State,Gerald,0,,Alexander,None Alexander,S,,5,"[2007, 2008, 2009, 2010, 2011]",209.0
+1073,1989-01-17,Miami,DeMarcus,73,Monsignor Pace (FL),Van Dyke,DeMarcus Van Dyke,CB,DeMarcus,3,"[2011, 2012, 2013]",180.0
+1074,1988-07-01,Ohio State,Kurtis,71,Northmont (OH),Coleman,Kurt Coleman,FS,Kurt,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",208.0
+1075,1984-11-13,Texas A&M,Melvin,73,,Bullitt,None Bullitt,S,,5,"[2007, 2008, 2009, 2010, 2011]",201.0
+1076,1983-09-19,Georgia Tech,Chris,73,,Reis,None Reis,S,,4,"[2007, 2008, 2009, 2010]",215.0
+1077,1989-12-02,Cal Poly,Asa,70,Christian Brothers (CA),Jackson,Asa Jackson,CB,Asa,6,"[2012, 2013, 2014, 2015, 2016, 2017]",183.0
+1078,1993-09-20,Auburn,Jonathan,70,Carrollton (GA),Jones,Jonathan Jones,CB,Jonathan,2,"[2016, 2017]",190.0
+1079,1977-12-22,Arkansas,David,70,,Barrett,None Barrett,CB,,9,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",195.0
+1080,1986-01-23,San Jose State,Dwight,71,Soquel (CA),Lowery,Dwight Lowery,FS,Dwight,9,"[2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]",212.0
+1081,1986-07-28,Ohio State,Donald,73,Indianapolis Franklin Central,Washington,Donald Washington,SS,Donald,3,"[2009, 2010, 2011]",197.0
+1082,1986-08-12,Hofstra,Kyle,70,Gwynn Park (MD),Arrington,Kyle Arrington,CB,Kyle,7,"[2009, 2010, 2011, 2012, 2013, 2014, 2015]",190.0
+1083,1984-07-07,Ohio State,Ashton,71,,Youboty,None Youboty,CB,,6,"[2006, 2007, 2008, 2009, 2010, 2011]",189.0
+1084,1981-01-06,Central Florida,Asante,70,Anderson (FL),Samuel,None Samuel,CB,,11,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",185.0
+1085,1985-08-21,Maine,Daren,75,,Stone,None Stone,S,,2,"[2007, 2008]",215.0
+1086,1979-11-25,Minnesota,Michael,72,,Lehan,None Lehan,DB,,6,"[2003, 2004, 2005, 2006, 2007, 2008]",200.0
+1087,1987-12-04,Purdue,David,72,,Pender,None Pender,DB,,1,[2010],180.0
+1088,1995-02-22,West Virginia,Daryl,73,William Penn Charter (PA),Worley,Daryl Worley,CB,Daryl,2,"[2016, 2017]",205.0
+1089,1993-05-10,Southern Utah,Miles,74,Foothill (NV),Killebrew,Miles Killebrew,SS,Miles,2,"[2016, 2017]",222.0
+1090,1994-06-25,Iowa,Gregory,74,Calvary Christian Academy,Mabin,Greg Mabin,CB,Greg,1,[2017],200.0
+1091,1984-01-08,Mississippi State,Kevin,68,,Dockery,None Dockery,CB,,5,"[2006, 2007, 2008, 2009, 2010]",188.0
+1092,1988-08-17,Louisville,Johnny,71,DeLand (FL),Patrick,None Patrick,CB,,3,"[2011, 2012, 2013]",190.0
+1093,1992-10-14,South Carolina,Isaiah,72,Panther Creek (NC),Johnson,Isaiah Johnson,FS,Isaiah,1,[2017],209.0
+1094,1977-03-26,Alabama,Fernando,71,,Bryant,None Bryant,CB,,9,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",184.0
+1095,1993-08-18,Memphis,Bobby,71,Oxford (AL),McCain,Bobby McCain,CB,Bobby,3,"[2015, 2016, 2017]",192.0
+1096,1984-11-18,Nebraska,Zackary,73,Batesburg-Leesville (SC),Bowman,Zackary Bowman,CB,Zackary,8,"[2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]",196.0
+1097,1987-11-30,South Florida,Nathaniel,73,Cape Coral (FL),Allen,Nate Allen,FS,Nate,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",214.0
+1098,1994-02-11,Clemson,Jayron,76,South Fort Myers (FL),Kearse,Jayron Kearse,SS,Jayron,2,"[2016, 2017]",215.0
+1099,1979-02-10,Western Kentucky,Mel,73,,Mitchell,None Mitchell,S,,4,"[2002, 2004, 2005, 2007]",225.0
+1100,1977-05-26,Clemson,Antuan,73,,Edwards,None Edwards,S,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",210.0
+1101,1986-12-26,Texas,Chykie,71,North Shore (TX),Brown,Chykie Brown,CB,Chykie,5,"[2011, 2012, 2013, 2014, 2016]",190.0
+1102,1995-07-07,Southern California,Su'a,73,Vista Murrieta (CA),Cravens,Su'a Cravens,SS,Su'a,1,[2016],224.0
+1103,1993-04-05,Wisconsin,Darius,70,Sycamore (OH),Hillary,Darius Hillary,CB,Darius,2,"[2016, 2017]",183.0
+1104,1984-02-20,Alabama,Ramzee,70,,Robinson,None Robinson,DB,,3,"[2007, 2008, 2009]",190.0
+1105,1990-05-09,Samford,Corey,73,Dunwoody (GA),White,Corey White,CB,Corey,5,"[2012, 2013, 2014, 2015, 2016]",206.0
+1106,1988-06-02,Rutgers,Joe,72,Northwest (MD),Young,None Young,S,,3,"[2011, 2012, 2013]",204.0
+1107,1981-11-03,USC,Lee,71,,Webb,None Webb,CB,,1,[2006],240.0
+1108,1992-02-22,Texas A&M,Deshazor,72,DeRidder HS (LA),Everett,Deshazor Everett,SS,Deshazor,3,"[2015, 2016, 2017]",195.0
+1109,1983-10-14,Northwestern State,David,71,,Pittman,None Pittman,CB,,3,"[2006, 2007, 2008]",182.0
+1110,1992-08-31,North Carolina,Jabari,71,Blanche Ely (FL),Price,Jabari Price,CB,Jabari,2,"[2014, 2015]",200.0
+1111,1988-01-16,Richmond,Justin,71,Redemptorist (LA),Rogers,Justin Rogers,CB,Justin,5,"[2011, 2012, 2013, 2014, 2015]",181.0
+1112,1982-05-30,Miami (OH),Alphonso,70,,Hodge,None Hodge,CB,,1,[2005],203.0
+1113,1983-11-17,Akron,Reggie,69,,Corner,None Corner,CB,,4,"[2008, 2009, 2010, 2011]",181.0
+1114,1987-07-19,Auburn,Courtney,70,Decatur (AL),Powers,Jerraud Powers,CB,Jerraud,8,"[2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]",187.0
+1115,1989-09-19,Arkansas,Jerico,70,Destrehan (LA),Nelson,None Nelson,S,,1,[2012],216.0
+1116,1990-03-11,Tulsa,Lowell,73,Culver City (CA),Rose,Lowell Rose,DB,Lowell,1,[2014],192.0
+1117,1979-11-07,San Diego State,Will,72,Highland (CA),Demps,None Demps,S,,7,"[2002, 2003, 2004, 2005, 2006, 2007, 2008]",208.0
+1118,1989-12-15,North Carolina State,Earl,71,Hoke County (NC),Wolff,Earl Wolff,SS,Earl,2,"[2013, 2014]",210.0
+1119,1986-05-19,Grand Valley State,Brandon,72,Carman-Ainsworth (MI),Carr,Brandon Carr,CB,Brandon,10,"[2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",210.0
+1120,1994-10-25,UCLA,Marcus,71,Cosumnes Oak (CA),Rios,Marcus Rios,CB,Marcus,1,[2017],181.0
+1121,1980-05-10,Louisiana State,Norman,72,Brusly (LA),LeJeune,None LeJeune,S,,3,"[2003, 2005, 2006]",210.0
+1122,1983-11-04,Ohio State,Tyler,71,,Everett,None Everett,S,,1,[2006],202.0
+1123,1984-10-19,UCLA,Jarrad,72,,Page,None Page,S,,6,"[2006, 2007, 2008, 2009, 2010, 2011]",225.0
+1124,1993-08-04,Samford,James,73,Pleasant Grove (AL),Bradberry,James Bradberry,CB,James,2,"[2016, 2017]",212.0
+1125,1978-08-13,Akron,Dwight,70,,Smith,None Smith,S,,8,"[2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",201.0
+1126,1985-02-11,West Virginia,Ryan,73,Woodland Hills (PA),Mundy,Ryan Mundy,SS,Ryan,6,"[2009, 2010, 2011, 2012, 2013, 2014]",209.0
+1127,1979-11-03,Houston,Hanik,75,,Milligan,None Milligan,S,,4,"[2004, 2005, 2006, 2007]",200.0
+1128,1994-04-20,Michigan State,Demetrious,72,Jeannette (PA),Cox,Demetrious Cox,SS,Demetrious,1,[2017],200.0
+1129,1993-09-19,Western Michigan,Justin,74,Big Rapids (MI),Currie,Justin Currie,SS,Justin,1,[2017],214.0
+1130,1985-08-17,Pittsburgh,Kennard,72,,Cox,None Cox,DB,,4,"[2008, 2009, 2010, 2011]",191.0
+1131,1991-09-03,San Jose State,Bene',72,Serra (CA),Benwikere,Bene' Benwikere,CB,Bene',4,"[2014, 2015, 2016, 2017]",195.0
+1132,1978-10-01,Wisconsin-Stout,Tony,73,,Beckham,None Beckham,CB,,5,"[2002, 2003, 2004, 2005, 2007]",198.0
+1133,1989-09-26,Arizona State,Keelan,71,Mesa (AZ),Johnson,Keelan Johnson,S,Keelan,1,[2013],209.0
+1134,1991-10-09,Virginia,Anthony,73,Lloyd C. Bird High School (VA),Harris,Anthony Harris,FS,Anthony,3,"[2015, 2016, 2017]",192.0
+1135,1982-05-07,Northern Arizona,Jeremy,72,,Thornburg,None Thornburg,S,,1,[2005],190.0
+1136,1983-08-16,Bethune-Cookman,Nick,71,,Collins,None Collins,S,,7,"[2005, 2006, 2007, 2008, 2009, 2010, 2011]",207.0
+1137,1986-11-23,Rutgers,Courtney,72,,Greene,None Greene,S,,3,"[2009, 2010, 2011]",212.0
+1138,1992-05-01,Ohio State,Bradley,71,Peachtree Ridge (GA),Roby,Bradley Roby,CB,Bradley,4,"[2014, 2015, 2016, 2017]",194.0
+1139,1982-11-29,Washington State,Karl,72,,Paymah,None Paymah,CB,,6,"[2005, 2006, 2007, 2008, 2009, 2010]",195.0
+1140,1979-04-02,Kansas State,Jon,75,,McGraw,None McGraw,S,,10,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011]",208.0
+1141,1986-02-06,Vanderbilt,Reshard,73,,Langford,None Langford,S,,3,"[2009, 2010, 2011]",213.0
+1142,1990-07-14,"Northwestern State, La.",Jeremy,72,Tyler John Tyler (TX),Lane,Jeremy Lane,CB,Jeremy,6,"[2012, 2013, 2014, 2015, 2016, 2017]",190.0
+1143,1984-12-23,Purdue,Bernard,73,South Side (IN),Pollard,None Pollard,S,,9,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]",226.0
+1144,1983-07-05,Tennessee,Jason,73,,Allen,None Allen,S,,7,"[2006, 2007, 2008, 2009, 2010, 2011, 2012]",200.0
+1145,1990-12-25,Towson,Jordan,71,Royal Palm Beach (FL),Dangerfield,Jordan Dangerfield,SS,Jordan,1,[2016],200.0
+1146,,,Anthony,0,,Rose,None Rose,CB,,1,[2014],0.0
+1147,1983-02-22,Louisiana-Lafayette,Antwain,72,,Spann,None Spann,S,,3,"[2006, 2007, 2008]",195.0
+1148,1984-02-17,Virginia,Marcus,71,,Hamilton,None Hamilton,CB,,2,"[2008, 2009]",188.0
+1149,1972-12-15,Western Illinois,Rodney,73,,Harrison,None Harrison,S,,9,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",220.0
+1150,1976-10-07,Michigan,Charles,73,Ross (OH),Woodson,Charles Woodson,FS,Charles,16,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]",210.0
+1151,1979-03-14,Tennessee,Deon,74,,Grant,None Grant,S,,11,"[2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011]",215.0
+1152,1984-12-08,Florida,Dee,71,,Webb,None Webb,CB,,1,[2006],190.0
+1153,1990-03-07,Florida,Willie,73,St. Peter's Prep (NJ),Hill,Will Hill,SS,Will,4,"[2012, 2013, 2014, 2015]",207.0
+1154,1978-12-30,Sam Houston State,Keith,71,Italy (TX),Davis,None Davis,S,,6,"[2002, 2004, 2005, 2006, 2007, 2008]",207.0
+1155,1991-04-09,Stephen F. Austin,Joshua,70,,Aubrey,Josh Aubrey,SS,Josh,3,"[2013, 2014, 2015]",200.0
+1156,1994-04-30,Louisiana Tech,Adairius,71,Port Gibson (MS),Barnes,Adairius Barnes,CB,Adairius,1,[2016],188.0
+1157,1985-07-14,Pittsburgh,Darrelle,71,Aliquippa (PA),Revis,Darrelle Revis,CB,Darrelle,11,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",198.0
+1158,1988-05-06,Oklahoma,Jonathan,71,,Nelson,None Nelson,S,,1,[2011],195.0
+1159,1994-03-18,Kansas,Anthony,71,Highland (MD),Smithson,Fish Smithson,FS,Fish,1,[2017],196.0
+1160,1994-06-23,Auburn,Joshua,71,Creekside (GA),Holsey,Joshua Holsey,CB,Joshua,1,[2017],195.0
+1161,1981-11-04,Florida State,B.J.,75,,Ward,None Ward,S,,2,"[2005, 2007]",210.0
+1162,1994-04-06,Louisiana State,Jalen,72,DeSoto (TX),Mills,Jalen Mills,CB,Jalen,2,"[2016, 2017]",191.0
+1163,1978-06-22,Maryland,Lewis,73,,Sanders,None Sanders,DB,,8,"[2000, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",210.0
+1164,1985-01-01,Louisville,William,70,James R. Rickards (FL),Gay,William Gay,CB,William,11,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",187.0
+1165,1989-11-27,Memphis,Robert,74,,Steeples,Robert Steeples,DB,Robert,1,[2013],190.0
+1166,1991-12-08,North Carolina State,David,73,Dudley (NC),Amerson,David Amerson,CB,David,5,"[2013, 2014, 2015, 2016, 2017]",205.0
+1167,1986-05-26,Oregon,Jerome,74,,Boyd,None Boyd,S,,2,"[2009, 2011]",225.0
+1168,1989-03-01,Fresno State,Phillip,73,Bakersfield (CA),Thomas,Phillip Thomas,FS,Phillip,1,[2014],215.0
+1169,1987-07-23,Notre Dame,David,74,Miamisburg (OH),Bruton,David Bruton,SS,David,8,"[2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]",217.0
+1170,1990-02-19,Nevada,Khalid,71,Carter (CA),Wooten,Khalid Wooten,DB,Khalid,2,"[2013, 2014]",212.0
+1171,1982-05-21,Florida,Guss,70,,Scott,None Scott,S,,2,"[2005, 2006]",205.0
+1172,1987-12-17,Idaho,Shiloh,71,Archbishop Murphy (WA),Keo,Shiloh Keo,SS,Shiloh,6,"[2011, 2012, 2013, 2014, 2015, 2016]",205.0
+1173,1992-03-28,Texas,Adrian,71,Garland (TX),Phillips,Adrian Phillips,SS,Adrian,4,"[2014, 2015, 2016, 2017]",210.0
+1174,1988-02-07,Southern California,Stafford,75,O'Dea (WA),Mays,Taylor Mays,FS,Taylor,6,"[2010, 2011, 2012, 2013, 2014, 2015]",225.0
+1175,1990-03-05,Brigham Young,Daniel,74,Colton (CA),Sorensen,Daniel Sorensen,SS,Daniel,4,"[2014, 2015, 2016, 2017]",208.0
+1176,1989-03-09,Utah,Keith,75,La Mirada (CA),McGill,Keith McGill,FS,Keith,4,"[2014, 2015, 2016, 2017]",211.0
+1177,1989-10-02,South Carolina State,Jakar,71,Thurmond (SC),Hamilton,None Hamilton,S,,2,"[2013, 2014]",195.0
+1178,1995-01-06,Brigham Young,Michael,74,Glendale (CA),Davis,Michael Davis,CB,Michael,1,[2017],196.0
+1179,1993-07-07,Mississippi,Senquez,69,Pascagoula (MS),Golson,Senquez Golson,CB,Senquez,1,[2016],176.0
+1180,1983-03-17,Michigan State,Eric,73,,Smith,None Smith,S,,7,"[2006, 2007, 2008, 2009, 2010, 2011, 2012]",207.0
+1181,1994-05-26,Virginia,Maurice,73,Varina (VA),Canady,Maurice Canady,CB,Maurice,2,"[2016, 2017]",193.0
+1182,1991-09-10,Wake Forest,Merrill,70,Pahokee HS (FL),Noel,Merrill Noel,DB,Merrill,1,[2015],177.0
+1183,1991-07-18,Northern Illinois,Jimmie,71,Davidson (AL),Ward,Jimmie Ward,FS,Jimmie,4,"[2014, 2015, 2016, 2017]",193.0
+1184,1985-04-02,Baylor,C.J.,73,,Wilson,None Wilson,S,,4,"[2007, 2008, 2009, 2010]",195.0
+1185,1988-04-20,Monmouth (N.J.),Jose,70,Hebron Academy (NY),Gumbs,None Gumbs,S,,1,[2013],210.0
+1186,1989-07-19,New Mexico State,Jonte,72,Lakewood (FL),Green,Jonte Green,CB,Jonte,2,"[2012, 2013]",184.0
+1187,1993-01-28,Georgia,Corey,74,Griffin (GA),Moore,Corey Moore,SS,Corey,3,"[2015, 2016, 2017]",200.0
+1188,1989-09-15,Nebraska,Eric,73,Ironwood (AZ),Hagg,None Hagg,DB,,2,"[2011, 2012]",205.0
+1189,1990-07-13,Georgia,Brandon,70,Fayette County (GA),Boykin,Brandon Boykin,CB,Brandon,4,"[2012, 2013, 2014, 2015]",173.0
+1190,1978-04-01,UCLA,Jason,72,,Bell,None Bell,S,,6,"[2001, 2002, 2003, 2004, 2005, 2006]",196.0
+1191,1982-02-22,Northern Iowa,Justin,72,,Sandy,None Sandy,S,,2,"[2004, 2005]",210.0
+1192,1982-10-08,,Dustin,71,Ohio StaTE,Fox,None Fox,DB,,3,"[2006, 2007, 2008]",200.0
+1193,1981-01-10,Nebraska,Jammal,74,,Lord,None Lord,FS,,2,"[2004, 2005]",215.0
+1194,1986-11-11,Mississippi State,Keith,71,Lovejoy (GA),Fitzhugh,None Fitzhugh,S,,1,[2009],205.0
+1195,1984-12-08,Webber International FL,Vince,74,,Anderson,None Anderson,S,,1,[2010],205.0
+1196,1984-01-15,Wake Forest,Josh,0,,Gattis,None Gattis,S,,1,[2007],
+1197,1987-08-21,Kent State,Rico,71,,Murray,None Murray,S,,3,"[2009, 2010, 2011]",200.0
+1198,1993-04-10,Utah State,Marwin,71,Oak Creek (WI),Evans,Marwin Evans,SS,Marwin,2,"[2016, 2017]",211.0
+1199,1989-02-12,West Virginia,Keith,70,Christian County (KY),Tandy,Keith Tandy,FS,Keith,6,"[2012, 2013, 2014, 2015, 2016, 2017]",205.0
+1200,1986-07-05,California (PA),Terrence,69,Woodland Hills (PA),Johnson,None Johnson,DB,,2,"[2011, 2012]",195.0
+1201,1993-11-30,Southern California,Kevon,72,Muir,Seymour,Kevon Seymour,CB,Kevon,2,"[2016, 2017]",185.0
+1202,1976-01-05,Vanderbilt,Corey,73,,Chavous,None Chavous,S,,9,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]",208.0
+1203,1992-02-06,Southern Methodist,Kenneth,72,Grant (OR),Acker,Kenneth Acker,CB,Kenneth,3,"[2015, 2016, 2017]",195.0
+1204,1977-03-21,Oklahoma,Corey,69,Moore (OK),Ivy,None Ivy,S,,9,"[2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",190.0
+1205,1987-11-03,Mississippi,Cassius,71,Memphis East (TN),Vaughn,Cassius Vaughn,CB,Cassius,6,"[2010, 2011, 2012, 2013, 2014, 2015]",195.0
+1206,1986-05-06,Marshall,Claude,72,Central (KY),Spillman,C.J. Spillman,SS,C.J.,6,"[2009, 2010, 2011, 2012, 2013, 2014]",199.0
+1207,1986-05-07,LSU,Craig,73,Rummel (LA),Steltz,None Steltz,S,,6,"[2008, 2009, 2010, 2011, 2012, 2013]",210.0
+1208,1973-11-14,Washington,Lawyer,72,,Milloy,None Milloy,S,,11,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010]",211.0
+1209,1983-08-18,Michigan,Grant,72,,Mason,None Mason,CB,,1,[2007],198.0
+1210,,Wake Forest,Eric,0,,King,None King,DB,,6,"[2005, 2006, 2007, 2008, 2009, 2010]",190.0
+1211,1984-02-05,Ohio State,Nate,73,St. Thomas Aquinas (FL),Salley,None Salley,S,,3,"[2006, 2007, 2008]",216.0
+1212,1983-08-15,Oklahoma,Michael,73,,Hawkins,None Hawkins,DB,,2,"[2005, 2006]",185.0
+1213,1984-08-02,Oregon State,Brandon,76,James Monroe (CA),Browner,Brandon Browner,CB,Brandon,5,"[2011, 2012, 2013, 2014, 2015]",221.0
+1214,1986-11-28,Central Florida,Joe,70,,Burnett,None Burnett,CB,,1,[2009],192.0
+1215,1990-02-16,Michigan State,Trenton,69,Bay City Central (MI),Robinson,Trenton Robinson,FS,Trenton,4,"[2012, 2013, 2014, 2015]",195.0
+1216,1995-03-15,Clemson,T.J.,75,Sylacauga (AL),Green,T.J. Green,SS,T.J.,2,"[2016, 2017]",211.0
+1217,1987-12-19,Northwestern,Sherrick,73,Richwoods (IL),McManis,Sherrick McManis,CB,Sherrick,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",193.0
+1218,1990-09-18,Virginia Tech,Jayron,70,Atlantic (FL),Hosley,Jayron Hosley,CB,Jayron,4,"[2012, 2013, 2014, 2015]",178.0
+1219,1994-07-23,Youngstown State,David,74,American (FL),Rivers,David Rivers,CB,David,1,[2017],185.0
+1220,1974-05-23,Miami (FL),Duane,70,,Starks,None Starks,CB,,7,"[2000, 2001, 2002, 2004, 2005, 2006, 2007]",175.0
+1221,1993-01-24,South Carolina State,Antonio,72,Strom Thurmond (SC),Hamilton,Antonio Hamilton,CB,Antonio,2,"[2016, 2017]",185.0
+1222,1983-06-13,North Carolina,Gerald,73,,Sensabaugh,None Sensabaugh,S,,8,"[2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]",212.0
+1223,1974-01-15,Nebraska,Mike,70,,Minter,None Minter,S,,7,"[2000, 2001, 2002, 2003, 2004, 2005, 2006]",195.0
+1224,1992-06-30,Auburn,Nicholas,73,Wilcox County,Marshall,Nick Marshall,CB,Nick,2,"[2015, 2016]",210.0
+1225,1981-02-28,Maryland,Curome,73,,Cox,None Cox,S,,3,"[2005, 2006, 2007]",204.0
+1226,1992-12-21,Alabama,Ha'Sean,73,Dr. Phillips (FL),Clinton-Dix,Ha Ha Clinton-Dix,FS,Ha Ha,4,"[2014, 2015, 2016, 2017]",208.0
+1227,1992-07-15,Notre Dame,Matthias,71,Christian (NC),Farley,Matthias Farley,FS,Matthias,2,"[2016, 2017]",209.0
+1228,1989-11-03,West Virginia,Robert,76,Miami Carol City (FL),Sands,None Sands,S,,1,[2011],209.0
+1229,1979-01-23,Mississippi,Ken,72,East Side (MS),Lucas,None Lucas,CB,,9,"[2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]",205.0
+1230,1991-05-11,Appalachian State,Demetrius,74,Newton (GA),McCray,Demetrius McCray,CB,Demetrius,4,"[2013, 2014, 2015, 2017]",200.0
+1231,1992-02-18,Samford,Jaquiski,73,Davidson (AL),Tartt,Jaquiski Tartt,SS,Jaquiski,3,"[2015, 2016, 2017]",221.0
+1232,1987-09-29,Southern Methodist,Bryan,71,Putnam City (OK),McCann,Bryan McCann,CB,Bryan,4,"[2010, 2011, 2012, 2013]",185.0
+1233,1990-05-08,Utah State,Will,71,Central Valley (WA),Davis,Will Davis,CB,Will,4,"[2013, 2014, 2015, 2016]",190.0
+1234,1987-03-22,Vanderbilt,D.J.,69,Broome (SC),Moore,None Moore,CB,,5,"[2009, 2010, 2011, 2012, 2013]",180.0
+1235,1981-04-28,Illinois,Christian,72,,Morton,None Morton,DB,,3,"[2004, 2005, 2006]",190.0
+1236,1991-03-24,North Dakota State,Marcus,71,Hopkins (MN),Williams,Marcus Williams,CB,Marcus,4,"[2014, 2015, 2016, 2017]",196.0
+1237,1994-12-14,Iowa,Desmond,70,East English Village (MI),King,Desmond King,CB,Desmond,1,[2017],201.0
+1238,1993-02-24,Montana State,Bryson,74,Ridgeview (CA),Keeton,Bryson Keeton,CB,Bryson,1,[2016],190.0
+1239,1989-08-10,Fresno State,Isaiah,70,Long Beach Poly (CA),Green,None Green,CB,,1,[2013],180.0
+1240,1986-01-07,Wisconsin,Jack,70,,Ikegwuonu,None Ikegwuonu,CB,,1,[2009],200.0
+1241,1992-10-04,Florida,Marcus,72,St. Thomas Aquinas (FL),Roberson,Marcus Roberson,CB,Marcus,3,"[2014, 2015, 2016]",191.0
+1242,1987-10-08,Oklahoma,Dominique,72,Union (OK),Franks,None Franks,CB,,5,"[2010, 2011, 2012, 2013, 2014]",197.0
+1243,1985-04-29,Stanford,Brandon,74,,Harrison,None Harrison,S,,1,[2008],215.0
+1244,1987-01-27,Arkansas State,Marcus,73,,Brown,None Brown,CB,,1,[2010],195.0
+1245,1980-05-05,Louisiana-Lafayette,Ike,74,Abramson (LA),Taylor,None Taylor,S,,12,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]",195.0
+1246,1988-05-06,Utah,Raymond,70,Chino (CA),Stanford,R.J. Stanford,CB,R.J.,5,"[2010, 2011, 2012, 2013, 2014]",185.0
+1247,1979-11-08,Pittsburgh,Ramon,72,,Walker,None Walker,S,,3,"[2002, 2003, 2005]",212.0
+1248,1993-01-31,California,Stefan,71,Vista,McClure,Stefan McClure,SS,Stefan,1,[2017],205.0
+1249,1993-08-08,Auburn,Blake,70,Our Lady of Good Counsel (MD),Countess,Blake Countess,SS,Blake,2,"[2016, 2017]",185.0
+1250,1991-02-07,Tulane,Taurean,70,Southern Lab (LA),Nixon,Taurean Nixon,CB,Taurean,1,[2016],187.0
+1251,1993-10-21,Utah,Brian,75,La Marque (TX),Allen,Brian Allen,CB,Brian,1,[2017],215.0
+1252,1979-12-14,Fresno State,Cameron,71,,Worrell,None Worrell,S,,5,"[2003, 2004, 2006, 2007, 2008]",194.0
+1253,,,Dante,0,,Wesley,None Wesley,S,,9,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010]",
+1254,1989-06-06,Texas Tech,Cody,73,Stephenville (TX),Davis,Cody Davis,FS,Cody,5,"[2013, 2014, 2015, 2016, 2017]",203.0
+1255,1986-09-20,USC,Kevin,72,,Thomas,None Thomas,DB,,1,[2011],192.0
+1256,1988-09-19,Delaware,Anthony,73,Cardinal O'Hara (PA),Walters,Anthony Walters,S,Anthony,4,"[2011, 2012, 2013, 2014]",207.0
+1257,1990-06-17,Presbyterian,Justin,72,Blythewood (SC),Bethel,Justin Bethel,CB,Justin,6,"[2012, 2013, 2014, 2015, 2016, 2017]",200.0
+1258,1982-10-08,Purdue,Jacques,71,Lancaster HS [TX],Reeves,None Reeves,S,,7,"[2004, 2005, 2006, 2007, 2008, 2009, 2012]",188.0
+1259,1990-04-14,Richmond,Cooper,76,Marist (GA),Taylor,Cooper Taylor,SS,Cooper,2,"[2013, 2015]",228.0
+1260,1993-03-12,Auburn,Jermaine,71,Amanda Elzy (MS),Whitehead,Jermaine Whitehead,FS,Jermaine,3,"[2015, 2016, 2017]",195.0
+1261,1988-11-15,Clemson,Coty,71,Dobyns-Bennett (TN),Sensabaugh,Coty Sensabaugh,CB,Coty,6,"[2012, 2013, 2014, 2015, 2016, 2017]",187.0
+1262,1985-05-16,Wyoming,Derrick,70,Thomas Jefferson (CO),Martin,None Martin,S,,8,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",203.0
+1263,1980-11-17,Michigan,Brandon,71,,Williams,None Williams,CB,,2,"[2003, 2005]",186.0
+1264,1982-10-27,Wisconsin,Jim,68,Flambeau (WI),Leonhard,None Leonhard,S,,10,"[2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]",188.0
+1265,1979-10-12,LSU,Ryan,71,Shaw (LA),Clark,None Clark,S,,13,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]",205.0
+1266,1985-11-27,Rutgers,Joe,70,,Porter,None Porter,CB,,2,"[2008, 2011]",205.0
+1267,1976-10-27,South Carolina,Arturo,73,,Freeman,None Freeman,S,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",210.0
+1268,1986-02-13,Kansas,Aqib,73,Berkner (TX),Talib,Aqib Talib,CB,Aqib,10,"[2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",205.0
+1269,1980-05-25,Virginia Tech,Willie,74,West Potomac (VA),Pile,None Pile,S,,2,"[2004, 2005]",210.0
+1270,1993-09-08,West Virginia,Karl,70,Edgewater (FL),Joseph,Karl Joseph,SS,Karl,2,"[2016, 2017]",205.0
+1271,1979-07-24,San Jose State,Rashied,69,,Davis,None Davis,CB,,7,"[2005, 2006, 2007, 2008, 2009, 2010, 2011]",187.0
+1272,1988-07-22,Connecticut,Robert,69,Patuxent (MD),McClain,Robert McClain,CB,Robert,8,"[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",195.0
+1273,1983-06-08,Stanford,T.J.,69,Pauls Valley (OK),Rushing,None Rushing,DB,,3,"[2006, 2007, 2009]",186.0
+1274,1991-08-06,Duke,Ross,72,Charlotte Latin (NC),Cockrell,Ross Cockrell,CB,Ross,4,"[2014, 2015, 2016, 2017]",191.0
+1275,1991-07-20,North Carolina A&T,Ayodeji,73,Dublin Scioto (OH),Olatoye,Deji Olatoye,CB,Deji,3,"[2015, 2016, 2017]",205.0
+1276,1973-10-19,Cincinnati,Robert,71,,Tate,None Tate,DB,,6,"[2000, 2001, 2002, 2004, 2005, 2006]",194.0
+1277,1985-01-30,South Florida,Trae,70,Durant (FL),Williams,None Williams,CB,,1,[2009],195.0
+1278,1988-06-16,Mississippi,Kendrick,72,O. Perry Walker,Lewis,Kendrick Lewis,FS,Kendrick,7,"[2010, 2011, 2012, 2013, 2014, 2015, 2016]",198.0
+1279,1987-07-14,Utah,Sean,75,Blair (CA),Smith,Sean Smith,CB,Sean,9,"[2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",218.0
+1280,1987-09-07,South Florida,Mistral,73,Palmetto (FL),Raymond,None Raymond,S,,3,"[2011, 2012, 2013]",202.0
+1281,1991-01-08,Central Florida,Joshua,70,Plantation High School (FL),Robinson,Josh Robinson,FS,Josh,6,"[2012, 2013, 2014, 2015, 2016, 2017]",199.0
+1282,1981-11-12,Tennessee,Gibril,72,,Wilson,None Wilson,S,,7,"[2004, 2005, 2006, 2007, 2008, 2009, 2011]",210.0
+1283,1988-10-12,Michigan State,Chris,73,,Rucker,None Rucker,DB,,1,[2011],209.0
+1284,1982-08-28,Florida,Reynaldo,71,,Hill,None Hill,CB,,4,"[2005, 2006, 2007, 2008]",185.0
+1285,1974-07-09,Fresno State,Omar,71,Long Beach Polytechnic (CA),Stoutmire,None Stoutmire,S,,8,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007]",205.0
+1286,1985-10-12,Alabama,Simeon,72,,Castille,None Castille,CB,,2,"[2008, 2009]",190.0
+1287,1983-12-24,Georgia,Tim,68,Wilkinson (SC),Jennings,Tim Jennings,CB,Tim,10,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]",185.0
+1288,1981-11-19,Cincinnati,Zach,72,,Norton,None Norton,DB,,1,[2005],184.0
+1289,1986-07-09,Arizona,Antoine,73,Los Alamitos (CA),Cason,None Cason,CB,,7,"[2008, 2009, 2010, 2011, 2012, 2013, 2014]",195.0
+1290,1977-06-25,Oklahoma,William,73,,Bartee,None Bartee,S,,6,"[2000, 2001, 2002, 2003, 2004, 2005]",200.0
+1291,1994-07-13,Utah,Reginald,71,Amite (LA),Porter,Reggie Porter,CB,Reggie,1,[2017],185.0
+1292,1981-01-09,North Carolina,Michael,70,,Waddell,None Waddell,DB,,3,"[2004, 2005, 2008]",180.0
+1293,1988-11-06,Ball State,Sean,72,Canfield (OH),Baker,Sean Baker,SS,Sean,2,"[2013, 2014]",209.0
+1294,1991-07-31,Florida Atlantic,Keith,72,Miami Killian (FL),Reaser,Keith Reaser,CB,Keith,3,"[2015, 2016, 2017]",190.0
+1295,1978-09-04,Kansas State,Terence,70,Salina Central (KS),Newman,Terence Newman,CB,Terence,15,"[2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]",197.0
+1296,1993-08-02,Penn State,Jordan,72,New Rochelle (NY),Lucas,Jordan Lucas,CB,Jordan,2,"[2016, 2017]",202.0
+1297,1987-04-08,Southern California,Shareece,71,Colton (CA),Wright,Shareece Wright,CB,Shareece,7,"[2011, 2012, 2013, 2014, 2015, 2016, 2017]",184.0
+1298,1987-05-26,Clemson,Crezdon,73,Asheville HS (NC),Butler,Crezdon Butler,CB,Crezdon,7,"[2010, 2011, 2012, 2013, 2014, 2015, 2016]",189.0
+1299,1986-06-24,Cincinnati,Brandon,73,Hamilton (OH),Underwood,None Underwood,CB,,2,"[2009, 2010]",190.0
+1300,1981-04-08,Florida,Lito,70,,Sheppard,None Sheppard,CB,,10,"[2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011]",195.0
+1301,1991-04-08,Maryland,Dexter,70,Stafford (VA),McDougle,Dexter McDougle,CB,Dexter,3,"[2015, 2016, 2017]",195.0
+1302,1994-07-27,Houston,Brandon,71,Calvary Academy (LA),Wilson,Brandon Wilson,S,Brandon,1,[2017],200.0
+1303,1982-06-02,Columbia,Steve,74,,Cargile,None Cargile,S,,4,"[2004, 2006, 2007, 2009]",215.0
+1304,1989-12-12,Florida,Ahmad,69,Lakeland (FL),Black,None Black,S,,3,"[2011, 2012, 2013]",190.0
+1305,1995-07-26,Louisiana Tech,Xavier,71,West Monroe (LA),Woods,Xavier Woods,FS,Xavier,1,[2017],205.0
+1306,1979-07-05,UNLV,Sam,74,,Brandon,None Brandon,S,,5,"[2002, 2003, 2004, 2005, 2006]",200.0
+1307,1982-06-17,Ohio State,Will,73,Wayne (OH),Allen,Will Allen,SS,Will,12,"[2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]",200.0
+1308,1974-12-07,Texas A&M - Kingsville,Al,73,,Harris,None Harris,CB,,12,"[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011]",190.0
+1309,1990-03-19,Illinois,Tavon,72,H.D. Woodson (DC),Wilson,Tavon Wilson,SS,Tavon,6,"[2012, 2013, 2014, 2015, 2016, 2017]",212.0
